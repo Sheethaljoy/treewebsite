@@ -7,29 +7,40 @@ return (<>
 
   {/* Hero Section */}
   <section className="pl-36 bg-black py-12 ">
-    <h1 className="text-5xl font-bold text-purple-500">
-      A Women-led Creative Team
-    </h1>
-    <div className="mt-4 text-3xl  text-white">
-     <p> Seamless fusion of Technology 
-     </p>
-      <p className="justify-end"> Creativity</p>
-    </div>
+  <h1
+  className="font-futuraMedium text-[52px] font-500 leading-[65.58px] text-left"
+  style={{
+    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+    WebkitBackgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+  }}>
+  A Women-led Creative Team
+</h1>
+<div className="font-futuraMedium mt-4 text-left text-[40px] font-500 leading-[50.52px] text-white">
+  <p>Seamless fusion of Technology &</p>
+  <p className="justify-end">Creativity</p>
+</div>
     <br/>
+    <div className="font-MontserratRegular mt-4 text-left text-[20px] font-400 leading-[24.38px] text-white">
+  <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+  <p className="justify-end"> Blah Blah Blah ..But We Make Wonders !.......</p>
+</div>
+   <br/>
     <div className="flex items-center justify-start">
       <div className="relative ">
         <div className="rounded-full bg-gradient-to-r from-purple-600 to-white p-1">
-          <button className="rounded-full bg-black text-white py-2 px-6">
+          <button className="rounded-full bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
             Get Started
+            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2"/>
           </button>
         </div>
       </div>
     </div>
     <div className="flex justify-end px-10">
     <img
-      src="whatsapp.png"
-      alt="Creative Image"
-      className=" mt-12 w-10 justify-end m-0"
+      src="image\whatsapplogo.png"
+      alt="whatsapplogo Image"
+      className=" mt-12 w-12 justify-end m-0"
     />
     </div>
   </section>

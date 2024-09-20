@@ -33,9 +33,9 @@ function Navbar() {
     <div className="bg-black flex justify-between items-center px-4">
       <div className="text-2xl font-bold">
         <img
-          src={'logo.png'}
+          src={'image/logo.png'}
           alt="Company Logo"
-          className="w-auto h-24 object-contain" // Set fixed size and maintain aspect ratio
+          className="w-auto h-40 object-contain" // Set fixed size and maintain aspect ratio
         />
       </div>
       <nav

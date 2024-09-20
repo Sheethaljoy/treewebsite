@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        futuraMedium: ['futura medium bt', 'sans-serif'],
+        MontserratRegular:['Montserrat-Regular', 'sans-serif'],
+      },
+    },
   },
+
   plugins: [],
 }
+  
