@@ -45,45 +45,73 @@ return (<>
     </div>
   </section>
   {/* Ticker Section */}
-  <div className="bg-purple-800 py-4 text-center text-xl font-bold ">
-    <marquee>We Make Wonders - Blah Blah Blah Blah Blah</marquee>
+  <div className=" py-4 text-center text-xl font-bold w-auto h-11 "
+  style={{
+    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) ',
+  }}>
+    <marquee className=" text-white  font-futuraMedium text-[28px] font-500 leading-[23.16px]"> 
+      <p className="inline">Blah Blah Blah Blah Blah</p> 
+      <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/> 
+       <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p><p className="inline">Blah Blah Blah Blah Blah</p>  <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/>  <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p></marquee>
   </div>
   {/* Services Section */}
-  <section className="py-12 text-center px-3">
-    <h2 className="text-4xl font-bold text-purple-500">Services</h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-2xl font-semibold">
-          Website &amp; Web App Development
-        </h3>
-        <p className="mt-4">Build innovative digital solutions.</p>
+<section className="py-12 text-center px-3 bg-black">
+  <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2>
+  
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+    {/* Card 1 */}
+    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+      <div className="flex justify-center mb-4">
+        <img src=".\image\card1.png" alt="Web App Development Icon" className="w-14 h-14" />
       </div>
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-2xl font-semibold">
-          Digital Marketing &amp; Research
-        </h3>
-        <p className="mt-4">Strengthen customer relationships.</p>
-      </div>
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-2xl font-semibold">Creative Graphic Designing</h3>
-        <p className="mt-4">Enhance brand creativity.</p>
-      </div>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Website &amp; Web App</h3>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
+      <p className="mt-4 font-normal text-center text-[16px] leading-[16px] font-inter">Top-notch Web Designs to make your<br/>Brand unique</p>
     </div>
-  </section>
-  {/* What We Do Section */}
-  <section className="py-12">
-    <h2 className="text-center text-4xl font-bold text-purple-500">
-      What We Do
-    </h2>
-    <p className="text-center mt-4 text-xl max-w-2xl mx-auto">
-      We give you solutions to attract your ideal prospects.
-    </p>
-    <div className="flex justify-center mt-8 space-x-8">
-      <span className="px-4 py-2 bg-purple-600 rounded-full">Inclusive</span>
-      <span className="px-4 py-2 bg-purple-600 rounded-full">Dynamic</span>
-      <span className="px-4 py-2 bg-purple-600 rounded-full">Tech Savvy</span>
+
+    {/* Card 2 */}
+    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+      <div className="flex justify-center mb-4">
+        <img src=".\image\card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Digital Marketing &amp; Marketing</h3>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Research Service</h3>
+      <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Strengthen Customer Relationship</p>
     </div>
-  </section>
+
+    {/* Card 3 */}
+    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+      <div className="flex justify-center mb-4">
+        <img src=".\image\card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Creative Graphic</h3>
+      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Designing</h3>
+      <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Showcase your Brand's personality</p>
+    </div>
+   
+  {/* Card 4 */}
+  <div className=" bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className="flex justify-center mb-4">
+      <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
+    </div>
+    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Motion Graphics &amp; Video</h3>
+    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Ads</h3>
+    <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Grab attention instantly</p>
+  </div>
+
+  {/* Card 5 */}
+  <div className=" bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className="flex justify-center mb-4">
+      <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
+    </div>
+    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">iOS and Android</h3>
+    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
+    <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Reach a large global market</p>
+  </div>
+  </div>
+
+</section>
+
   {/* Testimonial Section */}
   <section className="py-12 bg-gray-800">
     <h2 className="text-center text-4xl font-bold text-purple-500">
