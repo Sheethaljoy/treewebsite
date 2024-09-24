@@ -25,6 +25,16 @@ return (<>
   <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
   <p className="justify-end"> Blah Blah Blah ..But We Make Wonders !.......</p>
 </div>
+<br/>
+<div
+  className="h-[0.5 px] w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500"
+  style={{
+    border: "1px solid",
+    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+    borderImageSlice: 1
+  }}
+></div>
+
    <br/>
     <div className="flex items-center justify-start">
       <div className="relative ">
@@ -56,6 +66,13 @@ return (<>
   </div>
   {/* Services Section */}
 <section className="py-12 text-center px-3 bg-black">
+<div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+style={{
+  border: "1px solid",
+  borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+  borderImageSlice: 1
+}}></div>
+<br/>
   <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2>
   
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
@@ -109,7 +126,6 @@ return (<>
     <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Reach a large global market</p>
   </div>
   </div>
-
 </section>
 
   {/* Testimonial Section */}
