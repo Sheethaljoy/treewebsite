@@ -3,7 +3,7 @@ const Home = ()=>{
 return (<>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Creative Team</title>
+  <title>Tree information Technology</title>
 
   {/* Hero Section */}
   <section className="pl-36 bg-black py-12 ">
@@ -128,26 +128,70 @@ style={{
   </div>
 </section>
 
-  {/* Testimonial Section */}
-  <section className="py-12 bg-gray-800">
-    <h2 className="text-center text-4xl font-bold text-purple-500">
-      Our Creatives Speak Volumes
-    </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-6xl mx-auto">
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <p className="italic">
-          {"Digital solutions are essential for any brand..."}
+  {/* What We Do. */}
+<br/>
+<div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+     style={{
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}></div>
+<br/>
+<section className="bg-black text-white py-16 w-[909px] h-[400px] mx-auto flex items-center justify-center mt-0">
+   <div className="container mx-auto text-center">
+        <h2 className="font-futuraMedium text-[56px] leading-[73.02px] font-bold mb-8">what we do</h2>
+        <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
+           Save hundreds of hours by just collaborating with us. 
+           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
+           Sounds bizarre?
+         </span>
+         </p>
+         <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
+          In a world where technology has a say in everything we do, let's kickstart any
+           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">digital marketing project</span> 
+           with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
         </p>
-        <h4 className="mt-4 font-semibold">Person Name - CEO</h4>
-      </div>
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <p className="italic">
-          {"The strategies they implemented helped us grow..."}
+        <p className="text-lg mb-4">
+         You give us problems,
+         <span className="text-purple-500">we give you solutions</span>.
+         We are here to ensure your brand's consistency and will help you attract your <span className="text-purple-400">ideal prospects</span>.
         </p>
-        <h4 className="mt-4 font-semibold">Person Name - CEO</h4>
+
+        <div className="flex justify-center items-center gap-8 mt-8">
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12">
+              <img src="./image/diamond.png" alt="diamond logo"/>
+            </div>
+            <p className="mt-2">Inclusive</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 ">
+            <img src="./image/diamond.png" alt="diamond logo"/>
+            </div>
+            <p className="mt-2">Dynamic</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 ">
+            <img src="./image/diamond.png" alt="diamond logo"/>
+            </div>
+            <p className="mt-2">Tech Savvy</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12 ">
+            <img src="./image/diamond.png" alt="diamond logo"/>
+            </div>
+            <p className="mt-2">Curious</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-12 h-12">
+            <img src="./image/diamond.png" alt="diamond logo "/>
+            </div>
+            <p className="mt-2">Creative</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
   {/* Development Process Section */}
   <section className="py-12 px-3">
     <h2 className="text-center text-4xl font-bold text-purple-500">

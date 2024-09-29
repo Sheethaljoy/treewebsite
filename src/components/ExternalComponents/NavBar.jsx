@@ -31,7 +31,7 @@ function Navbar() {
 
   return (
     <div className="bg-black flex justify-between items-center px-4">
-      <div className="text-2xl font-bold">
+      <div className="text-2xl font-bold ml-10">
         <img
           src={'image/logo.png'}
           alt="Company Logo"
