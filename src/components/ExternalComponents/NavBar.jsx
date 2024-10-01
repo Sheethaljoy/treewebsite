@@ -30,7 +30,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-black flex justify-between items-center px-4">
+    <div className="bg-black flex justify-between items-center px-4 ">
       <div className="text-2xl font-bold ml-10">
         <img
           src={'image/logo.png'}
@@ -40,7 +40,7 @@ function Navbar() {
       </div>
       <nav
         id="navbar"
-        className={`rounded-full px-6 py-2 border-2 border-transparent ${gradient}`}
+        className={`rounded-full px-6 py-2 border-2 ${gradient}`}
       >
         <ul className="flex space-x-8 text-lg font-bold text-white">
           {['Home', 'About', 'How It Works', 'Services', 'Contact'].map((linkText) => (

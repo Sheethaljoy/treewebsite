@@ -148,13 +148,13 @@ style={{
          </span>
          </p>
          <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
-          In a world where technology has a say in everything we do, let's kickstart any
-           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">digital marketing project</span> 
+          In a world where technology has a say in everything we do, let's kickstart any 
+           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide"> digital marketing project </span> 
            with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
         </p>
-        <p className="text-lg mb-4">
+        <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
          You give us problems,
-         <span className="text-purple-500">we give you solutions</span>.
+         <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">we give you solutions</span>.
          We are here to ensure your brand's consistency and will help you attract your <span className="text-purple-400">ideal prospects</span>.
         </p>
 
