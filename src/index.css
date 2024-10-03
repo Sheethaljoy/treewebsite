@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
     font-family: 'futura medium bt';
-    src: url('./assets/fonts/futura/futura medium bt.ttf') format('truetype');
+    src: url('./assets/fonts/futura/futura\ medium\ condensed\ bt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
