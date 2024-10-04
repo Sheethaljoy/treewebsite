@@ -9,7 +9,7 @@ return (<>
   {/* Hero Section */}
   <section className="pl-36 bg-black py-12 ">
   <h1
-  className="font-futuraMedium text-[52px] font-500 leading-[65.58px] text-left"
+  className="font-futuraMedium text-[52px] font-[500] leading-[65.58px] text-left"
   style={{
     background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
     WebkitBackgroundClip: 'text',
