@@ -48,8 +48,7 @@ const About = () => {
         with goosebumps!
       </p>
   </div>
-</section>
-
+  </div>
 
         {/* About Section */}
         <section className="bg-black py-16 px-8">
@@ -104,7 +103,8 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      </div>
+</section >
         {/* Discuss a Project Section */}
         <section className="bg-black text-center py-16 px-8">
           <div className="max-w-2xl mx-auto">
@@ -132,9 +132,6 @@ const About = () => {
             Get Consultation
           </button>
         </div>
-      </div>
-    </div>
-      </section>
       </div>
     </>
   );
