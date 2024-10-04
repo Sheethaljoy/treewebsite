@@ -204,7 +204,7 @@ return (<>
 {/*.......Get in Touch.........*/} 
 
  <sesction className=" items-center">
-    <div className=" w-[1200px] h-[225px] top-[1417.42px] ml-7bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] rounded-lg p-10 flex flex-col md:flex-row justify-between items-center">
+    <div className=" w-[1200px] h-[225px] top-[1417.42px] ml-7 bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] rounded-lg p-10 flex flex-col md:flex-row justify-between items-center">
        <h2 className="text-white text-3xl md:text-5xl font-bold leading-snug md:leading-normal">
         To set new benchmarks and to bridge the digital divide
       </h2>
