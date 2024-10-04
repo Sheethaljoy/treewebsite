@@ -71,7 +71,7 @@ return (<>
   <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
     style={{
              border: "1px solid",
-             borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
              borderImageSlice: 1}}>
   </div>
   <br/>
@@ -200,27 +200,45 @@ return (<>
    </div>
    </div>
  </section>
-
+ 
 {/*.......Get in Touch.........*/} 
+<section className="flex items-center justify-center min-h-screen bg-black">
+    <div className=" text-white text-center p-10 rounded-2xl shadow-lg w-[1200px] h-[225px] "
+      style={
+        {
+          background:"linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"
+        }
+        }>
+        {/* Image */}
+       <div className="flex justify-start">
+        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] "/>
 
- <sesction className=" items-center">
-    <div className=" w-[1200px] h-[225px] top-[1417.42px] ml-7 bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] rounded-lg p-10 flex flex-col md:flex-row justify-between items-center">
-       <h2 className="text-white text-3xl md:text-5xl font-bold leading-snug md:leading-normal">
-        To set new benchmarks and to bridge the digital divide
-      </h2>
-      <div className="mt-6 md:mt-0 flex items-center space-x-4">
-        <input
-          type="email"
-          placeholder="Enter your work email"
-          className="rounded-full py-3 px-6 text-purple-500 bg-white border-none focus:outline-none"
-        />
-        <button className="bg-black text-white py-3 px-6 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition">
-          <span>Get in touch</span>
-          <span className="text-blue-400">→</span>
-        </button>
+        {/* Heading */}
+        <h2 className="text-white font-futuraMedium text-[40px] font-[500] leading-[50.52px] text-left pl-4">
+        To set new benchmarks and to bridge <br/>the digital divide
+        </h2>
+       </div>
+
+       {/* Input and Buttons */}
+        <div className="flex justify-center items-center space-x-4">
+          {/* Email Input */}
+          <div className="relative">
+            <input
+              type="email"
+              placeholder="Enter your work email"
+              className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
+            />
+          </div>
+          {/* Get In Touch Button */}
+          <button className="px-6 py-3 rounded-full bg-transparent border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 hover:text-white flex items-center transition">
+            Get in touch
+            <span className="ml-2 text-purple-500 hover:text-white transition">
+              →
+            </span>
+          </button>
+        </div>
       </div>
-    </div>
- </sesction>
+    </section>
 
 
   {/* Development Process Section */}
