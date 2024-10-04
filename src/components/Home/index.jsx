@@ -33,9 +33,8 @@ return (<>
     border: "1px solid",
     borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
     borderImageSlice: 1
-  }}
-></div>
-
+  }}>
+    </div>
    <br/>
     <div className="flex items-center justify-start">
       <div className="relative ">
@@ -65,17 +64,19 @@ return (<>
       <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/> 
        <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p><p className="inline">Blah Blah Blah Blah Blah</p>  <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/>  <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p></marquee>
   </div>
+
   {/* Services Section */}
 <section className="py-12 text-center px-3 bg-black">
-<div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-style={{
-  border: "1px solid",
-  borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-  borderImageSlice: 1
-}}></div>
-<br/>
-  <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2>
-  
+  {/* line break */}
+  <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+    style={{
+             border: "1px solid",
+             borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+             borderImageSlice: 1}}>
+  </div>
+  <br/>
+
+  <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     {/* Card 1 */}
     <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
@@ -130,68 +131,97 @@ style={{
 </section>
 
   {/* What We Do. */}
-<br/>
-<div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-     style={{
+ <section className="py-12 text-center px-3 bg-black">
+ {/* line break */}
+    <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+      style={{
               border: "1px solid",
               borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
               borderImageSlice: 1
-           }}></div>
-<br/>
-<section className="bg-black text-white py-16 w-[909px] h-[400px] mx-auto flex items-center justify-center mt-0">
-   <div className="container mx-auto text-center">
-        <h2 className="font-futuraMedium text-[56px] leading-[73.02px] font-bold mb-8">what we do</h2>
-        <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
-           Save hundreds of hours by just collaborating with us. 
-           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
-           Sounds bizarre?
-         </span>
-         </p>
-         <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
-          In a world where technology has a say in everything we do, let's kickstart any 
-           <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide"> digital marketing project </span> 
-           with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
-        </p>
-        <p className="text-[20px] mb-4 font-MontserratRegular leading-[39.38px] font-thin tracking-wide">
-         You give us problems,
-         <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">we give you solutions</span>.
-         We are here to ensure your brand's consistency and will help you attract your <span className="text-purple-400">ideal prospects</span>.
-        </p>
+           }}>
+    </div>
 
-        <div className="flex justify-center items-center gap-8 mt-8">
-          <div className="flex flex-col items-center">
-            <div className="w-12 h-12">
-              <img src="./image/diamond.png" alt="diamond logo"/>
-            </div>
-            <p className="mt-2">Inclusive</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-12 h-12 ">
-            <img src="./image/diamond.png" alt="diamond logo"/>
-            </div>
-            <p className="mt-2">Dynamic</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-12 h-12 ">
-            <img src="./image/diamond.png" alt="diamond logo"/>
-            </div>
-            <p className="mt-2">Tech Savvy</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-12 h-12 ">
-            <img src="./image/diamond.png" alt="diamond logo"/>
-            </div>
-            <p className="mt-2">Curious</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-12 h-12">
-            <img src="./image/diamond.png" alt="diamond logo "/>
-            </div>
-            <p className="mt-2">Creative</p>
-          </div>
-        </div>
+    <div className="container mx-auto text-center">
+      <h2 className="font-futuraMedium text-[56px] leading-[73.02px] font-bold mb-8">what we do</h2>
+      <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+  Save hundreds of hours by just collaborating with us. 
+  <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
+    Sounds bizarre?
+  </span>
+</p>
+
+<p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+  In a world where technology has a say in everything we do, let's kickstart any <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">digital marketing project </span> 
+  with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
+</p>
+
+<p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+  You give us problems,
+  <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
+    we give you solutions
+  </span>. 
+  We are here to ensure your brand's consistency and will help you attract your <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">ideal prospects
+  </span>.
+</p>
+
+{/* .............. Diamond session ..............*/}
+
+<div className="flex justify-center items-center gap-8 mt-8">
+  <div className="flex flex-row items-center">
+    <div className="w-12 h-12">
+      <img src="./image/diamond.png" alt="diamond logo" />
+    </div>
+    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px]  ">Inclusive</p>
+  </div>
+  <div className="flex flex-row items-center">
+    <div className="w-12 h-12">
+      <img src="./image/diamond.png" alt="diamond logo" />
+    </div>
+    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Dynamic</p>
+  </div>
+  <div className="flex flex-row items-center">
+    <div className="w-12 h-12">
+      <img src="./image/diamond.png" alt="diamond logo" />
+    </div>
+    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Tech Savvy</p>
+  </div>
+  <div className="flex flex-row items-center">
+    <div className="w-12 h-12">
+      <img src="./image/diamond.png" alt="diamond logo" />
+    </div>
+    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Curious</p>
+  </div>
+   <div className="flex flex-row items-center">
+     <div className="w-12 h-12">
+      <img src="./image/diamond.png" alt="diamond logo" />
+     </div>
+     <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Creative</p>
+    </div>
+   </div>
+   </div>
+ </section>
+
+{/*.......Get in Touch.........*/} 
+
+ <sesction className=" items-center">
+    <div className=" w-[1200px] h-[225px] top-[1417.42px] ml-7 bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] rounded-lg p-10 flex flex-col md:flex-row justify-between items-center">
+       <h2 className="text-white text-3xl md:text-5xl font-bold leading-snug md:leading-normal">
+        To set new benchmarks and to bridge the digital divide
+      </h2>
+      <div className="mt-6 md:mt-0 flex items-center space-x-4">
+        <input
+          type="email"
+          placeholder="Enter your work email"
+          className="rounded-full py-3 px-6 text-purple-500 bg-white border-none focus:outline-none"
+        />
+        <button className="bg-black text-white py-3 px-6 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition">
+          <span>Get in touch</span>
+          <span className="text-blue-400">→</span>
+        </button>
       </div>
-    </section>
+    </div>
+ </sesction>
+
 
   {/* Development Process Section */}
   <section className="py-12 px-3">
