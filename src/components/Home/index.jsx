@@ -203,42 +203,38 @@ return (<>
  
 {/*.......Get in Touch.........*/} 
 <section className="flex items-center justify-center min-h-screen bg-black">
-    <div className=" text-white text-center p-10 rounded-2xl shadow-lg w-[1200px] h-[225px] "
-      style={
-        {
-          background:"linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"
-        }
-        }>
-        {/* Image */}
-       <div className="flex justify-start">
-        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] "/>
+    <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1200px] h-[225px]" 
+         style={{background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"}}>
 
-        {/* Heading */}
-        <h2 className="text-white font-futuraMedium text-[40px] font-[500] leading-[50.52px] text-left pl-4">
-        To set new benchmarks and to bridge <br/>the digital divide
-        </h2>
-       </div>
+        <div className="flex justify-between items-center">
+            {/* Heading */}
+            <h2 className="text-white font-medium text-3xl text-left">
+                To set new benchmarks and to bridge <br /> the digital divide
+            </h2>
 
-       {/* Input and Buttons */}
-        <div className="flex justify-center items-center space-x-4">
-          {/* Email Input */}
-          <div className="relative">
-            <input
-              type="email"
-              placeholder="Enter your work email"
-              className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
-            />
-          </div>
-          {/* Get In Touch Button */}
-          <button className="px-6 py-3 rounded-full bg-transparent border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 hover:text-white flex items-center transition">
-            Get in touch
-            <span className="ml-2 text-purple-500 hover:text-white transition">
-              →
-            </span>
-          </button>
+            {/* Email Input and Button */}
+            <div className="flex justify-center items-center space-x-4">
+                {/* Email Input */}
+                <div className="relative">
+                    <input
+                        type="email"
+                        placeholder="Enter your work email"
+                        className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
+                    />
+                </div>
+
+                {/* Get in Touch Button */}
+                <button className="px-6 py-3 rounded-full bg-transparent border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
+                    Get in touch
+                    <span className="ml-2 text-purple-500 hover:text-white transition">
+                        →
+                    </span>
+                </button>
+            </div>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
+
 
 
   {/* Development Process Section */}

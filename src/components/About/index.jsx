@@ -34,7 +34,7 @@ const About = () => {
           Leading digitally, for a better future
         </span>
       </h1>
-      <p className="mt-4 max-w-xl mx-auto text-white font-extralight w-full font-futuraMedium text-center text-[24px] leading-[30.55px]">
+      <p className="mt-4 max-w-2xl mx-auto text-white font-[100]  font-futuraLight text-center text-[24px] leading-[30.55px]">
         We are a women-led team of millennials and Gen Z who excel at strategic thinking.
         Give your vision, we will turn it into reality. Let the world notice your brand
         with goosebumps!

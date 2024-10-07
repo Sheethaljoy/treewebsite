@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         futuraMedium: ['futura medium bt', 'sans-serif'],
         MontserratRegular:['Montserrat-Regular', 'sans-serif'],
-        inter:['inter','sans-serif']
+        inter:['inter','sans-serif'],
+        futuraLight: ['Futura Light BT', 'sans-serif']
       },
     },
   },
