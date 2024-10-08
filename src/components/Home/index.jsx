@@ -22,7 +22,7 @@ return (<>
   <p className="justify-end">Creativity</p>
 </div>
     <br/>
-    <div className="font-MontserratRegular mt-4 text-left text-[20px] font-400 leading-[24.38px] text-white">
+    <div className="font-futuraLight mt-4 text-left text-[20px] font-400 leading-[24.38px] text-white">
   <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
   <p className="justify-end"> Blah Blah Blah ..But We Make Wonders !.......</p>
 </div>
@@ -202,40 +202,46 @@ return (<>
  </section>
  
 {/*.......Get in Touch.........*/} 
+
 <section className="flex items-center justify-center min-h-screen bg-black">
     <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1200px] h-[225px]" 
          style={{background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"}}>
 
         <div className="flex justify-between items-center">
-            {/* Heading */}
-            <h2 className="text-white font-medium text-3xl text-left">
-                To set new benchmarks and to bridge <br /> the digital divide
-            </h2>
 
-            {/* Email Input and Button */}
-            <div className="flex justify-center items-center space-x-4">
-                {/* Email Input */}
-                <div className="relative">
-                    <input
-                        type="email"
-                        placeholder="Enter your work email"
-                        className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
-                    />
-                </div>
+           {/* Image */}
+       <div className="flex justify-start -mt-5">
+        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] "/>
+        </div>
+        <div>
+    {/* Heading */}
+    <h2 className="text-white font-futuraLight text-[40px] font-[500] leading-[50.52px] text-left -mt-11">
+        To set new benchmarks and to bridge <br /> the digital divide
+    </h2>
 
-                {/* Get in Touch Button */}
-                <button className="px-6 py-3 rounded-full bg-transparent border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
-                    Get in touch
-                    <span className="ml-2 text-purple-500 hover:text-white transition">
-                        →
-                    </span>
-                </button>
-            </div>
+    {/* Email Input and Button */}
+    <div className="flex items-center space-x-4 mt-3">
+        {/* Email Input */}
+        <div className="relative w-[353.62px] h-[43.1px]  max-w-md">
+            <input
+                type="email"
+                placeholder="Enter your work email"
+                className="px-6 py-3 rounded-[23.3px] border-[0.78px] bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
+            />
+        </div>
+
+        {/* Get in Touch Button */}
+        <button className="px-6 py-3 rounded-full bg-black border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
+            Get in touch
+            <span className="ml-2 text-purple-500 hover:text-white transition">
+                →
+            </span>
+          </button>
+          </div>
+         </div>
         </div>
     </div>
 </section>
-
-
 
   {/* Development Process Section */}
   <section className="py-12 px-3">
