@@ -204,7 +204,7 @@ return (<>
 {/*.......Get in Touch.........*/} 
 
 <section className="flex items-center justify-center min-h-screen bg-black">
-    <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1200px] h-[225px]" 
+    <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1100px] h-[215px]" 
          style={{background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"}}>
 
         <div className="flex justify-between items-center">
@@ -226,7 +226,10 @@ return (<>
             <input
                 type="email"
                 placeholder="Enter your work email"
-                className="px-6 py-3 rounded-[23.3px] border-[0.78px] bg-gradient-to-r from-purple-500 to-blue-500 text-white outline-none w-full"
+                className="px-6 py-3 rounded-[23.3px] font-MontserratRegular font-[400] text-[19.41px] leading-[23.67px] border-[0.78px]  text-white outline-none w-[353.62px] h-[43.1px]"
+                style={{
+                   background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"
+                }}
             />
         </div>
 
@@ -242,6 +245,121 @@ return (<>
         </div>
     </div>
 </section>
+
+{/* Our creatives  */}
+<section className="bg-black text-white py-16 px-8 lg:px-20">
+  {/* line break */}
+  <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto -mt-14"
+      style={{
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}>
+   </div>
+   <br/>
+
+      <div className="max-w-screen-xl mx-auto">
+        <div className="text-center">
+          <h2 className="text-white text-4xl lg:text-5xl font-semibold mb-6">
+            Our creatives <br /> <span className="text-purple-500">speak volumes</span>
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
+          {/* Left section */}
+          <div>
+            <h3 className="text-3xl lg:text-4xl font-bold mb-4">
+              Join with the right partner
+            </h3>
+            <p className="text-lg mb-6 leading-relaxed">
+              Having clear digital marketing solutions can help your brand thrive in this digital era.
+              We are committed to provide strategies that combine data and creativity to scale up your
+              digital presence.
+            </p>
+            <p className="text-lg mb-6">
+              We don’t give false <span className="text-purple-500">promises.</span><br />
+              For the right solutions, <a href="#" className="text-blue-500 underline">let’s meet.</a>
+            </p>
+
+            {/* Quote */}
+            <blockquote className="text-purple-400 italic text-lg mb-4">
+              “Digital landscape provides ample opportunities for women to grow and excel. Our team of
+              women own their space and it is where they find their empowerment by increasing their
+              social and economic value.”
+            </blockquote>
+
+            <div className="flex items-center space-x-4">
+              <img
+                src="/path-to-image/shem-sebin.png" // Replace with actual image path
+                alt="Shemi Sebin"
+                className="w-12 h-12 rounded-full"
+              />
+              <div>
+                <p className="font-bold">Shemi Sebin</p>
+                <p className="text-sm">CEO</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Image Section */}
+          <div>
+            <img
+              src="/path-to-image/women-working.jpg" // Replace with actual image path
+              alt="Women Working"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-16">
+          {/* Left Image Section */}
+          <div>
+            <img
+              src="/path-to-image/women-discussion.jpg" // Replace with actual image path
+              alt="Women Discussion"
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+
+          {/* Right section */}
+          <div>
+            <h3 className="text-3xl lg:text-4xl font-bold mb-4">
+              Deliver exceptional results
+            </h3>
+            <p className="text-lg mb-6 leading-relaxed">
+              We are a team that is focused on digital presence and visibility. We are growing each
+              day with dedicated professionals from all walks of life. We understand what your brand
+              needs and what should be done to catalyse your brand's growth. Great content and
+              creation is what we boast upon.
+            </p>
+
+            <p className="text-lg mb-6">
+              Contact us to have <span className="text-blue-500 underline">profitable results.</span>
+            </p>
+
+            {/* Quote */}
+            <blockquote className="text-purple-400 italic text-lg mb-4">
+              “The advancement of digital technologies has been instrumental in making women
+              understand their power. We would like to align with the theme of International Women’s
+              Day 2024: ‘Invest in women: Accelerate progress.’”
+            </blockquote>
+
+            <div className="flex items-center space-x-4">
+              <img
+                src="/path-to-image/jeewa-markram.png" // Replace with actual image path
+                alt="Jeewa Markram"
+                className="w-12 h-12 rounded-full"
+              />
+              <div>
+                <p className="font-bold">Jeewa Markram</p>
+                <p className="text-sm">CEO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   {/* Development Process Section */}
   <section className="py-12 px-3">
