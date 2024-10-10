@@ -21,32 +21,32 @@ const About = () => {
           {/* Transparent Overlay */}
           <div className="absolute inset-0 bg-black bg-opacity-15"></div>
 
-          {/* Content (Positioned above the overlay) */}<div className="relative z-10 h-500 flex flex-col justify-start items-center">
-      <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraMedium text-white mt-8">
-        Hello there! <br />
-        <span
-          className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"
-          style={{
-            backgroundImage:
-              'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-          }}
-        >
-          Leading digitally, for a better future
-        </span>
-      </h1>
-      <p className="mt-4 max-w-2xl mx-auto text-white font-[100]  font-futuraLight text-center text-[24px] leading-[30.55px]">
-        We are a women-led team of millennials and Gen Z who excel at strategic thinking.
-        Give your vision, we will turn it into reality. Let the world notice your brand
-        with goosebumps!
-      </p>
-    </div>
+          {/* Content (Positioned above the overlay) */}<div className="relative z-10 h-500 flex flex-col justify-start items-center -mt-40">
+  <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraMedium text-white mt-">
+    Hello there! <br />
+    <span
+      className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"
+      style={{
+        backgroundImage:
+          'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+      }}
+    >
+      Leading digitally, for a better future
+    </span>
+  </h1>
+  <p className="mt-4 max-w-2xl mx-auto text-white font-[100] font-futuraLight text-center text-[24px] leading-[30.55px]">
+    We are a women-led team of millennials and Gen Z who excel at strategic thinking.
+    Give your vision, we will turn it into reality. Let the world notice your brand
+    with goosebumps!
+  </p>
+</div>
         </section>
   {/* Content (Positioned above the overlay) */}
   </div>
 
       {/* About Section */}
-      <section className="bg-black py-16 px-8">
-  <div className="bg-black py-16 px-8">
+      <section className="bg-black py-8 px-8 -mt-12">
+  <div className="bg-black py-8 px-8">
     <div className="flex flex-col items-center">
       <div className="w-full max-w-4xl">
         <div className="flex space-x-8">
@@ -63,10 +63,10 @@ const About = () => {
                 grit & grace
               </span>
             </h2>
-            <p className="w-[529px] h-[173px] gap-100 opacity-75 font-futura text-[20px] mb-4">
+            <p className="w-[529px] h-[173px] gap-100 opacity-75 font-futuraLight text-[24px] font-[300] leading-[30.55px] mb-4">
               We have a knack for understanding your audience as we excel at strategic thinking. Our team crafts innovative strategies through our data-driven approach. Let’s connect with the audience on a deeper level and engage with them authentically for long.
             </p>
-            <p className="w-[575px] h-[26px] gap-0 opacity-75 font-medium text-[26px] leading-[32.84px] text-left" style={{ fontFamily: 'Futura' }}>
+            <p className="w-[575px] h-[26px] gap-0 opacity-75  font-futuraMedium font-[500] text-[26px] leading-[32.84px] text-left">
               Craft creatives that align with your goals.
             </p>
           </div>
@@ -76,20 +76,8 @@ const About = () => {
   </div>
 </section>
 
-        {/* Discuss a Project Section */}
-        <section className="bg-black text-center py-16 px-8">
-          <div className="max-w-2xl mx-auto">
-            <h2 className="text-4xl font-bold text-white">
-              DISCUSS A PROJECT
-            </h2>
-            <p className="mt-4 text-white">
-              We know how to mold your project. Let’s put the words into action!
-            </p>
-            <button className="mt-8 bg-purple-500 hover:bg-purple-700 text-white py-2 px-6 rounded">
-              Get Consultation
-            </button>
-          </div>
-        </section>
+
+        
       {/* Discuss a Project Section */}
       <div className="bg-black text-center py-16 px-8">
         <div className="max-w-2xl mx-auto">
