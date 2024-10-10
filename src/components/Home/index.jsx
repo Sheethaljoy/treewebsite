@@ -202,16 +202,14 @@ return (<>
  </section>
  
 {/*.......Get in Touch.........*/} 
-
-<section className="flex items-center justify-center min-h-screen bg-black">
+<section className="flex items-center justify-center min-h-screen bg-black -mt-8">
     <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1100px] h-[215px]" 
          style={{background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"}}>
 
         <div className="flex justify-between items-center">
-
            {/* Image */}
        <div className="flex justify-start -mt-5">
-        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] "/>
+        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] -mt-4"/>
         </div>
         <div>
     {/* Heading */}
@@ -226,17 +224,18 @@ return (<>
             <input
                 type="email"
                 placeholder="Enter your work email"
-                className="px-6 py-3 rounded-[23.3px] font-MontserratRegular font-[400] text-[19.41px] leading-[23.67px] border-[0.78px]  text-white outline-none w-[353.62px] h-[43.1px]"
+                className="px-6 py-3 rounded-[23.3px] font-MontserratRegular font-[400] text-[19.41px] leading-[23.67px] border-[0.78px] text-white outline-none w-[353.62px] h-[43.1px] border-purple-500"
                 style={{
-                   background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"
+                   background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+                   WebkitTextFillColor:"white"
                 }}
             />
         </div>
 
         {/* Get in Touch Button */}
-        <button className="px-6 py-3 rounded-full bg-black border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
+        <button className="px-6 py-3 w-[212.33px] h-[43.97px] rounded-full font-MontserratRegular text-[19.41px] font-[400] leading-[23.67px] bg-black border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
             Get in touch
-            <span className="ml-2 text-purple-500 hover:text-white transition">
+            <span className="ml-5 text-blue-700 hover:text-white transition w-10">
                 →
             </span>
           </button>
@@ -260,8 +259,8 @@ return (<>
 
       <div className="max-w-screen-xl mx-auto">
         <div className="text-center">
-          <h2 className="text-white text-4xl lg:text-5xl font-semibold mb-6">
-            Our creatives <br /> <span className="text-purple-500">speak volumes</span>
+          <h2 className="text-white text-[35px] font-MontserratRegular leading-[55px] mb-6">
+           <span className="font-[400]">Our creatives</span><br/><span className="font-[700]">speak volumes</span>
           </h2>
         </div>
 
@@ -290,12 +289,12 @@ return (<>
 
             <div className="flex items-center space-x-4">
               <img
-                src="/path-to-image/shem-sebin.png" // Replace with actual image path
+                src="./image/ShemiSebin.png"
                 alt="Shemi Sebin"
                 className="w-12 h-12 rounded-full"
               />
               <div>
-                <p className="font-bold">Shemi Sebin</p>
+                <p className="font-bold">SHEMI SEBIN</p>
                 <p className="text-sm">CEO</p>
               </div>
             </div>
@@ -304,7 +303,7 @@ return (<>
           {/* Right Image Section */}
           <div>
             <img
-              src="/path-to-image/women-working.jpg" // Replace with actual image path
+              src="./image/ourcreativeimg1.png"
               alt="Women Working"
               className="rounded-lg shadow-lg"
             />
@@ -316,7 +315,7 @@ return (<>
           {/* Left Image Section */}
           <div>
             <img
-              src="/path-to-image/women-discussion.jpg" // Replace with actual image path
+              src="./image/ourcreativeimg2.png"
               alt="Women Discussion"
               className="rounded-lg shadow-lg"
             />
@@ -347,13 +346,13 @@ return (<>
 
             <div className="flex items-center space-x-4">
               <img
-                src="/path-to-image/jeewa-markram.png" // Replace with actual image path
-                alt="Jeewa Markram"
+                src="./image/ShenaShaji.png"
+                alt="Shena "
                 className="w-12 h-12 rounded-full"
               />
               <div>
-                <p className="font-bold">Jeewa Markram</p>
-                <p className="text-sm">CEO</p>
+                <p className="font-bold">SHENA SHAJI</p>
+                <p className="text-sm">INTERNATIONAL CLIENT MANAGER</p>
               </div>
             </div>
           </div>
