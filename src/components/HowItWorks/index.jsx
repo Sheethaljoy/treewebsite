@@ -21,9 +21,10 @@ const HowItWorks = ()=>{
 
         {/* Contact Form */}
         <form className="w-full max-w-2xl text-left ml-0">
-        <p className="w-[800px] h-[20px] mb-9 opacity-75 text-left text-[20px] font-futuraLight leading-[25.26px] font-futura">
+        <p className="w-[800px] h-[20px] mb-9 opacity-75 text-left text-[20px] font-futuraLight leading-[25.26px] font-futura text-zinc-500 ">
   Required
 </p>
+
 
   <div className="mb-6">
     <label className="block mb-2 font-futuraLight w-[500px] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left">
@@ -49,7 +50,7 @@ const HowItWorks = ()=>{
     <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
-      className="w-12"
+      className="w-16"
     />
   </div>
 </div>
