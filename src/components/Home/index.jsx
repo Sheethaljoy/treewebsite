@@ -284,14 +284,15 @@ return (<>
 
             {/* Quote */}
             <div className="flex items-start">
-             <div className="h-[87px] w-[3px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
-            <blockquote className="text-[16px] font-MontserratRegular font-[300] italic leading-[30px] mb-4"><span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
+            <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+            <blockquote className=" -mt-3 text-[16px] font-MontserratRegular font-[300] italic leading-[30px] mb-4">
+            <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
               “Digital landscape provides ample opportunities for women to grow and excel. Our team of
               women own their space and it is where they find their empowerment by increasing their
               social and economic value.”</span>
             </blockquote>
             </div>
-
+            
             <div className="flex items-center space-x-4">
               <img
                 src="./image/ShemiSebin.png"
@@ -328,7 +329,7 @@ return (<>
 
           {/* Right section */}
           <div>
-            <h3 className="text-[28px] font-MontserratRegular font-[600] leading-[38.09px] mb-4">
+            <h3 className="text-[28px] font-MontserratRegular font-[600] leading-[38.09px] text-right mb-4">
               Deliver exceptional results
             </h3>
             <p className="text-[18px] font-MontserratRegular font-[400] mb-6 leading-[30px] text-right">
@@ -338,78 +339,223 @@ return (<>
               creation is what we boast upon.
             </p>
             
-            <p className="text-lg mb-6">
-              Contact us to have <span className="text-blue-500 underline">profitable results.</span>
+            <p className="text-[18px] font-[400] leading-[30px] font-MontserratRegular text-right mb-6">
+              Contact us to have <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">profitable results.</span>
             </p>
 
             {/* Quote */}
             <div className="flex items-start">
-             <div className="h-[87px] w-[3px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
-              <blockquote className="text-purple-400 italic text-lg">
+            <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+            <blockquote className=" -mt-3 text-[16px] font-MontserratRegular font-[300] leading-[30px] text-right italic">
+                <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
                  “The advancement of digital technologies has been instrumental in making women understand their
                  power. We would like to align with the theme of International Women’s Day 2024: ‘Invest in women: 
                  Accelerate progress.’”
+                 </span>
               </blockquote>
              </div>
-
-            <div className="flex items-center space-x-4">
+           
+            <div className="flex items-center space-x-4 ml-56 mt-2">
               <img
                 src="./image/ShenaShaji.png"
-                alt="Shena "
+                alt="Shena Shaji "
                 className="w-12 h-12 rounded-full"
               />
               <div>
-                <p className="font-bold">SHENA SHAJI</p>
-                <p className="text-sm">INTERNATIONAL CLIENT MANAGER</p>
+              <p className="font-MontserratRegular font-[400] text-[16px] leading-[19.36px] ">SHENA SHAJI</p>
+              <p className="text-[13px] font-[400] font-MontserratRegular leading-[15.73px]">INTERNATIONAL CLIENT MANAGER</p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
     </section>
 
   {/* Development Process Section */}
-  <section className="py-12 px-3">
-    <h2 className="text-center text-4xl font-bold text-purple-500">
-      How Development Through Tree Works
-    </h2>
-    <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-xl font-semibold">The Ideation</h3>
-        <p className="mt-4">
-          Innovative concept creation to solve business challenges.
-        </p>
+ <section className="flex items-center justify-center min-h-screen bg-black -mt-8">  
+  <div className="bg-black text-white py-16 mt-24">
+    {/* line break */}
+    <div className="h-[5px] w-[69px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+      style={{
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}>
+    </div>
+    <br/>
+      <div className="text-center mb-12">
+        <h2 className=" font-MontserratRegular font-[400] text-[35px] leading-[55px] ">How development <br/>
+        <span className="font-[700] font-MontserratRegular text-[35px] leading-[55px] "> through Tree works</span></h2>
       </div>
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-xl font-semibold">The Development</h3>
-        <p className="mt-4">
-          Design and develop creative solutions with the right tools.
-        </p>
+      
+      <div className="flex justify-center flex-wrap gap-10 mx-auto max-w-7xl">
+  {/* Row 1 */}
+
+  {/* div 1 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+    <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }}
+    >
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+          #1{' '}
+        </span>
+        The Ideation
+      </h3>
+      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+      We  create the images after having a sequence of thoughts delivered by our creative minds.
+      </p>
+    </div>
+  </div>
+
+  {/* div 3 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block ">
+    <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }}
+    >
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+          #3{' '}
+        </span>
+        The Development
+      </h3>
+      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+      Our professional team of content creators and designers make wonders through their imagination and creativity. 
+      </p>
+    </div>
+  </div>
+
+  {/* div 5 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+    <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }}
+    >
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+          #5{' '}
+        </span>
+        Strategies and Tools
+      </h3>
+      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+      We don’t go after age old marketing formulae to leverage your brand’s potential. We work hard, find multiple strategies to elevate your brand.
+      </p>
+    </div>
+  </div>
+</div>
+<br/>
+  {/* Timeline Line */}
+  <div className="h-[1px] w-[1100px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+      style={{
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}>
+     {/* Trophy Icon */}
+     <div className="text-end ">
+        <span role="img" aria-label="trophy" className="text-5xl">🏆</span>
       </div>
-      <div className="bg-gray-900 text-white p-6 rounded-lg">
-        <h3 className="text-xl font-semibold">Strategies and Tools</h3>
-        <p className="mt-4">Using proven methods to grow your brand.</p>
+   </div>
+
+      <div className="flex justify-center flex-wrap gap-10 mt-10 mx-auto max-w-7xl">
+        {/* Row 2 */}
+
+         {/*div 2 */}
+        <div className="w-full sm:w-1/2 lg:w-1/3">
+        <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }}>
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+         #2{' '}
+         </span>Collective Planning</h3>
+            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+            We plan the structure of each work by prioritising the goals of your organisation by having a thorough discussion among our team.
+            </p>
+          </div>
+        </div>
+
+       {/*div 4 */}
+        <div className="w-full sm:w-1/2 lg:w-1/3">
+        <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }} >
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+          #4{' '}
+          </span>
+           Market Research</h3>
+            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+            It’s important to have a plan, but it is inevitable to study the current market scenario.
+            </p>
+          </div>
+        </div>
+
+        {/*div 6 */}
+        <div className="w-full sm:w-1/2 lg:w-1/3">
+        <div
+      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+      style={{
+        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+      }} >
+      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+          #6 {' '}
+          </span>
+          Digital Marketing</h3>
+            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+            To have a steady, permanent growth for your brand we do everything and anything as we know how to mold your brand digitally.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  {/* Call to Action Section */}
-  <section className="bg-purple-800 py-12 text-center">
-    <h2 className="text-3xl font-bold">Set New Benchmarks</h2>
-    <p className="mt-4">Enter your email to bridge the digital divide.</p>
-    <div className="mt-4">
-      <input
-        type="email"
-        placeholder="Enter your email"
-        className="px-4 py-2 text-black rounded-lg"
-      />
-      <button className="px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg">
-        Get in Touch
-      </button>
+
+  {/*last session */}
+<section>
+<div className="relative flex items-center justify-center h-screen bg-black">
+      {/* Background swirl effect */}
+      <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center">
+        <div className="relative">
+          <div className="w-[400px] h-[400px] rounded-full border border-purple-500 absolute animate-spin-slow" />
+          <div className="w-[350px] h-[350px] rounded-full border border-blue-400 absolute animate-spin-slow" />
+          <div className="w-[300px] h-[300px] rounded-full border border-cyan-400 absolute animate-spin-slow" />
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center">
+        <h1 className="text-white text-6xl font-bold">
+          DISCUSS A PROJECT
+        </h1>
+        <p className="text-white text-lg mt-4">
+          We know how to mold your project <br />
+          Let’s put the words into action
+        </p>
+        <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-400 to-purple-600 rounded-lg shadow-lg">
+          GET CONSULTATION
+        </button>
+      </div>
     </div>
-  </section>
+
+</section>
+
 </>
 )
-
 }
 
 export default Home;
