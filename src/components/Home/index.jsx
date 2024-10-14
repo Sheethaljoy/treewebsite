@@ -46,13 +46,15 @@ return (<>
         </div>
       </div>
     </div>
-    <div className="flex justify-end px-10">
+    <div className="relative">
+  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
     <img
-      src="image\whatsapplogo.png"
-      alt="whatsapplogo Image"
-      className=" mt-12 w-12 justify-end m-0"
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-12"
     />
-    </div>
+  </div>
+</div>
   </section>
   {/* Ticker Section */}
   <div className=" py-4 text-center text-xl font-bold w-auto h-11 "

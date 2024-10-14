@@ -25,7 +25,6 @@ const HowItWorks = ()=>{
   Required
 </p>
 
-
   <div className="mb-6">
     <label className="block mb-2 font-futuraLight w-[500px] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left">
       Name
@@ -43,13 +42,24 @@ const HowItWorks = ()=>{
   Phone No<span className="font-futuraLight text-[20px] font-medium leading-[25.26px] bg-gradient-to-br from-[#6675F7] to-[#57007B] bg-clip-text text-transparent">
     *
   </span>
+  
 </label>
-
+<div className="relative">
+  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
+    <img
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-12"
+    />
+  </div>
+</div>
     <input
       className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
       type="tel"
     />
   </div>
+  
+
   <div className="mb-6">
     <label className="block mb-2 font-futuraLight w-[500px] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left ">
       Email
@@ -73,9 +83,10 @@ const HowItWorks = ()=>{
       className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
     />
   </div>
-  <button className="w-[192px] h-[65px] bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-[14px] px-[25px] rounded-[10px] opacity-75 text-center text-[20px] font-bold leading-[14px] font-futuraLight">
+  <button className="w-[192px] h-[65px] bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-[14px] px-[25px] rounded-[10px] opacity-75 text-center text-[20px] font-black leading-[14px] font-futuraLight">
   SUBMIT
 </button>
+
 
 </form>
 

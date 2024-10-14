@@ -40,6 +40,15 @@ const About = () => {
     with goosebumps!
   </p>
 </div>
+<div className="relative">
+  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
+    <img
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-12"
+    />
+  </div>
+</div>
         </section>
   {/* Content (Positioned above the overlay) */}
   </div>
