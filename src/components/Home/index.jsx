@@ -267,25 +267,28 @@ return (<>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-12">
           {/* Left section */}
           <div>
-            <h3 className="text-3xl lg:text-4xl font-bold mb-4">
+            <h3 className="text-[28px] font-[600] leading-[38.09px] font-MontserratRegular mb-4">
               Join with the right partner
             </h3>
-            <p className="text-lg mb-6 leading-relaxed">
+            <p className="text-18px font-[400] font-MontserratRegular mb-6 leading-[30px]">
               Having clear digital marketing solutions can help your brand thrive in this digital era.
               We are committed to provide strategies that combine data and creativity to scale up your
               digital presence.
             </p>
-            <p className="text-lg mb-6">
-              We don’t give false <span className="text-purple-500">promises.</span><br />
-              For the right solutions, <a href="#" className="text-blue-500 underline">let’s meet.</a>
+            <p className="text-[18px] font-[400] font-MontserratRegular leading-[30px] mb-6">
+              We don’t give false <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">promises.</span><br />
+              For the right solutions, <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">let’s meet.</span>
             </p>
 
             {/* Quote */}
-            <blockquote className="text-purple-400 italic text-lg mb-4">
+            <div className="flex items-start">
+             <div className="h-[87px] w-[3px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+            <blockquote className="text-[16px] font-MontserratRegular font-[300] italic leading-[30px] mb-4"><span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
               “Digital landscape provides ample opportunities for women to grow and excel. Our team of
               women own their space and it is where they find their empowerment by increasing their
-              social and economic value.”
+              social and economic value.”</span>
             </blockquote>
+            </div>
 
             <div className="flex items-center space-x-4">
               <img
@@ -294,8 +297,8 @@ return (<>
                 className="w-12 h-12 rounded-full"
               />
               <div>
-                <p className="font-bold">SHEMI SEBIN</p>
-                <p className="text-sm">CEO</p>
+                <p className="font-MontserratRegular font-[400] text-[16px] leading-[19.36px]">SHEMI SEBIN</p>
+                <p className="text-[13px] font-[400] font-MontserratRegular leading-[15.73px]">CEO</p>
               </div>
             </div>
           </div>
@@ -323,26 +326,29 @@ return (<>
 
           {/* Right section */}
           <div>
-            <h3 className="text-3xl lg:text-4xl font-bold mb-4">
+            <h3 className="text-[28px] font-MontserratRegular font-[600] leading-[38.09px] mb-4">
               Deliver exceptional results
             </h3>
-            <p className="text-lg mb-6 leading-relaxed">
+            <p className="text-[18px] font-MontserratRegular font-[400] mb-6 leading-[30px] text-right">
               We are a team that is focused on digital presence and visibility. We are growing each
               day with dedicated professionals from all walks of life. We understand what your brand
               needs and what should be done to catalyse your brand's growth. Great content and
               creation is what we boast upon.
             </p>
-
+            
             <p className="text-lg mb-6">
               Contact us to have <span className="text-blue-500 underline">profitable results.</span>
             </p>
 
             {/* Quote */}
-            <blockquote className="text-purple-400 italic text-lg mb-4">
-              “The advancement of digital technologies has been instrumental in making women
-              understand their power. We would like to align with the theme of International Women’s
-              Day 2024: ‘Invest in women: Accelerate progress.’”
-            </blockquote>
+            <div className="flex items-start">
+             <div className="h-[87px] w-[3px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+              <blockquote className="text-purple-400 italic text-lg">
+                 “The advancement of digital technologies has been instrumental in making women understand their
+                 power. We would like to align with the theme of International Women’s Day 2024: ‘Invest in women: 
+                 Accelerate progress.’”
+              </blockquote>
+             </div>
 
             <div className="flex items-center space-x-4">
               <img
