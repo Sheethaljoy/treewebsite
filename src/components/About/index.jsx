@@ -45,7 +45,7 @@ const About = () => {
     <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
-      className="w-12"
+      className="w-16"
     />
   </div>
 </div>
@@ -63,7 +63,7 @@ const About = () => {
           <img
             src=".\image\aboutimage.png" // Replace with actual image path
             alt="Team"
-            className="w-[405px] h-[363px] rounded-tl-[10px] rounded-tr-none rounded-br-none rounded-bl-none opacity-75 border border-white"
+            className="w-[405px] h-[363px] rounded-[10px]  opacity-75 border border-white"
           />
           <div className="flex-1 text-left">
             <h2 className="w-[500px] h-[50.52px] gap-90 opacity-75 text-left font-futura text-[30px] font-medium leading-[50.52px] mb-4">
@@ -86,21 +86,49 @@ const About = () => {
 </section>
 
 
-        
+
+
+
+
+
+
+
+
+
+
       {/* Discuss a Project Section */}
-      <div className="bg-black text-center py-16 px-8">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="w-[412px] h-[37px] gap-0 opacity-75 text-4xl font-bold">
-            DISCUSS A PROJECT
-          </h2>
-          <p className="mt-4">
-            We know how to mold your project. Let’s put the words into action!
-          </p>
-          <button className="mt-8 bg-purple-500 hover:bg-purple-700 text-white py-2 px-6 rounded">
-            Get Consultation
-          </button>
-        </div>
+      <div className="relative flex justify-between items-center bg-black text-white py-10 px-8">
+      {/* Circular background pattern */}
+      <div className="absolute top-0 left-0 w-full h-full">
+        {/* You can replace this with an SVG or a custom image */}
+        <div className="w-[400px] h-[400px] rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 opacity-20 absolute -top-16 -left-20 animate-spin-slow"></div>
       </div>
+
+      {/* Left section: Heading and text */}
+      <div className="relative z-10">
+      <h1
+  className="w-[412px] h-[37px] absolute top-[141px] opacity-75 text-left text-[40px] font-bold leading-[52.16px] mb-0 font-futuraMedium"
+>
+  DISCUSS A PROJECT
+</h1>
+
+<p
+  className="w-[304px] h-[60px] absolute top-[190px] left-[54px] opacity-75 text-center text-[26px] font-thin leading-[33.62px] mb-0 font-futuraMedium"
+>
+  We know how to mold your project <br />
+  Let’s put the words into action
+</p>
+
+
+      </div>
+
+      {/* Right section: Button */}
+      <div className="relative z-10">
+        <button className="px-8 py-4 text-lg font-bold text-white rounded-lg bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-cyan-500 hover:to-purple-500">
+          GET CONSULTATION
+        </button>
+      </div>
+    </div>
     </>
   );
 };

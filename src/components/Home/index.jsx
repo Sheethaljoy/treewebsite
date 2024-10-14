@@ -51,7 +51,7 @@ return (<>
     <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
-      className="w-12"
+      className="w-16"
     />
   </div>
 </div>
