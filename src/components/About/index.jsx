@@ -42,11 +42,13 @@ const About = () => {
 </div>
 <div className="relative">
   <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
+  <a href="https://wa.me/9074429360">
     <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
       className="w-16"
     />
+    </a>
   </div>
 </div>
         </section>
