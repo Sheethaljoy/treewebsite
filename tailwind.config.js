@@ -12,6 +12,9 @@ export default {
         inter:['inter','sans-serif'],
         futuraLight: ['Futura Light BT', 'sans-serif']
       },
+      animation: {
+        'spin-slow': 'spin 15s linear infinite',
+      },
     },
   },
   plugins: [],

@@ -39,23 +39,26 @@ return (<>
     <div className="flex items-center justify-start">
       <div className="relative ">
         <div className="rounded-full bg-gradient-to-r from-purple-600 to-white p-1">
-          <button className="rounded-full bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
+          <button className="rounded-full w-[219px] h-[45.82px] bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
             Get Started
-            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2"/>
+            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4"/>
           </button>
         </div>
       </div>
     </div>
     <div className="relative">
   <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
-    <img
+   <a href="https://wa.me/9074429360">
+   <img
       src="image/whatsapplogo.png"
       alt="whatsapplogo"
       className="w-16"
-    />
+    />  
+    </a>
   </div>
 </div>
   </section>
+
   {/* Ticker Section */}
   <div className=" py-4 text-center text-xl font-bold w-auto h-11 "
   style={{
@@ -525,34 +528,33 @@ return (<>
     </div>
   </section>
 
-  {/*last session */}
-<section>
-<div className="relative flex items-center justify-center h-screen bg-black">
-      {/* Background swirl effect */}
-      <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center">
-        <div className="relative">
-          <div className="w-[400px] h-[400px] rounded-full border border-purple-500 absolute animate-spin-slow" />
-          <div className="w-[350px] h-[350px] rounded-full border border-blue-400 absolute animate-spin-slow" />
-          <div className="w-[300px] h-[300px] rounded-full border border-cyan-400 absolute animate-spin-slow" />
+  {/*last section */}
+  <section>
+      <div className="relative flex items-center justify-center h-screen bg-black">
+        {/* Background swirl effect */}
+        <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center">
+          <div className="relative">
+            <div className="w-[400px] h-[400px] rounded-full border border-purple-500 absolute animate-spin-slow" />
+            <div className="w-[350px] h-[350px] rounded-full border border-blue-400 absolute animate-spin-slow" />
+            <div className="w-[300px] h-[300px] rounded-full border border-cyan-400 absolute animate-spin-slow" />
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 text-center">
+          <h1 className="text-white text-6xl font-bold">
+            DISCUSS A PROJECT
+          </h1>
+          <p className="text-white text-lg mt-4">
+            We know how to mold your project <br />
+            Let’s put the words into action
+          </p>
+          <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-400 to-purple-600 rounded-lg shadow-lg">
+            GET CONSULTATION
+          </button>
         </div>
       </div>
-
-      {/* Content */}
-      <div className="relative z-10 text-center">
-        <h1 className="text-white text-6xl font-bold">
-          DISCUSS A PROJECT
-        </h1>
-        <p className="text-white text-lg mt-4">
-          We know how to mold your project <br />
-          Let’s put the words into action
-        </p>
-        <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-400 to-purple-600 rounded-lg shadow-lg">
-          GET CONSULTATION
-        </button>
-      </div>
-    </div>
-
-</section>
+    </section>
 
 </>
 )
