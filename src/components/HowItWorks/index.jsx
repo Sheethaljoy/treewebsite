@@ -7,7 +7,7 @@ const HowItWorks = ()=>{
       {/* Main Section */}
       <main className="flex flex-col items-center text-center py-16 -mt-20">
       <div className="w-[678px] h-[110px] gap-0 opacity-75">
-  <h1 className="text-[45px] w-[500] leading-[63.15px] text-left font-futuraMedium mb-8">
+  <h1 className="text-[50px] w-[500] leading-[63.15px] text-left font-futuraMedium mb-8">
     Amplify your market reach,{' '} <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
       let's grow digitally
     </span>
@@ -21,7 +21,7 @@ const HowItWorks = ()=>{
 
         {/* Contact Form */}
         <form className="w-full max-w-2xl text-left ml-0">
-        <p className="w-[800px] h-[20px] mb-9 opacity-75 text-left text-[20px] font-futuraLight leading-[25.26px] font-futura text-zinc-500 ">
+        <p className="h-[20px] mb-9 opacity-75 text-left text-[20px] font-futuraLight leading-[25.26px] w-[500] font-futura text-zinc-500 ">
   Required
 </p>
 
@@ -39,7 +39,7 @@ const HowItWorks = ()=>{
     />
   </div>
   <div className="mb-6">
-  <label className="w-[500px] h-[25.26px] opacity-75 items-center gap-[10px] font-futuraLight text-[20px] leading-[25.26px] text-left">
+  <label className="w-[500] h-[25.26px] opacity-75 items-center gap-[10px] font-futuraLight text-[20px] leading-[25.26px] text-left">
   Phone No<span className="font-futuraLight text-[20px] font-medium leading-[25.26px] bg-gradient-to-br from-[#6675F7] to-[#57007B] bg-clip-text text-transparent">
     *
   </span>
@@ -62,7 +62,7 @@ const HowItWorks = ()=>{
   
 
   <div className="mb-6">
-    <label className="block mb-2 font-futuraLight w-[500px] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left ">
+    <label className="block mb-2 font-futuraLight w-[500] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left ">
       Email
       <span className="font-futuraLight text-[20px] font-medium leading-[25.26px] text-left bg-gradient-to-br from-[#6675F7] to-[#57007B] bg-clip-text text-transparent">
         *
@@ -74,7 +74,7 @@ const HowItWorks = ()=>{
     />
   </div>
   <div className="mb-6">
-    <label className="block mb-2 font-futuraLight w-[500px] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left">
+    <label className="block mb-2 font-futuraLight w-[500] h-[25.26px] opacity-75 items-center gap-[10px]  text-[20px] leading-[25.26px] text-left">
       Message
       <span className="font-futuraLight text-[20px] font-medium leading-[25.26px] text-left bg-gradient-to-br from-[#6675F7] to-[#57007B] bg-clip-text text-transparent">
         *
