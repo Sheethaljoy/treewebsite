@@ -51,12 +51,12 @@ const About = () => {
     </a>
   </div>
 </div>
-        </section>
-  {/* Content (Positioned above the overlay) */}
-  </div>
+</section>
+</div>
 
-      {/* About Section */}
-      <section className="bg-black py-8 px-8 -mt-12">
+
+     {/* About Section */}
+<section className="bg-black py-8 px-8 -mt-12">
   <div className="bg-black py-8 px-8">
     <div className="flex flex-col items-center">
       <div className="w-full max-w-4xl">
@@ -65,21 +65,21 @@ const About = () => {
           <img
             src=".\image\aboutimage.png" // Replace with actual image path
             alt="Team"
-            className="w-[405px] h-[363px] rounded-[10px]  opacity-75 border border-white"
+            className="w-[405px] h-[363px] rounded-[10px] border border-white"
           />
           <div className="flex-1 text-left">
-            <h2 className="w-[500px] h-[50.52px] gap-90 opacity-75 text-left font-futura text-[40px] font-medium leading-[50.52px] mb-4">
-              Achieve success with{' '}
-              <span className="font-futura text-[40px] font-medium leading-[50.52px] text-left text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7]">
-                grit & grace
-              </span>
-      
+            
+            <h2 className="text-left font-futuraMedium font-[500] text-[40px] leading-[50.52px] mb-4 whitespace-nowrap">
+                Achieve success with{' '}
+            <span className="text-left text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7]">
+               grit & grace
+            </span>
             </h2>
           
-            <p className="w-[529px] h-[173px] gap-100 opacity-75 font-futuraLight text-[24px] font-[300] leading-[30.55px] mb-4">
+            <p className=" font-futuraLight text-[24px] font-[300] leading-[30.55px] mb-4">
               We have a knack for understanding your audience as we excel at strategic thinking. Our team crafts innovative strategies through our data-driven approach. Let’s connect with the audience on a deeper level and engage with them authentically for long.
             </p>
-            <p className="w-[575px] h-[26px] gap-0 opacity-75  font-futuraMedium font-[500] text-[26px] leading-[32.84px] text-left">
+            <p className="font-futuraMedium font-[500] text-[26px] leading-[32.84px] text-left">
               Craft creatives that align with your goals.
             </p>
           </div>
@@ -88,17 +88,6 @@ const About = () => {
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
 
       {/* Discuss a Project Section */}
       <div className="relative flex justify-between items-center bg-black text-white py-10 px-8">
