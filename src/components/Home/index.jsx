@@ -7,57 +7,76 @@ return (<>
   <title>Tree information Technology</title>
 
   {/* Hero Section */}
-  <section className="pl-36 bg-black py-12 ">
-  <h1
-  className="font-futuraMedium text-[52px] font-[500] leading-[65.58px] text-left"
-  style={{
-    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-    WebkitBackgroundClip: 'text',
-    WebkitTextFillColor: 'transparent',
-  }}>
-  A Women-led Creative Team
-</h1>
-<div className="font-futuraMedium mt-4 text-left text-[40px] font-500 leading-[50.52px] text-white">
-  <p>Seamless fusion of Technology &</p>
-  <p className="justify-end">Creativity</p>
-</div>
-    <br/>
-    <div className="font-futuraLight mt-4 text-left text-[20px] font-400 leading-[24.38px] text-white">
-  <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-  <p className="justify-end"> Blah Blah Blah ..But We Make Wonders !.......</p>
-</div>
-<br/>
-<div
-  className="h-[0.5 px] w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500"
-  style={{
-    border: "1px solid",
-    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-    borderImageSlice: 1
-  }}>
+<section className="pl-36 bg-black py-12 flex justify-between items-center">
+  {/* Left Side Content */}
+  <div>
+    <h1
+      className="font-futuraMedium text-[52px] font-[500] leading-[65.58px] text-left mb-2"
+      style={{
+        background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        whiteSpace: 'nowrap',
+      }}>
+      A Women-led Creative Team
+    </h1>
+    <div className="font-futuraMedium mt-1 text-left text-[40px] font-500 leading-[50.52px] text-white ">
+      <p>Seamless fusion of Technology &</p>
+      <p className="justify-end">Creativity</p>
     </div>
-   <br/>
+    <br/>
+    <div className="font-futuraLight mt-1 text-left text-[20px] font-300 leading-[25.46px] text-white">
+      <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+      <p className="justify-end">Blah Blah Blah ..But We Make Wonders !.......</p>
+    </div>
+    <br/>
+    <div
+      className="h-[0.5px] w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500"
+      style={{
+        border: "1px solid",
+        borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+        borderImageSlice: 1,
+      }}>
+    </div>
+    <br/>
     <div className="flex items-center justify-start">
-      <div className="relative ">
-        <div className="rounded-full bg-gradient-to-r from-purple-600 to-white p-1">
-          <button className="rounded-full w-[219px] h-[45.82px] bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
-            Get Started
-            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4"/>
-          </button>
-        </div>
+      <div className="relative">
+      <div className="p-1"
+     style={{
+       border: '0.78px solid',
+       borderImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1',
+       borderRadius: '23.3px',
+     }}>
+  <button className="rounded-full w-[219px] h-[45.82px] bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
+    Get Started
+    <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4" />
+  </button>
+</div>
+
       </div>
     </div>
     <div className="relative">
-  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
-   <a href="https://wa.me/9074429360">
-   <img
-      src="image/whatsapplogo.png"
-      alt="whatsapplogo"
-      className="w-16"
-    />  
-    </a>
+      <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
+        <a href="https://wa.me/9074429360">
+          <img
+            src="image/whatsapplogo.png"
+            alt="whatsapplogo"
+            className="w-16"
+          />
+        </a>
+      </div>
+    </div>
   </div>
+
+  {/* Right Side Image */}
+  <div className="absolute top-[204px] left-[896px]">
+  <img 
+    src="./image/homepagegif.png" 
+    alt="right side image" 
+    className="w-[390px] h-[390px]"
+  />
 </div>
-  </section>
+</section>
 
   {/* Ticker Section */}
   <div className=" py-4 text-center text-xl font-bold w-auto h-11 "
