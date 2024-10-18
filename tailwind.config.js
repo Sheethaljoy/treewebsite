@@ -10,10 +10,9 @@ export default {
         futuraMedium: ['futura medium bt', 'sans-serif'],
         MontserratRegular:['Montserrat-Regular', 'sans-serif'],
         inter:['inter','sans-serif'],
-        futuraLight: ['Futura Light BT', 'sans-serif']
-      },
-      animation: {
-        'spin-slow': 'spin 15s linear infinite',
+        futuraLight: ['Futura Light BT', 'sans-serif'],
+        montserratLight: ['Montserrat Light', 'sans-serif'],
+        futuraLightFont: ['Futura Light Font', 'sans-serif']
       },
     },
   },

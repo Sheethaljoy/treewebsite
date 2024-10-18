@@ -25,7 +25,7 @@ return (<>
       <p className="justify-end">Creativity</p>
     </div>
     <br/>
-    <div className="font-futuraLight mt-1 text-left text-[20px] font-300 leading-[25.46px] text-white">
+    <div className="font-futuraLight mt-1 text-left text-[20px] font-[300] leading-[25.46px] text-white">
       <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
       <p className="justify-end">Blah Blah Blah ..But We Make Wonders !.......</p>
     </div>
@@ -39,22 +39,14 @@ return (<>
       }}>
     </div>
     <br/>
-    <div className="flex items-center justify-start">
-      <div className="relative">
-      <div className="p-1"
-     style={{
-       border: '0.78px solid',
-       borderImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1',
-       borderRadius: '23.3px',
-     }}>
-  <button className="rounded-full w-[219px] h-[45.82px] bg-black text-white py-2 px-6 font-MontserratRegular text-[19px] font-400 leading-[23.16px]">
+    <a href="/howitworks">
+  <button className="px-6 py-3 w-[219px] h-[45.82px] rounded-full font-montserratLight text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition -mt-1">
     Get Started
-    <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4" />
+    <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] inline-block px-2 ml-4 -mt-1" />
   </button>
-</div>
+  </a>
 
-      </div>
-    </div>
+
     <div className="relative">
       <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
         <a href="https://wa.me/9074429360">
@@ -99,57 +91,56 @@ return (<>
              borderImageSlice: 1}}>
   </div>
   <br/>
-
   <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     {/* Card 1 */}
-    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className="ml-[90px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
       <div className="flex justify-center mb-4">
         <img src=".\image\card1.png" alt="Web App Development Icon" className="w-14 h-14" />
       </div>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Website &amp; Web App</h3>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
-      <p className="mt-4 font-normal text-center text-[16px] leading-[16px] font-inter">Top-notch Web Designs to make your<br/>Brand unique</p>
+      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Top-notch Web Designs to make your<br/>Brand unique</p>
     </div>
 
     {/* Card 2 */}
-    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className=" ml-[50px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
       <div className="flex justify-center mb-4">
         <img src=".\image\card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
       </div>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Digital Marketing &amp; Marketing</h3>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Research Service</h3>
-      <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Strengthen Customer Relationship</p>
+      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
     </div>
 
     {/* Card 3 */}
-    <div className="bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className="ml-[10px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
       <div className="flex justify-center mb-4">
         <img src=".\image\card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
       </div>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Creative Graphic</h3>
       <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Designing</h3>
-      <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Showcase your Brand's personality</p>
+      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
     </div>
    
   {/* Card 4 */}
-  <div className=" bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+  <div className="ml-[250px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
     <div className="flex justify-center mb-4">
       <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
     </div>
     <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Motion Graphics &amp; Video</h3>
     <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Ads</h3>
-    <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Grab attention instantly</p>
+    <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Grab attention instantly</p>
   </div>
 
   {/* Card 5 */}
-  <div className=" bg-black text-white p-6 rounded-lg shadow-lg border border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+  <div className="ml-[220px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
     <div className="flex justify-center mb-4">
       <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
     </div>
     <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">iOS and Android</h3>
     <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
-    <p className="mt-4 text-center text-[16px] leading-[16px] font-inter font-normal">Reach a large global market</p>
+    <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Reach a large global market</p>
   </div>
   </div>
 </section>
@@ -248,7 +239,7 @@ return (<>
             <input
                 type="email"
                 placeholder="Enter your work email"
-                className="px-6 py-3 rounded-[23.3px] font-MontserratRegular font-[400] text-[19.41px] leading-[23.67px] border-[0.78px] text-white outline-none w-[353.62px] h-[43.1px] border-purple-500"
+                className="px-6 py-3 rounded-[23.3px] font-montserratLight font-[400] text-[19.41px] leading-[23.67px] border-[0.78px] text-white outline-none w-[353.62px] h-[43.1px] border-purple-500"
                 style={{
                    background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
                    WebkitTextFillColor:"white"
@@ -257,11 +248,9 @@ return (<>
         </div>
 
         {/* Get in Touch Button */}
-        <button className="px-6 py-3 w-[212.33px] h-[43.97px] rounded-full font-MontserratRegular text-[19.41px] font-[400] leading-[23.67px] bg-black border border-purple-500 text-white hover:bg-gradient-to-r from-purple-500 to-blue-500 transition">
+        <button className=" w-[212.33px] h-[43.97px] rounded-full font-montserratLight text-[19.41px] font-[400] leading-[23.67px] bg-black border border-purple-500 text-white ">
             Get in touch
-            <span className="ml-5 text-blue-700 hover:text-white transition w-10">
-                →
-            </span>
+            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4" />
           </button>
           </div>
          </div>
@@ -548,32 +537,39 @@ return (<>
   </section>
 
   {/*last section */}
-  <section>
-      <div className="relative flex items-center justify-center h-screen bg-black">
-        {/* Background swirl effect */}
-        <div className="absolute w-full h-full top-0 left-0 overflow-hidden flex justify-center items-center">
-          <div className="relative">
-            <div className="w-[400px] h-[400px] rounded-full border border-purple-500 absolute animate-spin-slow" />
-            <div className="w-[350px] h-[350px] rounded-full border border-blue-400 absolute animate-spin-slow" />
-            <div className="w-[300px] h-[300px] rounded-full border border-cyan-400 absolute animate-spin-slow" />
-          </div>
-        </div>
+  
+  <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
+      {/* Background effect */}
+      <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
+      <div className="relative z-10">
+  <img
+    src="./image/lastsectionimg.png"
+    alt="last session img"
+    className="w-[385px] h-[352px] ml-5"
+  />
+  <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+    <h1 className="text-[40px] font-[700] leading-[52.16px] font-futuraMedium text-white ml-2">
+      DISCUSS A PROJECT
+    </h1>
+    <p className=" font-futuraLightFont text-white text-[26px] leading-[33.62px]">
+      We know how to mold your project
+      <br />
+      Let's put the words into action
+    </p>
+  </div>
+</div>
 
-        {/* Content */}
-        <div className="relative z-10 text-center">
-          <h1 className="text-white text-6xl font-bold">
-            DISCUSS A PROJECT
-          </h1>
-          <p className="text-white text-lg mt-4">
-            We know how to mold your project <br />
-            Let’s put the words into action
-          </p>
-          <button className="mt-8 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-400 to-purple-600 rounded-lg shadow-lg">
-            GET CONSULTATION
-          </button>
-        </div>
       </div>
-    </section>
+
+      {/* Content */}
+      <div className="relative ml-80 z-10 flex justify-end">
+  <a href="/howitworks">
+    <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
+     GET CONSULTATION
+    </button>
+  </a>
+</div>
+    </div>
 
 </>
 )
