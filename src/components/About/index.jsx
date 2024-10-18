@@ -88,40 +88,41 @@ const About = () => {
     </div>
   </div>
 </section>
-
-      {/* Discuss a Project Section */}
-      <div className="relative flex justify-between items-center bg-black text-white py-10 px-8">
-      {/* Circular background pattern */}
-      <div className="absolute top-0 left-0 w-full h-full">
-        {/* You can replace this with an SVG or a custom image */}
-        <div className="w-[400px] h-[400px] rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 opacity-20 absolute -top-16 -left-20 animate-spin-slow"></div>
-      </div>
-
-      {/* Left section: Heading and text */}
+ {/*last section */}
+  
+ <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
+      {/* Background effect */}
+      <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
       <div className="relative z-10">
-      <h1
-  className="w-[412px] h-[37px] absolute top-[141px] opacity-75 text-left text-[40px] font-bold leading-[52.16px] mb-0 font-futuraMedium"
->
-  DISCUSS A PROJECT
-</h1>
-
-<p
-  className="w-[304px] h-[60px] absolute top-[190px] left-[54px] opacity-75 text-center text-[26px] font-thin leading-[33.62px] mb-0 font-futuraMedium"
->
-  We know how to mold your project <br />
-  Let’s put the words into action
-</p>
-
+  <img
+    src="./image/lastsectionimg.png"
+    alt="last session img"
+    className="w-[385px] h-[352px] ml-5"
+  />
+  <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+    <h1 className="text-[40px] font-[700] leading-[52.16px] font-futuraMedium text-white ml-2">
+      DISCUSS A PROJECT
+    </h1>
+    <p className=" font-futuraLightFont text-white text-[26px] leading-[33.62px]">
+      We know how to mold your project
+      <br />
+      Let's put the words into action
+    </p>
+  </div>
+</div>
 
       </div>
 
-      {/* Right section: Button */}
-      <div className="relative z-10">
-        <button className="px-8 py-4 text-lg font-bold text-white rounded-lg bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-cyan-500 hover:to-purple-500">
-          GET CONSULTATION
-        </button>
-      </div>
+      {/* Content */}
+      <div className="relative ml-80 z-10 flex justify-end">
+  <a href="/howitworks">
+    <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
+     GET CONSULTATION
+    </button>
+  </a>
+</div>
     </div>
+
     </>
   );
 };

@@ -558,9 +558,7 @@ return (<>
     </p>
   </div>
 </div>
-
-      </div>
-
+</div>
       {/* Content */}
       <div className="relative ml-80 z-10 flex justify-end">
   <a href="/howitworks">
@@ -569,7 +567,7 @@ return (<>
     </button>
   </a>
 </div>
-    </div>
+</div>
 
 </>
 )

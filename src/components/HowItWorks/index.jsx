@@ -91,56 +91,40 @@ const HowItWorks = ()=>{
 </button>
 
 </form>
-
-        {/* Discuss a Project Section */}
-        <div className="flex flex-col items-center mt-20">
-          <div className="relative w-64 h-64 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-center flex items-center justify-center text-xl font-bold">
-            <div className="absolute inset-0 flex items-center justify-center text-white z-10">
-              DISCUSS A PROJECT
-            </div>
-            <div className="absolute inset-0 bg-transparent border-2 border-dashed border-white rounded-full animate-spin"></div>
-          </div>
-          <p className="mt-4 opacity-75">We know how to mold your project, let's put the words into action!</p>
-        </div>
-
-        {/* Get Consultation Button */}
-        <div className="mt-8">
-          <button className="bg-transparent border-2 border-white text-white py-2 px-6 rounded-full hover:bg-white hover:text-black transition">
-            GET CONSULTATION
-          </button>
-        </div>
       </main>
-
-      {/* Footer */}
-      <footer className="mt-20 py-10 bg-black text-center">
-        <ul className="flex justify-center space-x-8 mb-4">
-          <li className="hover:text-purple-300">
-            <a href="#">Home</a>
-          </li>
-          <li className="hover:text-purple-300">
-            <a href="#">About</a>
-          </li>
-          <li className="hover:text-purple-300">
-            <a href="#">How It Works</a>
-          </li>
-          <li className="hover:text-purple-300">
-            <a href="#">Services</a>
-          </li>
-          <li className="hover:text-purple-300">
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-        <p className="opacity-75">
-          Copyright © 2022 DOML. All rights reserved.
-        </p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <a href="#" className="hover:text-purple-300"> <i className="fab fa-facebook"></i> </a>
-          <a href="#" className="hover:text-purple-300"> <i className="fab fa-linkedin"></i> </a>
-          <a href="#" className="hover:text-purple-300"> <i className="fab fa-instagram"></i> </a>
-        </div>
-      </footer>
     </div>
   
+   {/*last section */}
+  
+   <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
+      {/* Background effect */}
+      <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
+      <div className="relative z-10">
+  <img
+    src="./image/lastsectionimg.png"
+    alt="last session img"
+    className="w-[385px] h-[352px] ml-5"
+  />
+  <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+    <h1 className="text-[40px] font-[700] leading-[52.16px] font-futuraMedium text-white ml-2">
+      DISCUSS A PROJECT
+    </h1>
+    <p className=" font-futuraLightFont text-white text-[26px] leading-[33.62px]">
+      We know how to mold your project
+      <br />
+      Let's put the words into action
+    </p>
+  </div>
+</div>
+</div>
+      <div className="relative ml-80 z-10 flex justify-end">
+  <a href="/howitworks">
+    <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
+     GET CONSULTATION
+    </button>
+  </a>
+</div>
+</div>
   </>
   )
   
