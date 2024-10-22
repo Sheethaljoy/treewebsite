@@ -56,9 +56,9 @@ const About = () => {
 
 
      {/* About Section */}
-<section className="bg-black py-8 px-8 -mt-12">
-  <div className="bg-black py-8 px-8">
-    <div className="flex flex-col items-center">
+     <section className="bg-black py-8 px-8 -mt-12 relative border-2 border-[#5200FF] rounded-[5px]">
+  <div className="absolute inset-0 border-[2px] rounded-[10px] border-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] opacity-80 pointer-events-none -z-10"></div>
+  <div className="flex flex-col items-center">
       <div className="w-full max-w-4xl">
         <div className="flex space-x-8">
           {/* Image with Border */}
@@ -86,11 +86,11 @@ const About = () => {
         </div>
       </div>
     </div>
-  </div>
 </section>
+
  {/*last section */}
   
- <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
+  <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
       {/* Background effect */}
       <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
       <div className="relative z-10">
