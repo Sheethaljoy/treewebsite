@@ -20,12 +20,12 @@ return (<>
       }}>
       A Women-led Creative Team
     </h1>
-    <div className="font-futuraMedium mt-1 text-left text-[40px] font-500 leading-[50.52px] text-white ">
+    <div className="font-futuraMedium -mt-5 text-left text-[40px] font-[400] leading-[50.52px] text-white ">
       <p>Seamless fusion of Technology &</p>
-      <p className="justify-end">Creativity</p>
+      <p className="justify-end -mt-1">Creativity</p>
     </div>
     <br/>
-    <div className="font-futuraLight mt-1 text-left text-[20px] font-[300] leading-[25.46px] text-white">
+    <div className="font-futuraLight mt-1 text-left text-[20px] font-extralight leading-[25.46px] text-white">
       <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
       <p className="justify-end">Blah Blah Blah ..But We Make Wonders !.......</p>
     </div>
@@ -399,12 +399,11 @@ return (<>
         <h2 className=" font-MontserratRegular font-[400] text-[35px] leading-[55px] ">How development <br/>
         <span className="font-[700] font-MontserratRegular text-[35px] leading-[55px] "> through Tree works</span></h2>
       </div>
-      
-      <div className="flex justify-center flex-wrap gap-10 mx-auto max-w-7xl">
-  {/* Row 1 */}
 
+ {/* Row 1 */}
+      <div className="flex justify-start w-full flex-wrap lg:flex-nowrap">
   {/* div 1 */}
-  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block -ml-10">
     <div
       className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
       style={{
@@ -418,13 +417,13 @@ return (<>
         The Ideation
       </h3>
       <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-      We  create the images after having a sequence of thoughts delivered by our creative minds.
+        We create the images after having a sequence of thoughts delivered by our creative minds.
       </p>
     </div>
   </div>
 
-  {/* div 3 */}
-  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block ">
+  {/* div 2 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
     <div
       className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
       style={{
@@ -438,12 +437,12 @@ return (<>
         The Development
       </h3>
       <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-      Our professional team of content creators and designers make wonders through their imagination and creativity. 
+        Our professional team of content creators and designers make wonders through their imagination and creativity.
       </p>
     </div>
   </div>
 
-  {/* div 5 */}
+  {/* div 3 */}
   <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
     <div
       className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
@@ -458,52 +457,60 @@ return (<>
         Strategies and Tools
       </h3>
       <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-      We don’t go after age old marketing formulae to leverage your brand’s potential. We work hard, find multiple strategies to elevate your brand.
+        We don’t go after age-old marketing formulae to leverage your brand’s potential. We work hard, find multiple strategies to elevate your brand.
       </p>
     </div>
   </div>
 </div>
+
 <br/>
+<br/>
+
   {/* Timeline Line */}
-  <div className="h-[1px] w-[1100px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-      style={{
-              border: "1px solid",
-              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-              borderImageSlice: 1
-           }}>
-     {/* Trophy Icon */}
-     <div className="text-end ">
-        <span role="img" aria-label="trophy" className="text-5xl">🏆</span>
-      </div>
-   </div>
+  <div
+  className="h-[1px] w-[1100px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto flex justify-end items-center"
+  style={{
+    border: "1px solid",
+    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+    borderImageSlice: 1,
+    marginLeft:-100,
+  }}
+>
+  {/* Trophy Icon */}
+  <div style={{ marginRight: '-70px' }}> {/* Adjust the gap here */}
+    <img src="./image/trophyimg.png" alt="Trophy" className="w-[72px] h-[72px]" />
+  </div>
+</div>
 
-      <div className="flex justify-center flex-wrap gap-10 mt-10 mx-auto max-w-7xl">
-        {/* Row 2 */}
 
-         {/*div 2 */}
-        <div className="w-full sm:w-1/2 lg:w-1/3">
-        <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }}>
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-         #2{' '}
-         </span>Collective Planning</h3>
-            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
+  <br/>   
+  <br/>
+
+ {/* Row 2 */}
+   <div className="flex justify-end w-full flex-wrap lg:flex-nowrap">
+       
+    {/*div 4 */}
+      <div  className="w-full sm:w-1/2 lg:w-1/3 inline-block ml-16">
+        <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+             style={{
+                    background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+                    }}>
+           <h3 className= "text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
+           <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
+            #2{' '}
+           </span>Collective Planning</h3>
+           <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
             We plan the structure of each work by prioritising the goals of your organisation by having a thorough discussion among our team.
-            </p>
-          </div>
-        </div>
+           </p>
+         </div>
+       </div>
 
-       {/*div 4 */}
-        <div className="w-full sm:w-1/2 lg:w-1/3">
-        <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
+       {/*div 5 */}
+    <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+    <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+         style={{
         background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }} >
+        }}>
       <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
         <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
           #4{' '}
@@ -516,12 +523,11 @@ return (<>
         </div>
 
         {/*div 6 */}
-        <div className="w-full sm:w-1/2 lg:w-1/3">
-        <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }} >
+      <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+       <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
+           style={{
+             background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
+              }}>
       <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
         <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
           #6 {' '}

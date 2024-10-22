@@ -38,24 +38,27 @@ function Navbar() {
           className="w-auto h-40 object-contain" // Set fixed size and maintain aspect ratio
         />
       </div>
-      <nav
-        id="navbar"
-        className={`rounded-full px-6 py-2 border-2 ${gradient}`}
-      >
-        <ul className="flex space-x-8 text-lg font-bold text-white">
-          {['Home', 'About', 'How It Works', 'Services', 'Contact'].map((linkText) => (
-            <li key={linkText}>
-              <a
-                href="#"
-                className={`hover:text-black ${gradient.includes(linkText) ? 'gradient-text' : ''}`}
-                onClick={() => changeGradient(linkText)}
-              >
-                {linkText}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <nav className="flex justify-between items-center bg-black text-white p-4 rounded-full border border-transparent hover:border-gradient-to-r from-purple-500 to-cyan-500">
+      <ul className="flex space-x-8 text-lg font-medium">
+        <li>
+          <a href="#" className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 hover:underline">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-gray-300">About</a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-gray-300">How It Works</a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-gray-300">Services</a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-gray-300">Contact</a>
+        </li>
+      </ul>
+    </nav>
       <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold rounded-lg">
         Contact Us
       </button>
