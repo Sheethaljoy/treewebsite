@@ -6,80 +6,100 @@ return (<>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tree information Technology</title>
 
-  {/* Hero Section */}
-<section className="pl-36 bg-black py-12 flex justify-between items-center">
+ {/* Hero Section */}
+ <section className="px-4 sm:px-8 md:px-12 lg:pl-36 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
   {/* Left Side Content */}
-  <div>
-    <h1
-      className="font-futuraMedium text-[52px] font-[500] leading-[65.58px] text-left mb-2"
-      style={{
-        background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
-        whiteSpace: 'nowrap',
-      }}>
-      A Women-led Creative Team
-    </h1>
-    <div className="font-futuraMedium -mt-5 text-left text-[40px] font-[400] leading-[50.52px] text-white ">
-      <p>Seamless fusion of Technology &</p>
-      <p className="justify-end -mt-1">Creativity</p>
+  <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
+  <h1
+    className="font-futuraMedium text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap"
+    style={{
+      background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+    }}
+  >
+    A Women-led Creative Team
+  </h1>
+  {/* Grid Layout for Mobile and Larger Views */}
+  <div className="grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
+    <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
+      <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
+      <p className="whitespace-nowrap">Creativity</p>
     </div>
-    <br/>
-    <div className="font-futuraLight mt-1 text-left text-[20px] font-extralight leading-[25.46px] text-white">
+  </div>
+
+
+
+<br />
+    <div className="font-futuraLight text-[14px] sm:text-[16px] md:text-[18px] font-extralight leading-tight lg:leading-[25.46px] text-white">
       <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-      <p className="justify-end">Blah Blah Blah ..But We Make Wonders !.......</p>
+      <p>Blah Blah Blah ..But We Make Wonders !.......</p>
     </div>
-    <br/>
+
+    {/* Image for Mobile View */}
+    <div className="flex justify-center lg:hidden mt-4">
+      <img 
+        src="./image/homepagegif.png" 
+        alt="right side image" 
+        className="w-[200px] sm:w-[300px] md:w-[350px] max-w-full h-auto"
+      />
+    </div>
+
+    {/* Horizontal Line */}
     <div
-      className="h-[0.5px] w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500"
+      className="h-[0.5px] w-full lg:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
       style={{
         border: "1px solid",
         borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
         borderImageSlice: 1,
-      }}>
-    </div>
-    <br/>
+      }}
+    ></div>
+<br/>
+    {/* Button */}
     <a href="/howitworks">
-  <button className="px-6 py-3 w-[219px] h-[45.82px] rounded-full font-montserratLight text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition -mt-1">
-    Get Started
-    <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] inline-block px-2 ml-4 -mt-1" />
-  </button>
-  </a>
-
-
-    <div className="relative">
-      <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
-        <a href="https://wa.me/9074429360">
-          <img
-            src="image/whatsapplogo.png"
-            alt="whatsapplogo"
-            className="w-16"
-          />
-        </a>
-      </div>
-    </div>
+      <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[160px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-2 lg:mt-4">
+        Get Started
+        <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-2 sm:ml-4" />
+      </button>
+    </a>
   </div>
 
-  {/* Right Side Image */}
-  <div className="absolute top-[204px] left-[896px]">
-  <img 
-    src="./image/homepagegif.png" 
-    alt="right side image" 
-    className="w-[390px] h-[390px]"
-  />
-</div>
+  {/* Right Side Image for Desktop View */}
+  <div className="hidden lg:flex justify-center lg:justify-end">
+    <img 
+      src="./image/homepagegif.png" 
+      alt="right side image" 
+      className="w-[200px] sm:w-[300px] md:w-[350px] lg:w-[390px] max-w-full h-auto mt-8 lg:mt-0 ml-12"
+    />
+  </div>
 </section>
 
-  {/* Ticker Section */}
-  <div className=" py-4 text-center text-xl font-bold w-auto h-11 "
-  style={{
-    background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) ',
-  }}>
-    <marquee className=" text-white  font-futuraMedium text-[28px] font-500 leading-[23.16px]"> 
-      <p className="inline">Blah Blah Blah Blah Blah</p> 
-      <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/> 
-       <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p><p className="inline">Blah Blah Blah Blah Blah</p>  <img src=".\image\Ellipse 3.png" alt="ellipse image" className="h-5 inline"/>  <p className="inline">We Make Wonders</p><p className="inline font-bold"> . </p></marquee>
+  {/* WhatsApp Floating Icon */}
+  <div className="fixed right-5 bottom-12 w-[56px] sm:w-[72px] h-[56px] sm:h-[72px]">
+    <a href="https://wa.me/9074429360">
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-full" />
+    </a>
   </div>
+
+{/* Ticker Section */}
+<div className="py-2 text-center text-lg font-bold w-full bg-gradient-to-r from-cyan-400 to-purple-600">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <marquee className="text-white font-futuraMedium text-[14px] sm:text-[18px] lg:text-[20px] font-500 leading-[20px] col-span-full">
+      <div className="flex items-center justify-center">
+        <p className="inline">Blah Blah Blah Blah Blah</p>
+        <img src="./image/Ellipse 3.png" alt="ellipse image" className="h-2 sm:h-3 lg:h-4 inline mx-1" />
+        <p className="inline">We Make Wonders</p>
+        <p className="inline font-bold"> . </p>
+        <p className="inline">Blah Blah Blah Blah Blah</p>
+        <img src="./image/Ellipse 3.png" alt="ellipse image" className="h-2 sm:h-3 lg:h-4 inline mx-1" />
+        <p className="inline">We Make Wonders</p>
+        <p className="inline font-bold"> . </p>
+      </div>
+    </marquee>
+  </div>
+</div>
+
+
 
   {/* Services Section */}
 <section className="py-12 text-center px-3 bg-black">
@@ -159,8 +179,7 @@ return (<>
     <div className="container mx-auto text-center">
       <h2 className="font-futuraMedium text-[56px] leading-[73.02px] font-bold mb-8">what we do</h2>
       <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-  Save hundreds of hours by just collaborating with us. 
-  <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
+  Save hundreds of hours by just collaborating with us. <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
     Sounds bizarre?
   </span>
 </p>
@@ -481,8 +500,6 @@ return (<>
     <img src="./image/trophyimg.png" alt="Trophy" className="w-[72px] h-[72px]" />
   </div>
 </div>
-
-
   <br/>   
   <br/>
 
