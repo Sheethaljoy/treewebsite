@@ -7,25 +7,27 @@ function Footer() {
 <div className="container mx-auto text-center">
    
  {/* Logo and Navigation */}
-<div className="flex items-center space-x-8">
-    <img
-        src="./image/logo.png" // Replace with the actual path to your logo
-        alt="Logo"
-        className="w-[257px] h-[250px] -mt-8 -ml-20 m-20" // Moves the logo upward and to the left
-     />
+ 
+
      {/* Navigation Links */}
-     <div className="flex space-x-16 -ml-4">
-      <a href="/" className="hover:text-gray-400">Home</a>
-      <a href="/about" className="hover:text-gray-400">About</a>
-      <a href="/howitworks" className="hover:text-gray-400">How It Works</a>
-      <a href="/services" className="hover:text-gray-400">Services</a>
-      <a href="/contact" className="hover:text-gray-400">Contact</a>
-      </div>
+     <div
+  className="flex justify-normal space-x-[50px] -m-24 ">
+    <img
+    src="./image/logo.png" // Replace with the actual path to your logo
+    alt="Logo"
+    className="w-[130px] h-[137px] mb-24" // Added -mt-6 to move the logo upward
+  />
+  <a href="/" className="hover:text-gray-400">Home</a>
+  <a href="/about" className="hover:text-gray-400">About</a>
+  <a href="/howitworks" className="hover:text-gray-400">How It Works</a>
+  <a href="/services" className="hover:text-gray-400">Services</a>
+  <a href="/contact" className="hover:text-gray-400">Contact</a>
+</div>
 </div>
 
 {/* Gradient Separator */}
 <div
-  className="border-t-2 -mt-28 mx-auto" // Set the width and center it
+  className="border-t-2 -mt-28 mx-12" // Set the width and center it
   style={{
     borderImage: 
       "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1"
@@ -44,7 +46,7 @@ function Footer() {
           textAlign: 'left',
         }}
       >
-        Copyright &copy; 2022 DOML. All rights reserved.
+        Copyright &copy; 2022 DOML.All rights reserved.
       </p>
       </div>
 
@@ -55,7 +57,7 @@ function Footer() {
 
 
         {/* Terms & Privacy */}
-        <div className="-p-0">
+        <div className="-p-2">
       <a
         href="#terms"
         className="text-sm font-montserratLight text-white hover:text-gray-300"
@@ -71,7 +73,8 @@ function Footer() {
       </a>
     </div>
       </div>
-      </div>
+      
+  
 </footer>
 
   );
