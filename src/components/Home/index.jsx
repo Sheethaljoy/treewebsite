@@ -236,46 +236,58 @@ return (<>
  </section>
  
 {/*.......Get in Touch.........*/} 
-<section className="flex items-center justify-center min-h-screen bg-black -mt-8">
-    <div className="text-white text-center p-10 rounded-2xl shadow-lg w-[1100px] h-[215px]" 
-         style={{background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"}}>
+<section className="flex items-center justify-center min-h-screen bg-black -mt-8 ">
+    <div className="text-white text-center p-6 md:p-10 rounded-2xl shadow-lg 
+        w-full md:w-[1100px] h-auto md:h-[215px]" 
+        style={{
+            background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)"
+        }}>
 
-        <div className="flex justify-between items-center">
-           {/* Image */}
-       <div className="flex justify-start -mt-5">
-        <img src="./image/getintouch.png" alt="get in touch image" className="w-[207px] h-[213px] -mt-4"/>
-        </div>
-        <div>
-    {/* Heading */}
-    <h2 className="text-white font-futuraLight text-[40px] font-[500] leading-[50.52px] text-left -mt-11">
-        To set new benchmarks and to bridge <br /> the digital divide
-    </h2>
+        <div className="flex flex-col md:flex-row justify-between items-center">
+            {/* Image */}
+            <div className="flex justify-center md:justify-start mb-4 md:mb-0 -mt-5">
+                <img src="./image/getintouch.png" alt="get in touch image" 
+                     className="w-[150px] md:w-[207px] h-[150px] md:h-[213px] -mt-4" />
+            </div>
 
-    {/* Email Input and Button */}
-    <div className="flex items-center space-x-4 mt-3">
-        {/* Email Input */}
-        <div className="relative w-[353.62px] h-[43.1px]  max-w-md">
-            <input
-                type="email"
-                placeholder="Enter your work email"
-                className="px-6 py-3 rounded-[23.3px] font-montserratLight font-[400] text-[19.41px] leading-[23.67px] border-[0.78px] text-white outline-none w-[353.62px] h-[43.1px] border-purple-500"
-                style={{
-                   background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-                   WebkitTextFillColor:"white"
-                }}
-            />
-        </div>
+            <div>
+                {/* Heading */}
+                <h2 className="text-white font-futuraLight text-[28px] md:text-[40px] font-[500] 
+                    leading-[34px] md:leading-[50.52px] text-center md:text-left -mt-6 md:-mt-11">
+                    To set new benchmarks and to bridge <br /> the digital divide
+                </h2>
 
-        {/* Get in Touch Button */}
-        <button className=" w-[212.33px] h-[43.97px] rounded-full font-montserratLight text-[19.41px] font-[400] leading-[23.67px] bg-black border border-purple-500 text-white ">
-            Get in touch
-            <img src="./image/right-arrow.png" alt="right arrow image" className="h-7 inline-block px-2 ml-4" />
-          </button>
-          </div>
-         </div>
+                {/* Email Input and Button */}
+                <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-4 mt-3">
+                    {/* Email Input */}
+                    <div className="relative w-[280px] md:w-[353.62px] h-[43.1px] max-w-md">
+                        <input
+                            type="email"
+                            placeholder="Enter your work email"
+                            className="px-6 py-3 rounded-[23.3px] font-montserratLight font-[400] 
+                               text-[19px] leading-[23px] border-[0.78px] text-white outline-none 
+                               w-full h-full border-purple-500"
+                            style={{
+                                background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+                                WebkitTextFillColor:"white"
+                            }}
+                        />
+                    </div>
+
+                    {/* Get in Touch Button */}
+                    <button className="w-[180px] md:w-[212px] h-[43px] rounded-full font-montserratLight 
+                        text-[18px] font-[400] leading-[23px] bg-black border border-purple-500 text-white">
+                        Get in touch
+                        <img src="./image/right-arrow.png" alt="right arrow image" 
+                             className="h-6 md:h-7 inline-block px-2 ml-2 md:ml-4" />
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+
 
 {/* Our creatives  */}
 <section className="bg-black text-white py-16 px-8 lg:px-20">
