@@ -32,10 +32,10 @@ return (<>
 
 <br />
     <div className="font-futuraLight text-[14px] sm:text-[16px] md:text-[18px] font-extralight leading-tight lg:leading-[25.46px] text-white">
-      <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
-      <p>Blah Blah Blah ..But We Make Wonders !.......</p>
+      <p>Mould and strengthen your business with digital marketing.</p>
+      <p>We deliver content, products and services to enable success.</p>
     </div>
-
+ 
     {/* Image for Mobile View */}
     <div className="flex justify-center lg:hidden mt-4">
       <img 
@@ -66,18 +66,19 @@ return (<>
 
   {/* Right Side Image for Desktop View */}
   <div className="hidden lg:flex justify-center lg:justify-end">
-    <img 
-      src="./image/homepagegif.png" 
-      alt="right side image" 
-      className="w-[200px] sm:w-[300px] md:w-[350px] lg:w-[390px] max-w-full h-auto mt-8 lg:mt-0 ml-12"
-    />
-  </div>
+  <img 
+    src="./image/homepagegif.png" 
+    alt="right side image" 
+    className="w-[200px] sm:w-[300px] md:w-[300px] lg:w-[300px] max-w-full h-[300px] -mt-4 lg:-mt-4 ml-12"
+  />
+</div>
+
 </section>
 
   {/* WhatsApp Floating Icon */}
-  <div className="fixed right-5 bottom-12 w-[56px] sm:w-[72px] h-[56px] sm:h-[72px]">
+  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
     <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-full" />
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14" />
     </a>
   </div>
 

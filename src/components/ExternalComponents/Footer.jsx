@@ -12,41 +12,54 @@ function Footer() {
     <img
     src=".\image\logo.png" // Replace with the actual path to your logo
     alt="Logo"
-    className="w-[130px] h-[137px] mb-12" // Added -mt-6 to move the logo upward
+    className="w-[130px] h-[137px] -mt-4" // Added -mt-6 to move the logo upward
   />
   </div>
 
     {/* Center Section: Links */}
-    <div className="flex space-x-8 text-lg -ml-72">
-            <a href="/" className="hover:text-pink-500">Home</a>
-            <a href="/about" className="hover:text-pink-500">About</a>
-            <a href="/howitworks" className="hover:text-pink-500">How It Works</a>
-            <a href="#" className="hover:text-pink-500">Services</a>
-            <a href="#" className="hover:text-pink-500">Contact</a>
+    <div className="flex space-x-14 text-[18px] font-MontserratRegular -ml-40 mt-10 ">
+            <a href="/" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">Home</a>
+            <a href="/about" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">About</a>
+            <a href="/howitworks" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">How It Works</a>
+            <a href="#" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">Services</a>
+            <a href="#" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">Contact</a>
           </div>
            
   {/* <!-- Social Icons-->
         <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands--> */}
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="https://www.instagram.com/tree_information_technology?igsh=bGwzamN5ZHNqb2ls"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-dark m-3" href="https://www.facebook.com/treeinformationtechnologycompany?mibextid=8HI2vyzhxhZ0rFJs"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="mailto:tree_india@icloud.com"><i class="fa-solid fa-envelope"></i></a>
-            </div>
-        </div>
- 
-        </div>
- 
-
+     <div className="social-icons -mr-28">
+      <div className="flex flex-wrap justify-center gap-2 mt-3 ">
+        <a
+          className="btn btn-dark flex justify-center items-center"
+          href="https://www.linkedin.com/company/tree-information-technology/"
+        >
+          <img src="./image/linkidinicon.png" className="w-12 h-12" alt="LinkedIn Icon" />
+        </a>
+        <a
+          className="btn btn-dark flex justify-center items-center"
+          href="https://www.instagram.com/tree_information_technology?igsh=bGwzamN5ZHNqb2ls"
+        >
+          <img src="./image/instaicon.png" className="w-12 h-12" alt="Instagram Icon" />
+        </a>
+        <a
+          className="btn btn-dark flex justify-center items-center"
+          href="https://www.facebook.com/treeinformationtechnologycompany?mibextid=8HI2vyzhxhZ0rFJs"
+        >
+          <img src="./image/facebookicon.png" className="w-12 h-12" alt="Facebook Icon" />
+        </a>
+      </div>
+    </div>
+      </div>
+    
   {/* Bottom Section */}
-  <div className="flex justify-between items-center mt-6 pt-4 w-[1200px] -ml-24" 
+  <div className="flex justify-between items-center mt-2 pt-4 w-[1200px] -ml-24" 
           style={{
             borderTop: '1px solid',
             borderImageSource: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
             borderImageSlice: 1
           }}>
-    <p className="text-sm">&copy; 2022 DOML. All rights reserved.</p>
-    <a href="#" className="text-sm hover:text-pink-500">
+    <p className="text-[19.41px] font-montserratLight font-[400] leading-[23.67px]">© tree.femme 2024 , All rights reserved.</p>
+    <a href="#" className="text-[19.41px] font-montserratLight font-[400] leading-[23.67px]">
       Terms of Use & Privacy Policy
     </a>
   </div>
