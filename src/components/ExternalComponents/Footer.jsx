@@ -18,9 +18,9 @@ function Footer() {
 
     {/* Center Section: Links */}
     <div className="flex space-x-8 text-lg -ml-72">
-            <a href="#" className="hover:text-pink-500">Home</a>
-            <a href="#" className="hover:text-pink-500">About</a>
-            <a href="#" className="hover:text-pink-500">How It Works</a>
+            <a href="/" className="hover:text-pink-500">Home</a>
+            <a href="/about" className="hover:text-pink-500">About</a>
+            <a href="/howitworks" className="hover:text-pink-500">How It Works</a>
             <a href="#" className="hover:text-pink-500">Services</a>
             <a href="#" className="hover:text-pink-500">Contact</a>
           </div>
