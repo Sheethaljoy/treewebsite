@@ -76,9 +76,9 @@ return (<>
 </section>
 
   {/* WhatsApp Floating Icon */}
-  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
+  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5">
     <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14" />
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
     </a>
   </div>
 
@@ -100,8 +100,8 @@ return (<>
   </div>
 </div>
 
-  {/* Services Section */}
-<section id="service" className="py-12 text-center px-3 bg-black">
+{/* Services Section */}
+<section id="service" className="py-12 text-center px-3 bg-black ">
   {/* line break */}
   <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
       style={{
@@ -132,9 +132,7 @@ return (<>
     Top-notch Web Designs to make your<br />Brand unique
   </p>
 </div>
-
-
-    {/* Card 2 */}
+{/* Card 2 */}
     <div className=" ml-[50px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 "
     style={{
       borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
@@ -191,55 +189,53 @@ return (<>
 </section>
 
   {/* What We Do. */}
- <section className="py-12 text-center px-3 bg-black">
- {/* line break */}
-    <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-      style={{
+  <section className="py-12 text-center px-3 bg-black w-full max-w-[909px] h-auto justify-center gap-12 md:gap-20 lg:gap-60 mx-auto">
+  {/* line break */}
+  <div className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+       style={{
               border: "1px solid",
               borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
               borderImageSlice: 1
            }}>
+  </div>
+  <div className="container mx-auto text-center">
+    <h2 className="font-futuraBold text-[56px] leading-[73.02px] font-[700] mb-8">what we do</h2>
+    <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+      Save hundreds of hours by just collaborating with us. 
+      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
+        Sounds bizarre?
+      </span>
+    </p>
+    <p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+      In a world where technology has a say in everything we do, let's kickstart any 
+      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">digital marketing project </span> 
+      with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
+    </p>
+    <p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
+      You give us problems,
+      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
+        we give you solutions
+      </span>. 
+      We are here to ensure your brand's consistency and will help you attract your 
+      <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">ideal prospects</span>.
+    </p>
+
+    {/* .............. Diamond session .............. */}
+    <div className="flex justify-center items-center gap-4 md:gap-6 lg:gap-8 mt-8 flex-wrap">
+      {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
+        <div key={text} className="flex flex-row items-center group hover:scale-105 transition-transform duration-300">
+          <div className="w-12 h-12">
+            <img src="./image/diamond.png" alt="diamond logo" className="transition-transform duration-300 group-hover:scale-110" />
+          </div>
+          <p className="ml-2 font-futuraLight font-[300] text-[20px] leading-[25.46px] group-hover:text-white transition-colors duration-300">
+            {text}
+          </p>
+        </div>
+      ))}
     </div>
+  </div>
+</section>
 
-    <div className="container mx-auto text-center">
-      <h2 className="font-futuraMedium text-[56px] leading-[73.02px] font-bold mb-8">what we do</h2>
-      <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-  Save hundreds of hours by just collaborating with us. <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wide">
-    Sounds bizarre?
-  </span>
-</p>
-
-<p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-  In a world where technology has a say in everything we do, let's kickstart any <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">digital marketing project </span> 
-  with utmost easiness. As a women-led team, we always keep looking for new challenges digitally (Because we are confident to get things done!).
-</p>
-
-<p className="text-[20px] -mt-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
-  You give us problems,
-  <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
-    we give you solutions
-  </span>. 
-  We are here to ensure your brand's consistency and will help you attract your <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">ideal prospects
-  </span>.
-</p>
-
-{/* .............. Diamond session ..............*/}
-
-<div className="flex justify-center items-center gap-8 mt-8">
-  {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
-    <div className="flex flex-row items-center group hover:scale-105 transition-transform duration-300">
-      <div className="w-12 h-12">
-        <img src="./image/diamond.png" alt="diamond logo" className="transition-transform duration-300 group-hover:scale-110" />
-      </div>
-      <p className="ml-2 font-futuraLight font-[300] text-[20px] leading-[25.46px] group-hover:text-white transition-colors duration-300">
-        {text}
-      </p>
-    </div>
-  ))}
-</div>
-
-   </div>
- </section>
  
 {/*.......Get in Touch.........*/} 
 <section className="flex items-center justify-center min-h-screen bg-black -mt-8 ">
@@ -267,6 +263,7 @@ return (<>
                 <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-4 mt-3">
                     {/* Email Input */}
                     <div className="relative w-[280px] md:w-[353.62px] h-[43.1px] max-w-md">
+                      
                         <input
                             type="email"
                             placeholder="Enter your work email"
@@ -276,13 +273,13 @@ return (<>
                             style={{
                                 background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
                                 WebkitTextFillColor:"white"
-                            }}
+                            }} required
                         />
                     </div>
 
                     {/* Get in Touch Button */}
                     <button className="w-[180px] md:w-[212px] h-[43px] rounded-full font-montserratLight 
-                        text-[18px] font-[400] leading-[23px] bg-black border border-purple-500 text-white">
+                        text-[18px] font-[400] leading-[23px] bg-black border border-purple-500 text-white" type="submit">
                         Get in touch
                         <img src="./image/right-arrow.png" alt="right arrow image" 
                              className="h-6 md:h-7 inline-block px-2 ml-2 md:ml-4" />

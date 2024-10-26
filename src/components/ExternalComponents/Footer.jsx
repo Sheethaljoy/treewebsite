@@ -1,9 +1,7 @@
 
 function Footer() {
- 
-
   return (
-<footer className="bg-black text-white py-6">
+<footer className="bg-black text-white py-6 ml-28">
 <div className="container mx-auto px-4">
   <div className="flex justify-between items-center">
     {/* Left Section: Logo */}
@@ -27,7 +25,7 @@ function Footer() {
            
   {/* <!-- Social Icons-->
         <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands--> */}
-     <div className="social-icons -mr-28">
+     <div className="social-icons mr-14">
       <div className="flex flex-wrap justify-center gap-2 mt-3 ">
         <a
           className="btn btn-dark flex justify-center items-center"

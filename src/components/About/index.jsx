@@ -47,7 +47,7 @@ const About = () => {
 </section>
 </div>
      {/* About Section */}
-     <section className="bg-black py-8 px-8 -mt-12 relative border-2 border-[#5200FF] rounded-[5px] ">
+<section className="bg-black py-8 px-8 -mt-12 relative border-2 border-[#5200FF] rounded-[5px] ">
   <div className="absolute inset-0 border-[2px] rounded-[10px] border-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] opacity-80 pointer-events-none -z-10"></div>
   <div className="flex flex-col items-center">
       <div className="w-full max-w-4xl">
