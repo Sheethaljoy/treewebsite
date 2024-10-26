@@ -1,9 +1,7 @@
 const HowItWorks = ()=>{
 
   return (<>
-     <div className="min-h-screen bg-black text-white font-futura">
-       
-
+     <div className=" bg-black text-white mr-52">
       {/* Main Section */}
       <main className="flex flex-col items-center text-center py-16 -mt-20">
       <div className="w-[678px] h-[110px]">
@@ -35,7 +33,7 @@ const HowItWorks = ()=>{
     </label>
     <input
       className="w-full h-[25.26px] px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500 text-left font-futuraLight text-[20px] font-medium leading-[25.26px]"
-      type="text"
+      type="text" required
     />
   </div>
   <div className="mb-6">
@@ -45,20 +43,17 @@ const HowItWorks = ()=>{
   </span>
   
 </label>
-<div className="relative">
-  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
-  <a href="https://wa.me/9074429360">
-    <img
-      src="image/whatsapplogo.png"
-      alt="whatsapplogo"
-      className="w-16"
-    />
+
+  {/* WhatsApp Floating Icon */}
+  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
+    <a href="https://wa.me/9074429360">
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14" />
     </a>
   </div>
-</div>
+
     <input
       className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
-      type="tel"
+      type="tel" required
     />
   </div>
   
@@ -72,7 +67,7 @@ const HowItWorks = ()=>{
     </label>
     <input
       className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
-      type="email"
+      type="email" required
     />
   </div>
   <div className="mb-6">
@@ -86,7 +81,7 @@ const HowItWorks = ()=>{
       className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
     />
   </div>
-  <button className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-[14px] px-[25px] rounded-[10px] text-center text-[20px] font-[700] font-black leading-[14px] font-futuraLight">
+  <button className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white py-[14px] px-[25px] rounded-[10px] text-center text-[20px] font-[700] text[20px] leading-[14px] font-futuraLight">
   SUBMIT
 </button>
 
@@ -117,7 +112,7 @@ const HowItWorks = ()=>{
   </div>
 </div>
 </div>
-      <div className="relative ml-80 z-10 flex justify-end">
+<div className="relative ml-80 z-10 flex justify-end">
   <a href="/howitworks">
     <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
      GET CONSULTATION

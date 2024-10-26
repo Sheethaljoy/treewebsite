@@ -7,32 +7,28 @@ const About = () => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>About Us</title>
-
-        {/* Hero Section */}
-        <section
-          className="relative flex flex-col items-center justify-center text-center py-20 bg-cover bg-center bg-no-repeat"
+  
+  {/* Hero Section */}
+          <section
+          className="relative flex flex-col items-center justify-center text-center py-20 bg-cover bg-center bg-no-repeat -ml-32"
           style={{
             backgroundImage: 'url("./image/Aboutbg.png")',
-            width: '100%', // Set width to 100% to make it responsive
+            width: 1440, // Set width to 100% to make it responsive
             height: 756,   // You can adjust the height for responsiveness
-            top: 0,
           }}
         >
-          {/* Transparent Overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-15"></div>
-
-          {/* Content (Positioned above the overlay) */}<div className="relative z-10 h-500 flex flex-col justify-start items-center -mt-40">
-  <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraMedium text-white mt-">
+  {/* Content (Positioned above the overlay) */}
+  <div className="relative z-10 h-500 flex flex-col justify-start items-center -mt-40">
+  <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraLight text-white ">
     Hello there! <br />
     <span
-      className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent"
+      className="bg-clip-text text-transparent"
       style={{
-        backgroundImage:
-          'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-      }}
-    >
-      Leading digitally, for a better future
-    </span>
+      backgroundImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+  }}>
+  Leading digitally, for a better future
+</span>
+
   </h1>
   <p className="mt-4 max-w-2xl mx-auto text-white font-[300] font-futuraLight text-center text-[24px] leading-[30.55px]">
     We are a women-led team of millennials and Gen Z who excel at strategic thinking.
@@ -40,23 +36,18 @@ const About = () => {
     with goosebumps!
   </p>
 </div>
-<div className="relative">
-  <div className="fixed right-5 bottom-12 w-[72px] h-[72px] top-[520px]">
-  <a href="https://wa.me/9074429360">
-    <img
-      src="image/whatsapplogo.png"
-      alt="whatsapplogo"
-      className="w-16"
-    />
+
+  {/* WhatsApp Floating Icon */}
+  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
+    <a href="https://wa.me/9074429360">
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14" />
     </a>
   </div>
-</div>
+
 </section>
 </div>
-
-
      {/* About Section */}
-     <section className="bg-black py-8 px-8 -mt-12 relative border-2 border-[#5200FF] rounded-[5px]">
+     <section className="bg-black py-8 px-8 -mt-12 relative border-2 border-[#5200FF] rounded-[5px] ">
   <div className="absolute inset-0 border-[2px] rounded-[10px] border-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] opacity-80 pointer-events-none -z-10"></div>
   <div className="flex flex-col items-center">
       <div className="w-full max-w-4xl">

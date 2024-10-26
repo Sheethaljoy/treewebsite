@@ -100,68 +100,92 @@ return (<>
   </div>
 </div>
 
-
-
   {/* Services Section */}
-<section className="py-12 text-center px-3 bg-black">
+<section id="service" className="py-12 text-center px-3 bg-black">
   {/* line break */}
   <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-    style={{
-             border: "1px solid",
-              background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-             borderImageSlice: 1}}>
-  </div>
+      style={{
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}>
+    </div>
   <br/>
   <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     {/* Card 1 */}
-    <div className="ml-[90px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
-      <div className="flex justify-center mb-4">
-        <img src=".\image\card1.png" alt="Web App Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Website &amp; Web App</h3>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
-      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Top-notch Web Designs to make your<br/>Brand unique</p>
-    </div>
+    <div className="ml-[90px] w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110"
+  style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+  }}
+>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Website &amp; Web App
+  </h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Development
+  </h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
+    Top-notch Web Designs to make your<br />Brand unique
+  </p>
+</div>
+
 
     {/* Card 2 */}
-    <div className=" ml-[50px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className=" ml-[50px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 "
+    style={{
+      borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+      }}>
       <div className="flex justify-center mb-4">
         <img src=".\image\card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
       </div>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Digital Marketing &amp; Marketing</h3>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Research Service</h3>
-      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular whitespace-nowrap  text-ellipsis">
+  Digital Marketing &amp; Marketing
+</h3>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Research Service</h3>
+      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
     </div>
 
     {/* Card 3 */}
-    <div className="ml-[10px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+    <div className="ml-[10px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  transition-transform transform hover:scale-110 "
+    style={{
+      borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+      }}>
       <div className="flex justify-center mb-4">
         <img src=".\image\card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
       </div>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Creative Graphic</h3>
-      <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Designing</h3>
-      <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Creative Graphic</h3>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Designing</h3>
+      <p  className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
     </div>
    
   {/* Card 4 */}
-  <div className="ml-[250px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+  <div className="ml-[250px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  transition-transform transform hover:scale-110 "
+   style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+    }}>
     <div className="flex justify-center mb-4">
       <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
     </div>
-    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Motion Graphics &amp; Video</h3>
-    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Ads</h3>
-    <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Grab attention instantly</p>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Motion Graphics &amp; Video</h3>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Ads</h3>
+    <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Grab attention instantly</p>
   </div>
 
   {/* Card 5 */}
-  <div className="ml-[220px] w-[330px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  border-purple-500 transition-transform transform hover:scale-110 hover:border-gradient-to-r from-purple-400 to-blue-400">
+  <div className="ml-[220px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110"
+   style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+    }}>
     <div className="flex justify-center mb-4">
       <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
     </div>
-    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">iOS and Android</h3>
-    <h3 className="text-[20px] font-bold leading-[20px] text-center font-inter">Development</h3>
-    <p className="mt-4 font-[400] text-center text-[15px] leading-[16px] font-montserratLight">Reach a large global market</p>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">iOS and Android</h3>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Development</h3>
+    <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
   </div>
   </div>
 </section>
@@ -202,37 +226,18 @@ return (<>
 {/* .............. Diamond session ..............*/}
 
 <div className="flex justify-center items-center gap-8 mt-8">
-  <div className="flex flex-row items-center">
-    <div className="w-12 h-12">
-      <img src="./image/diamond.png" alt="diamond logo" />
+  {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
+    <div className="flex flex-row items-center group hover:scale-105 transition-transform duration-300">
+      <div className="w-12 h-12">
+        <img src="./image/diamond.png" alt="diamond logo" className="transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p className="ml-2 font-futuraLight font-[300] text-[20px] leading-[25.46px] group-hover:text-white transition-colors duration-300">
+        {text}
+      </p>
     </div>
-    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px]  ">Inclusive</p>
-  </div>
-  <div className="flex flex-row items-center">
-    <div className="w-12 h-12">
-      <img src="./image/diamond.png" alt="diamond logo" />
-    </div>
-    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Dynamic</p>
-  </div>
-  <div className="flex flex-row items-center">
-    <div className="w-12 h-12">
-      <img src="./image/diamond.png" alt="diamond logo" />
-    </div>
-    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Tech Savvy</p>
-  </div>
-  <div className="flex flex-row items-center">
-    <div className="w-12 h-12">
-      <img src="./image/diamond.png" alt="diamond logo" />
-    </div>
-    <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Curious</p>
-  </div>
-   <div className="flex flex-row items-center">
-     <div className="w-12 h-12">
-      <img src="./image/diamond.png" alt="diamond logo" />
-     </div>
-     <p className="ml-2 font-futuraMedium font-[300] text-[20px] leading-[25.46px] ">Creative</p>
-    </div>
-   </div>
+  ))}
+</div>
+
    </div>
  </section>
  
@@ -453,7 +458,9 @@ return (<>
       </p>
     </div>
   </div>
-
+  <br/>
+  
+            
   {/* div 2 */}
   <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
     <div
@@ -475,7 +482,7 @@ return (<>
   </div>
 
   {/* div 3 */}
-  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
+   <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
     <div
       className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
       style={{
@@ -517,10 +524,10 @@ return (<>
   <br/>
 
  {/* Row 2 */}
-   <div className="flex justify-end w-full flex-wrap lg:flex-nowrap">
+   <div className="flex justify-end w-full flex-wrap lg:flex-nowrap gap-4">
        
     {/*div 4 */}
-      <div  className="w-full sm:w-1/2 lg:w-1/3 inline-block ml-16">
+      <div  className="w-full sm:w-1/2 lg:w-1/3 inline-block ml-4">
         <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
              style={{
                     background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
@@ -573,16 +580,14 @@ return (<>
   </section>
 
   {/*last section */}
-  
   <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
       {/* Background effect */}
-      <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
+      <div className="absolute inset-0 flex justify-start -ml-10 items-center z-0">
       <div className="relative z-10">
   <img
-    src="./image/lastsectionimg.png"
+    src=".\image\last1.gif"
     alt="last session img"
-    className="w-[385px] h-[352px] ml-5"
-  />
+    className="ml-5"/>
   <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
     <h1 className="text-[40px] font-[700] leading-[52.16px] font-futuraMedium text-white ml-2">
       DISCUSS A PROJECT
@@ -595,8 +600,8 @@ return (<>
   </div>
 </div>
 </div>
-      {/* Content */}
-      <div className="relative ml-80 z-10 flex justify-end">
+{/* Content */}
+<div className="relative ml-80 z-10 flex justify-end">
   <a href="/howitworks">
     <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
      GET CONSULTATION

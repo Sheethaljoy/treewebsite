@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// eslint-disable-next-line no-undef
 
 function Navbar() {
   const [gradient, setGradient] = useState('bg-gradient-to-r from-purple-600 to-cyan-400');
@@ -30,38 +29,48 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-black flex justify-between items-center px-4 ">
-      <div className="text-2xl font-bold ml-10">
+    <div className="bg-black flex justify-between items-center px-4 -ml-5 ">
+      <div className="text-2xl font-bold -ml-5">
         <img
           src={'image/logo.png'}
           alt="Company Logo"
           className="w-auto h-40 object-contain" // Set fixed size and maintain aspect ratio
         />
       </div>
-      <nav className="flex justify-between items-center bg-black text-white p-4 rounded-full border border-transparent hover:border-gradient-to-r from-purple-500 to-cyan-500">
-      <ul className="flex space-x-8 text-lg font-medium">
-        <li>
-          <a href="#" className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 hover:underline">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-gray-300">About</a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-gray-300">How It Works</a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-gray-300">Services</a>
-        </li>
-        <li>
-          <a href="#" className="hover:text-gray-300">Contact</a>
-        </li>
-      </ul>
-    </nav>
-      <button className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold rounded-lg">
-        Contact Us
-      </button>
+      <div
+  className="p-[1px] w-[625px] h-[43px] rounded-[20px] mr-60"
+  style={{
+    background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+  }}
+>
+  <nav
+    className="flex justify-normal items-center p-[15px] bg-black text-white w-full h-full rounded-[19px]"
+    style={{
+      backgroundClip: "padding-box", // Ensures inner content isn't affected by gradient
+    }}
+  >
+  <ul className="flex space-x-24  ml-2 font-MontserratRegular font-[700] text-[18px] leading-[27px]">
+    <li>
+      <a href="/" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">Home</a>
+    </li>
+    <li>
+      <a href="/about" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">About</a>
+    </li>
+    <li>
+      <a href="/howitworks" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">How It Works</a>
+    </li>
+    <li>
+      <a href="#service" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">Services</a>
+    </li>
+  </ul>
+</nav>
+</div>
+    <a href="/howitworks" className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500">
+    <button className="px-4 py-2 w-[124px] h-[42px] bg-[linear-gradient(225deg,_#6675F7_0%,_#57007B_100%)] hover:bg-[linear-gradient(225deg,_#7E8BFF_0%,_#6A008B_100%)] text-white font-[600] font-MontserratRegular text-[14px] leading-[14px] rounded-lg mr-16">
+    Contact Us
+</button>
+
+      </a>
     </div>
   );
 }
