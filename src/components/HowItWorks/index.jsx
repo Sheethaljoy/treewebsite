@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import Success from "../ExternalComponents/Success";
+
 const formdataFormat={
   heading: "tree page enquiry",
   name: "",
@@ -65,6 +66,16 @@ const HowItWorks = () => {
             Thanks for your interest in working with us. Please complete the
             details below and we'll get back to you within one business day.
           </p>
+          {/* WhatsApp Floating Icon */}
+          <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
+                <a href="https://wa.me/9074429360">
+                  <img
+                    src="image/whatsapplogo.png"
+                    alt="whatsapplogo"
+                    className="w-[55px] h-[55px] -mt-14"
+                  />
+                </a>
+              </div>
 
           {/* Contact Form */}
           <form className="w-full max-w-2xl text-left ml-0">
@@ -83,9 +94,9 @@ const HowItWorks = () => {
                 className="w-full h-[25.26px] px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500 text-left font-futuraLight text-[20px] font-medium leading-[25.26px]"
                 type="text"
                 name="name"
-                required
                 value={formData.name}
                 onChange={handleInputChange}
+                required
               />
             </div>
             <div className="mb-6">
@@ -95,17 +106,6 @@ const HowItWorks = () => {
                   *
                 </span>
               </label>
-
-              {/* WhatsApp Floating Icon */}
-              <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
-                <a href="https://wa.me/9074429360">
-                  <img
-                    src="image/whatsapplogo.png"
-                    alt="whatsapplogo"
-                    className="w-[55px] h-[55px] -mt-14"
-                  />
-                </a>
-              </div>
 
               <input
                 className="w-full px-4 py-2 border-b border-gray-300 bg-transparent focus:outline-none focus:ring-0 focus:border-purple-500"
@@ -190,3 +190,5 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+
+

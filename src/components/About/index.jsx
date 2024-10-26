@@ -10,11 +10,11 @@ const About = () => {
   
   {/* Hero Section */}
           <section
-          className="relative flex flex-col items-center justify-center text-center py-20 bg-cover bg-center bg-no-repeat -ml-32"
+          className="relative flex flex-col items-center justify-center text-center py-20 bg-cover bg-center bg-no-repeat -ml-32  -z-10"
           style={{
             backgroundImage: 'url("./image/Aboutbg.png")',
-            width: 1440, // Set width to 100% to make it responsive
-            height: 756,   // You can adjust the height for responsiveness
+            width: 1440, 
+            height: 756, 
           }}
         >
   {/* Content (Positioned above the overlay) */}

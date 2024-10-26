@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-black flex justify-between items-center px-4 -ml-5 ">
+    <div className="bg-black flex justify-between items-center px-4 -ml-5 bg-transparent">
       <div className="text-2xl font-bold -ml-5">
         <img
           src={'image/logo.png'}
@@ -43,8 +43,7 @@ function Navbar() {
     background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
   }}
 >
-  <nav
-    className="flex justify-normal items-center p-[15px] bg-black text-white w-full h-full rounded-[19px]"
+  <nav className="flex justify-normal items-center p-[15px] bg-black text-white w-full h-full rounded-[19px]"
     style={{
       backgroundClip: "padding-box", // Ensures inner content isn't affected by gradient
     }}
