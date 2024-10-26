@@ -1,6 +1,52 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useEffect } from "react";
+import axios from "axios";
+import { useState } from "react";
 const Home = ()=>{
+  const formdataFormat ={
+    email: "",
+  }
+  const [formData, setFormData] = useState({
+    heading: "some one visited tree , they want to get in touch",
+    email: "",
+  });
 
+    const handleInputChange = (e) => {
+      const { name, value } = e.target;
+      setFormData({
+        ...formData,
+        [name]: value
+      });
+    };
+
+  const sendMail = async (Data) => {
+    try {
+      const response = await axios.post("https://r3cnfgcsbkn2gsvotjss2ocp4a0gwtuj.lambda-url.eu-north-1.on.aws/email/send", Data);
+      if (response.status === 200) {
+        alert("notified!");
+      } else {
+        alert("Failed to submit form.");
+      }
+    } catch (error) {
+     alert("error occured")
+      console.error("Failed to submit ", error);
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    sendMail(formData);
+    setFormData(formdataFormat)
+  };
+
+  useEffect(() => {
+    if (window.location.hash === '#service') {
+      const element = document.getElementById('service');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
 return (<>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -266,6 +312,9 @@ return (<>
                       
                         <input
                             type="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleInputChange}
                             placeholder="Enter your work email"
                             className="px-6 py-3 rounded-[23.3px] font-montserratLight font-[400] 
                                text-[19px] leading-[23px] border-[0.78px] text-white outline-none 
