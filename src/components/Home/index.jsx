@@ -118,7 +118,6 @@ return (<>
 </div>
 
 </section>
-
   {/* WhatsApp Floating Icon */}
   <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5">
     <a href="https://wa.me/9074429360">
@@ -127,22 +126,16 @@ return (<>
   </div>
 
 {/* Ticker Section */}
-<div className="py-2 text-center text-lg font-bold w-full bg-gradient-to-r from-cyan-400 to-purple-600">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-    <marquee className="text-white font-futuraMedium text-[14px] sm:text-[18px] lg:text-[20px] font-500 leading-[20px] col-span-full">
-      <div className="flex items-center justify-center">
-        <p className="inline">Blah Blah Blah Blah Blah</p>
-        <img src="./image/Ellipse 3.png" alt="ellipse image" className="h-2 sm:h-3 lg:h-4 inline mx-1" />
-        <p className="inline">We Make Wonders</p>
-        <p className="inline font-bold"> . </p>
-        <p className="inline">Blah Blah Blah Blah Blah</p>
-        <img src="./image/Ellipse 3.png" alt="ellipse image" className="h-2 sm:h-3 lg:h-4 inline mx-1" />
-        <p className="inline">We Make Wonders</p>
-        <p className="inline font-bold"> . </p>
-      </div>
-    </marquee>
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+  <div className="flex items-center justify-center col-span-full">
+    <img
+      src=".\image\ticketsection.gif" // Replace with the path to your GIF
+      alt="Animated GIF description"
+      className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full"
+    />
   </div>
 </div>
+
 
 {/* Services Section */}
 <section id="service" className="py-12 text-center px-3 bg-black ">
@@ -155,7 +148,7 @@ return (<>
            }}>
     </div>
   <br/>
-  <h2 className="font-bold text-white font-futuraMedium text-[56px] font-700 leading-[73.03px]">Services</h2> 
+  <h2 className="font-bold text-white font-futuraBold text-[56px] font-700 leading-[73.03px]">Services</h2> 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
     {/* Card 1 */}
     <div className="ml-[90px] w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110"
@@ -625,7 +618,7 @@ return (<>
         className="ml-0 md:ml-5 w-full md:w-auto"
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
-        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraMedium text-white">
+        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
           DISCUSS A PROJECT
         </h1>
         <p className="font-futuraLightFont text-white text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
@@ -640,7 +633,7 @@ return (<>
   {/* Content */}
   <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
     <a href="/howitworks">
-      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[16px] md:text-[20px] font-[700] leading-[14px]">
+      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
       </button>
     </a>
