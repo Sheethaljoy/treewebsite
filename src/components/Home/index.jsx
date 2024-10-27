@@ -467,145 +467,11 @@ return (<>
         <span className="font-[700] font-MontserratRegular text-[35px] leading-[55px] "> through Tree works</span></h2>
       </div>
 
- {/* Row 1 */}
-      <div className="flex justify-start w-full flex-wrap lg:flex-nowrap">
-  {/* div 1 */}
-  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block -ml-10">
-    <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }}
-    >
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-          #1{' '}
-        </span>
-        The Ideation
-      </h3>
-      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-        We create the images after having a sequence of thoughts delivered by our creative minds.
-      </p>
-    </div>
-  </div>
-  <br/>
-  
-            
-  {/* div 2 */}
-  <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
-    <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }}
-    >
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-          #3{' '}
-        </span>
-        The Development
-      </h3>
-      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-        Our professional team of content creators and designers make wonders through their imagination and creativity.
-      </p>
-    </div>
-  </div>
 
-  {/* div 3 */}
-   <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
-    <div
-      className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-      style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-      }}
-    >
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-          #5{' '}
-        </span>
-        Strategies and Tools
-      </h3>
-      <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-        We don’t go after age-old marketing formulae to leverage your brand’s potential. We work hard, find multiple strategies to elevate your brand.
-      </p>
-    </div>
-  </div>
-</div>
-
-<br/>
-<br/>
-
-  {/* Timeline Line */}
-  <div
-  className="h-[1px] w-[1100px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto flex justify-end items-center"
-  style={{
-    border: "1px solid",
-    borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-    borderImageSlice: 1,
-    marginLeft:-100,
-  }}
->
-  {/* Trophy Icon */}
-  <div style={{ marginRight: '-70px' }}> {/* Adjust the gap here */}
-    <img src="./image/trophyimg.png" alt="Trophy" className="w-[72px] h-[72px]" />
-  </div>
-</div>
-  <br/>   
-  <br/>
+      <Timeline/>
 
  {/* Row 2 */}
-   <div className="flex justify-end w-full flex-wrap lg:flex-nowrap gap-4">
-       
-    {/*div 4 */}
-      <div  className="w-full sm:w-1/2 lg:w-1/3 inline-block ml-4">
-        <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-             style={{
-                    background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-                    }}>
-           <h3 className= "text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-           <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-            #2{' '}
-           </span>Collective Planning</h3>
-           <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-            We plan the structure of each work by prioritising the goals of your organisation by having a thorough discussion among our team.
-           </p>
-         </div>
-       </div>
-
-       {/*div 5 */}
-    <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
-    <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-         style={{
-        background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-        }}>
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-          #4{' '}
-          </span>
-           Market Research</h3>
-            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-            It’s important to have a plan, but it is inevitable to study the current market scenario.
-            </p>
-          </div>
-        </div>
-
-        {/*div 6 */}
-      <div className="w-full sm:w-1/2 lg:w-1/3 inline-block">
-       <div className="w-[299px] h-[159px] border-[1px] p-6 rounded-[9px]"
-           style={{
-             background: 'linear-gradient(121.9deg, #1C1C1C 0%, #050505 96.81%)',
-              }}>
-      <h3 className="text-[18px] font-MontserratRegular font-[700] leading-[21.78px] text-white">
-        <span className="bg-gradient-to-r via-[#5200FF] to-[#FF2DF7] from-[#00F0FF] bg-clip-text text-transparent tracking-wider">
-          #6 {' '}
-          </span>
-          Digital Marketing</h3>
-            <p className="mt-4 text-[#718096] font-MontserratRegular text-[14px] font-[400] leading-[20px]">
-            To have a steady, permanent growth for your brand we do everything and anything as we know how to mold your brand digitally.
-            </p>
-          </div>
-        </div>
-      </div>
+ 
     </div>
   </section>
 
@@ -615,9 +481,17 @@ return (<>
   <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
     <div className="relative z-10">
       <img
-        src=".\image\last1.gif"
+        src=".\image\last2.gif"
         alt="last session img"
         className="ml-0 md:ml-5 w-full md:w-auto"
+        style={{
+          borderRadius: '50%', // Make it round
+          border: 'none', // Remove border if any
+          boxShadow: 'none',
+          
+          mixBlendMode: 'color-burn', // Adjust blending
+
+        }}
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
         <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
@@ -641,7 +515,6 @@ return (<>
     </a>
   </div>
 </div>
-<Timeline/>
 </>
 )
 }
