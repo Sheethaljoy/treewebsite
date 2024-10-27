@@ -2,6 +2,8 @@
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
+import Timeline from "../ExternalComponents/TimeLine";
+
 const Home = ()=>{
   const formdataFormat ={
     email: "",
@@ -639,7 +641,7 @@ return (<>
     </a>
   </div>
 </div>
-
+<Timeline/>
 </>
 )
 }
