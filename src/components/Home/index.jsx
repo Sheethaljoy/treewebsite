@@ -78,8 +78,10 @@ return (<>
   
 <br />
     <div className="font-futuraLight text-[14px] sm:text-[16px] md:text-[18px] font-extralight leading-tight lg:leading-[25.46px] text-white">
-      <p>Mould and strengthen your business with digital marketing.</p>
-      <p>We deliver content, products and services to enable success.</p>
+      <p>We are an ever-evolving female team that is 100% confident in executing your business goals.</p>
+      <p>We offer proven strategies for R&D,Digital Marketing, Website & Web App Development, 
+        <br/>
+        Mobile App Development and many more to businesses of all sizes.</p>
     </div>
  
     {/* Image for Mobile View */}
