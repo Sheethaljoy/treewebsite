@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <div className='bg-black flex justify-between items-center px-4 -ml-5 bg-transparent' >
       {/* Logo */}
-      <div className="text-2xl font-bold -ml-5">
+      <div className="text-2xl font-bold ml-5">
         <img
           src={'image/logo.png'}
           alt="Company Logo"

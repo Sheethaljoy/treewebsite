@@ -237,6 +237,7 @@ return (<>
               borderImageSlice: 1
            }}>
   </div>
+  <br/>
   <div className="container mx-auto text-center">
     <h2 className="font-futuraBold text-[56px] leading-[73.02px] font-[700] mb-8">what we do</h2>
     <p className="text-[20px] mb-2 font-MontserratRegular font-[400] leading-[39.38px] tracking-wider text-center">
@@ -263,10 +264,10 @@ return (<>
     <div className="flex justify-center items-center gap-4 md:gap-6 lg:gap-8 mt-8 flex-wrap">
       {["Inclusive", "Dynamic", "Tech Savvy", "Curious", "Creative"].map((text) => (
         <div key={text} className="flex flex-row items-center group hover:scale-105 transition-transform duration-300">
-          <div className="w-12 h-12">
+          <div className="w-8 h-8">
             <img src="./image/diamond.png" alt="diamond logo" className="transition-transform duration-300 group-hover:scale-110" />
           </div>
-          <p className="ml-2 font-futuraLight font-[300] text-[20px] leading-[25.46px] group-hover:text-white transition-colors duration-300">
+          <p className="ml-4 font-futuraLight font-[300] text-[20px] leading-[25.46px] group-hover:text-white transition-colors duration-300">
             {text}
           </p>
         </div>
@@ -466,12 +467,7 @@ return (<>
         <h2 className=" font-MontserratRegular font-[400] text-[35px] leading-[55px] ">How development <br/>
         <span className="font-[700] font-MontserratRegular text-[35px] leading-[55px] "> through Tree works</span></h2>
       </div>
-
-
       <Timeline/>
-
- {/* Row 2 */}
- 
     </div>
   </section>
 
@@ -481,16 +477,15 @@ return (<>
   <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
     <div className="relative z-10">
       <img
-        src=".\image\last2.gif"
+        src=".\image\last 3.gif"
         alt="last session img"
-        className="ml-0 md:ml-5 w-full md:w-auto"
+        className="ml-0 md:ml-5 w-[418px] h-[372px] md:w-auto"
         style={{
-          borderRadius: '50%', // Make it round
           border: 'none', // Remove border if any
           boxShadow: 'none',
-          
           mixBlendMode: 'color-burn', // Adjust blending
-
+          maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+          WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
@@ -505,7 +500,7 @@ return (<>
       </div>
     </div>
   </div>
-  
+
   {/* Content */}
   <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
     <a href="/howitworks">
@@ -515,6 +510,7 @@ return (<>
     </a>
   </div>
 </div>
+
 </>
 )
 }
