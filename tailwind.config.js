@@ -14,6 +14,7 @@ export default {
         montserratLight: ['Montserrat Light', 'sans-serif'],
         futuraLightFont: ['Futura Light Font', 'sans-serif'],
         futuraBold: ['futura bold', 'sans-serif'],
+        interlight: ['Inter_18pt-Light', 'sans-serif'],
       },
     },
   },
