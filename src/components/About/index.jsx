@@ -67,19 +67,19 @@ const About = () => {
             />
           </div>
           <div className="flex-1 text-left mt-4 md:mt-0">
-            <h2 className="font-futuraMedium font-[500] text-[24px] md:text-[32px] leading-[30px] md:leading-[40px] mb-2 md:mb-4 md:ml-24">
+            <h2 className="font-futuraMedium font-[500] text-[40px] md:text-[32px] leading-[50.52px] md:leading-[40px] mb-2 md:mb-4 md:ml-24">
               Achieve success with{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7]">
                 grit & grace
               </span>
             </h2>
-            <p className="font-futuraLight text-[16px] md:text-[20px] font-[300] leading-[24px] md:leading-[28px] mb-2 md:mb-4 md:ml-24">
+            <p className="font-futuraLight text-[24px] md:text-[20px] font-[300] leading-[30.55px] md:leading-[28px] mb-2 md:mb-4 md:ml-24">
               We have a knack for understanding your audience as we excel at
               strategic thinking. Our team crafts innovative strategies through
               our data-driven approach. Let’s connect with the audience on a
               deeper level and engage with them authentically for long.
             </p>
-            <p className="font-futuraMedium font-[500] text-[18px] md:text-[22px] leading-[26px] md:leading-[30px] md:ml-24   ">
+            <p className="font-futuraMedium font-[300] text-[24px] md:text-[22px] leading-[30.55px] md:leading-[30px] md:ml-24   ">
               Craft creatives that align with your goals.
             </p>
           </div>
@@ -88,42 +88,47 @@ const About = () => {
     </div>
   </div>
 </section>
-v
+
 
  {/*last section */}
-  
-  <div className="relative text-white h-screen w-[1051] flex items-center justify-center">
-      {/* Background effect */}
-      <div className="absolute inset-0 flex justify-normal ml-44 items-center z-0">
-      <div className="relative z-10">
-  <img
-    src="./image/lastsectionimg.png"
-    alt="last session img"
-    className="w-[385px] h-[352px] ml-5"
-  />
-  <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
-    <h1 className="text-[40px] font-[700] leading-[52.16px] font-futuraMedium text-white ml-2">
-      DISCUSS A PROJECT
-    </h1>
-    <p className=" font-futuraLightFont text-white text-[26px] leading-[33.62px]">
-      We know how to mold your project
-      <br />
-      Let's put the words into action
-    </p>
+<div className="relative text-white h-screen w-full flex items-center justify-center">
+  {/* Background effect */}
+  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
+    <div className="relative z-10">
+      <img
+        src=".\image\last 3.gif"
+        alt="last session img"
+        className="ml-0 md:ml-5 w-[418px] h-[372px] md:w-auto"
+        style={{
+          border: 'none', // Remove border if any
+          boxShadow: 'none',
+          mixBlendMode: 'color-burn', // Adjust blending
+          maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+          WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+        }}
+      />
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
+        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
+          DISCUSS A PROJECT
+        </h1>
+        <p className="font-futuraLightFont text-white text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
+          We know how to mold your project
+          <br />
+          Let's put the words into action
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* Content */}
+  <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
+    <a href="/howitworks">
+      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
+        GET CONSULTATION
+      </button>
+    </a>
   </div>
 </div>
-
-      </div>
-
-      {/* Content */}
-      <div className="relative ml-80 z-10 flex justify-end">
-  <a href="/howitworks">
-    <button className="mt-6 ml-96 py-3 px-6 w-[290px] h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraMedium text-[20px] font-[700] leading-[14px]">
-     GET CONSULTATION
-    </button>
-  </a>
-</div>
-    </div>
 
     </>
   );

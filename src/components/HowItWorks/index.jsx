@@ -51,16 +51,17 @@ const HowItWorks = () => {
     };
   return (
     <>
-      <div className=" bg-black text-white mr-52">
+      <div className=" bg-black text-white mr-72 mt-20">
         {/* Main Section */}
         <main className="flex flex-col items-center text-center py-16 -mt-20">
           <div className="w-[678px] h-[110px]">
-            <h1 className="text-[50px] font-[500] leading-[63.15px] text-left font-futuraMedium mb-8">
-              Amplify your market reach,{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
-                let's grow digitally
-              </span>
-            </h1>
+          <h1 className="text-[50px] font-[500] leading-[63.15px] text-left font-futuraMedium mb-8 whitespace-nowrap">
+  Amplify your market reach,{" "}
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-800 whitespace-nowrap">
+    let's <br/>grow digitally
+  </span>
+</h1>
+
           </div>
           <p className="font-futuraLight text-[20px] font-[300] leading-[25.46px] text-left mt-4 mb-4 max-w-2xl">
             Thanks for your interest in working with us. Please complete the
