@@ -48,7 +48,7 @@ const About = () => {
 </div>
 {/* About Section */}
 <section
-  className="bg-black py-4 px-6 -mt-8 border-2 rounded-[10px] max-w-3xl mx-auto"
+  className="bg-black py-4 px-6 -mt-8 border-2 rounded-[10px] w-[884px] h-[467px] max-w-3xl mx-auto"
   style={{
     borderImageSource: 'linear-gradient(225deg, #6675F7 0%, #57007B 100%)',
     borderImageSlice: 1,
@@ -59,27 +59,28 @@ const About = () => {
       <div className="w-full max-w-3xl">
         <div className="flex flex-col md:flex-row justify-start md:space-x-4">
           {/* Image with Border */}
-          <div className="relative md:absolute md:left-0 md:ml-32 -mt-3 mb-4 md:mb-0">
-            <img
-              src="./image/aboutimage.png" // Replace with actual image path
-              alt="Team"
-              className="w-[200px] h-[180px] md:w-[250px] md:h-[230px] rounded-[8px]"
-            />
-          </div>
+          <div className="relative md:absolute md:-ml-60  -mt-0 mb-4 md:mb-0">
+  <img
+    src="./image/aboutimage.png" // Replace with actual image path
+    alt="Team"
+    className="w-[405px] h-[363px] rounded-tl-[10px] rounded-tr-[0px] rounded-br-[0px] rounded-bl-[0px]"
+  />
+</div>
+
           <div className="flex-1 text-left mt-4 md:mt-0">
-            <h2 className="font-futuraMedium font-[500] text-[40px] md:text-[32px] leading-[50.52px] md:leading-[40px] mb-2 md:mb-4 md:ml-24">
+            <h2 className="font-futuraMedium font-[500] text-[40px] md:text-[32px] leading-[50.52px] md:leading-[40px] mb-2 md:mb-4 md:ml-40">
               Achieve success with{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7]">
                 grit & grace
               </span>
             </h2>
-            <p className="font-futuraLight text-[24px] md:text-[20px] font-[300] leading-[30.55px] md:leading-[28px] mb-2 md:mb-4 md:ml-24">
+            <p className="font-futuraLight text-[24px] md:text-[20px] font-[300] leading-[30.55px] md:leading-[28px] mb-2 md:mb-4 md:ml-40">
               We have a knack for understanding your audience as we excel at
               strategic thinking. Our team crafts innovative strategies through
               our data-driven approach. Let’s connect with the audience on a
               deeper level and engage with them authentically for long.
             </p>
-            <p className="font-futuraMedium font-[300] text-[24px] md:text-[22px] leading-[30.55px] md:leading-[30px] md:ml-24   ">
+            <p className="font-futuraMedium font-[300] text-[24px] md:text-[22px] leading-[30.55px] md:leading-[30px] md:ml-40">
               Craft creatives that align with your goals.
             </p>
           </div>
