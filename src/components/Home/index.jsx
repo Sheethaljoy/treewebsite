@@ -123,7 +123,7 @@ return (<>
 
 </section>
   {/* WhatsApp Floating Icon */}
-  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5">
+  <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
     <a href="https://wa.me/9074429360">
       <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
     </a>
@@ -133,7 +133,7 @@ return (<>
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
   <div className="flex items-center justify-center col-span-full">
     <img
-      src=".\image\ticketsection.gif" // Replace with the path to your GIF
+      src=".\image\ticketsection.gif" 
       alt="Animated GIF description"
       className="w-full h-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-full"
     />
@@ -338,9 +338,6 @@ return (<>
   </div>
 </section>
 
-
-
-
 {/* Our Creatives */}
 <section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24">
   {/* Line Break */}
@@ -476,25 +473,25 @@ return (<>
   {/*last section */}
   <div className="relative text-white h-screen w-full flex items-center justify-center">
   {/* Background effect */}
-  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
+  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
         alt="last session img"
-        className="ml-0 md:ml-5 w-[418px] h-[372px] md:w-auto"
+        className="w-[500px] h-[300px]"
         style={{
-          border: 'none', // Remove border if any
+          border: 'none',
           boxShadow: 'none',
-          mixBlendMode: 'color-burn', // Adjust blending
+          mixBlendMode: 'color-burn',
           maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
           WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
-        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
+        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
         </h1>
-        <p className="font-futuraLightFont text-white text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
+        <p className="font-futuraLightFont text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
           We know how to mold your project
           <br />
           Let's put the words into action
@@ -504,14 +501,15 @@ return (<>
   </div>
 
   {/* Content */}
-  <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
+  <div className="absolute bottom-56 md:bottom-auto md:right-20 z-10 flex justify-center md:justify-end px-4 md:px-0">
     <a href="/howitworks">
-      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
+      <button className="py-3 px-6 w-[220px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
       </button>
     </a>
   </div>
 </div>
+
 
 </>
 )

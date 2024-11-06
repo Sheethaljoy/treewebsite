@@ -32,11 +32,11 @@ function Navbar() {
   return (
     <div className='bg-black flex justify-between items-center px-4 -ml-5 bg-transparent' >
       {/* Logo */}
-      <div className="text-2xl font-bold ml-5">
+      <div className="text-2xl font-bold ml-2">
         <img
-          src={'image/logo.png'}
+          src={'./image/treenewlogo.png'}
           alt="Company Logo"
-          className="w-auto h-20 object-contain" // Set fixed size and maintain aspect ratio
+          className="w-auto h-20 object-contain" 
         />
       </div>
 

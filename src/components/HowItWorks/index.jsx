@@ -155,28 +155,28 @@ const HowItWorks = () => {
         </main>
       </div>
 
-{/*last section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center">
+  {/*last section */}
+  <div className="relative text-white h-screen w-full flex items-center justify-center">
   {/* Background effect */}
-  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
+  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
         alt="last session img"
-        className="ml-0 md:ml-5 w-[418px] h-[372px] md:w-auto"
+        className="w-[500px] h-[300px]"
         style={{
-          border: 'none', // Remove border if any
+          border: 'none',
           boxShadow: 'none',
-          mixBlendMode: 'color-burn', // Adjust blending
+          mixBlendMode: 'color-burn',
           maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
           WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
-        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
+        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
         </h1>
-        <p className="font-futuraLightFont text-white text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
+        <p className="font-futuraLightFont text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
           We know how to mold your project
           <br />
           Let's put the words into action
@@ -186,15 +186,14 @@ const HowItWorks = () => {
   </div>
 
   {/* Content */}
-  <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
+  <div className="absolute bottom-56 md:bottom-auto md:right-20 z-10 flex justify-center md:justify-end px-4 md:px-0">
     <a href="/howitworks">
-      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
+      <button className="py-3 px-6 w-[220px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
       </button>
     </a>
   </div>
 </div>
-
     </>
   );
 };

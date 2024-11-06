@@ -9,33 +9,38 @@ const About = () => {
         <title>About Us</title>
   
   {/* Hero Section */}
-          <section
-          className="relative flex flex-col items-center justify-center text-center py-20 bg-cover bg-center bg-no-repeat -ml-32  -z-10"
-          style={{
-            backgroundImage: 'url("./image/Aboutbg.png")',
-            width: 1440, 
-            height: 756, 
-          }}
-        >
+  <section className="relative flex flex-col items-center justify-center text-center py-20 -ml-32 -z-10 overflow-hidden" style={{ width: 1440, height: 756 }}>
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover -z-20"
+  >
+    <source src="./image/bg.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
   {/* Content (Positioned above the overlay) */}
   <div className="relative z-10 h-500 flex flex-col justify-start items-center -mt-40">
-  <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraLight text-white ">
-    Hello there! <br />
-    <span
-      className="bg-clip-text text-transparent"
-      style={{
-      backgroundImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
-  }}>
-  Leading digitally, for a better future
-</span>
-
-  </h1>
-  <p className="mt-4 max-w-2xl mx-auto text-white font-[300] font-futuraLight text-center text-[24px] leading-[30.55px]">
-    We are a women-led team of millennials and Gen Z who excel at strategic thinking.
-    Give your vision, we will turn it into reality. Let the world notice your brand
-    with goosebumps!
-  </p>
-</div>
+    <h1 className="text-[50px] font-[500] leading-[63.15px] font-futuraLight text-white">
+      Hello there! <br />
+      <span
+        className="bg-clip-text text-transparent"
+        style={{
+          backgroundImage: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
+        }}
+      >
+        Leading digitally, for a better future
+      </span>
+    </h1>
+    <p className="mt-4 max-w-2xl mx-auto text-white font-[300] font-futuraLight text-center text-[24px] leading-[30.55px]">
+      We are a women-led team of millennials and Gen Z who excel at strategic thinking.
+      Give your vision, we will turn it into reality. Let the world notice your brand
+      with goosebumps!
+    </p>
+  </div>
 
   {/* WhatsApp Floating Icon */}
   <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px]">
@@ -43,8 +48,8 @@ const About = () => {
       <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14" />
     </a>
   </div>
-
 </section>
+
 </div>
 {/* About Section */}
 <section
@@ -90,28 +95,28 @@ const About = () => {
 </section>
 
 
- {/*last section */}
-<div className="relative text-white h-screen w-full flex items-center justify-center">
+  {/*last section */}
+  <div className="relative text-white h-screen w-full flex items-center justify-center">
   {/* Background effect */}
-  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0 md:-ml-10">
+  <div className="absolute inset-0 flex justify-center md:justify-start items-center z-0">
     <div className="relative z-10">
       <img
         src=".\image\last 3.gif"
         alt="last session img"
-        className="ml-0 md:ml-5 w-[418px] h-[372px] md:w-auto"
+        className="w-[500px] h-[300px]"
         style={{
-          border: 'none', // Remove border if any
+          border: 'none',
           boxShadow: 'none',
-          mixBlendMode: 'color-burn', // Adjust blending
+          mixBlendMode: 'color-burn',
           maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
           WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
         }}
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 md:px-0">
-        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold text-white">
+        <h1 className="text-[28px] md:text-[40px] font-[700] leading-tight md:leading-[52.16px] font-futuraBold">
           DISCUSS A PROJECT
         </h1>
-        <p className="font-futuraLightFont text-white text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
+        <p className="font-futuraLightFont text-[18px] md:text-[26px] leading-snug md:leading-[33.62px]">
           We know how to mold your project
           <br />
           Let's put the words into action
@@ -121,9 +126,9 @@ const About = () => {
   </div>
 
   {/* Content */}
-  <div className="relative mt-10 md:mt-0 md:ml-80 z-10 flex justify-center md:justify-end px-4 md:px-0 sm:mt-96">
+  <div className="absolute bottom-56 md:bottom-auto md:right-20 z-10 flex justify-center md:justify-end px-4 md:px-0">
     <a href="/howitworks">
-      <button className="mt-6 md:ml-96 py-3 px-6 w-[240px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
+      <button className="py-3 px-6 w-[220px] md:w-[290px] h-[50px] md:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[20px] font-[700] leading-[14px]">
         GET CONSULTATION
       </button>
     </a>
