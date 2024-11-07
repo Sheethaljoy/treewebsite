@@ -105,9 +105,9 @@ return (<>
 <br/>
     {/* Button */}
     <a href="/howitworks">
-      <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[160px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-2 lg:mt-4">
+      <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[160px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
         Get Started
-        <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-2 sm:ml-4" />
+        <img src="./image/right-arrow.png" alt="right arrow image" className="h-[18.64px] ml-8 sm:ml-8" />
       </button>
     </a>
   </div>
