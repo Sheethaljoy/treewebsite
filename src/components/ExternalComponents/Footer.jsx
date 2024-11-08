@@ -1,16 +1,16 @@
 
 function Footer() {
   return (
-<footer className="bg-black text-white py-6">
+<footer className="bg-black text-white py-6 -mt-20">
   <div className="container mx-auto px-4">
     {/* Centered Logo, Links, and Social Icons for Smaller Screens */}
     <div className="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:justify-between">
       {/* Logo Section */}
       <div className="flex justify-center md:justify-start">
         <img
-          src=".\image\treenewlogo.png"
+          src="./image/treelogonew3.png"
           alt="Logo"
-          className="w-[170px] h-[130px] -mt-4 hidden sm:block "
+          className="w-[125px] h-[125px] -mt-4 hidden sm:block "
         />
       </div>
 
