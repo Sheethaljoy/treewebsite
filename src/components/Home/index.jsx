@@ -135,131 +135,89 @@ return (<>
   </div>
 </div>
 
-
 {/* Services Section */}
 <section id="service" className="py-12 text-center px-3 -mt-10">
-  {/* Line break */}
-  <div
-    className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
-    style={{
-      border: "1px solid",
-      borderImageSource:
-        "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-      borderImageSlice: 1,
-    }}
-  ></div>
-  <h2 className="font-bold text-white font-futuraBold text-[36px] lg:text-[56px] font-700 leading-[46px] lg:leading-[73.03px] mt-4">Services</h2>
-
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-8">
-    {/* Card 1 */}
-    <div
-      className=" w-full max-w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border transition-transform transform hover:scale-110 mx-auto"
+  <div className="h-[5px] w-[59px]  bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
       style={{
-        borderImage:
-          "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Website &amp; Web App
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Development
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Top-notch Web Designs to make your<br />Brand unique
-      </p>
+              border: "1px solid",
+              borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
+              borderImageSlice: 1
+           }}>
     </div>
-
-    {/* Card 2 */}
-    <div
-      className="w-full max-w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage:
-          "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}
-    >
+  <h2 className="font-bold text-white font-futuraBold text-[56px] font-700 leading-[73.03px]">Services</h2> 
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+    {/* Card 1 */}
+    <div className="ml-[90px] w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110"
+  style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+  }}
+>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Website &amp; Web App
+  </h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Development
+  </h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
+    Top-notch Web Designs to make your<br />Brand unique
+  </p>
+</div>
+{/* Card 2 */}
+    <div className=" ml-[50px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 "
+    style={{
+      borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+      }}>
       <div className="flex justify-center mb-4">
-        <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
+        <img src=".\image\card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
       </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Digital Marketing &amp; Marketing
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Research Service
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Strengthen Customer Relationship
-      </p>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular whitespace-nowrap  text-ellipsis">
+  Digital Marketing &amp; Marketing
+</h3>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Research Service</h3>
+      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
     </div>
 
     {/* Card 3 */}
-    <div
-      className="w-full max-w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage:
-          "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}
-    >
+    <div className="ml-[10px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  transition-transform transform hover:scale-110 "
+    style={{
+      borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+      }}>
       <div className="flex justify-center mb-4">
-        <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
+        <img src=".\image\card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
       </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Creative Graphic
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Designing
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Showcase your Brand's personality
-      </p>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Creative Graphic</h3>
+      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Designing</h3>
+      <p  className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
     </div>
+   
+  {/* Card 4 */}
+  <div className="ml-[250px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px]  transition-transform transform hover:scale-110 "
+   style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+    }}>
+    <div className="flex justify-center mb-4">
+      <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
+    </div>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Motion Graphics &amp; Video</h3>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Ads</h3>
+    <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Grab attention instantly</p>
+  </div>
 
-    {/* Card 4 */}
-    <div
-      className="w-full max-w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage:
-          "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Motion Graphics &amp; Video
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Ads
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Grab attention instantly
-      </p>
+  {/* Card 5 */}
+  <div className="ml-[220px] w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110"
+   style={{
+    borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
+    }}>
+    <div className="flex justify-center mb-4">
+      <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
     </div>
-
-    {/* Card 5 */}
-    <div
-      className="w-full max-w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage:
-          "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}
-    >
-      <div className="flex justify-center mb-4">
-        <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        iOS and Android
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Development
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Reach a large global market
-      </p>
-    </div>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">iOS and Android</h3>
+    <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Development</h3>
+    <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
+  </div>
   </div>
 </section>
  
