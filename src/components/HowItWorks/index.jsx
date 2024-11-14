@@ -56,9 +56,9 @@ const HowItWorks = () => {
   <div className="absolute inset-0 bg-black opacity-50"></div>
 
   {/* Main Section */}
-  <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto">
+  <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-24">
     <div className="w-full">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-6">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-2">
         Amplify your market reach,{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-800">
           let's grow digitally
@@ -66,7 +66,7 @@ const HowItWorks = () => {
       </h1>
     </div>
 
-    <p className="font-futuraLight text-base sm:text-lg md:text-xl lg:text-2xl mt-4 mb-6 max-w-full lg:max-w-3xl">
+    <p className="font-futuraLight text-base sm:text-lg md:text-xl lg:text-2xl mt-4 mb-4 max-w-full lg:max-w-3xl">
       Thanks for your interest in working with us. Please complete the details below, and we'll get back to you within one business day.
     </p>
 {/* WhatsApp Floating Icon */}
@@ -77,7 +77,7 @@ const HowItWorks = () => {
   </div>
     {/* Contact Form */}
     <form className="w-full max-w-3xl mt-10 relative z-10" onSubmit={handleSubmit}>
-      <p className="mb-4 text-lg font-medium text-gray-400">Required</p>
+      <p className="mb-6 -mt-6 text-lg font-medium text-gray-400">Required</p>
 
       <div className="mb-6">
         <label className="block mb-2 text-lg font-medium text-gray-200">

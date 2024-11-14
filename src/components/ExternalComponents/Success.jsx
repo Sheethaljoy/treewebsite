@@ -1,8 +1,6 @@
-
-
 const Success = () => {
   return (
-    <div className="bg-black text-white rounded-md p-8">
+    <div className="bg-gray-900 text-white rounded-lg p-8 w-full max-w-md mx-auto mt-20 shadow-lg">
       <div className="flex justify-center mb-6">
         <svg
           className="w-16 h-16 text-green-500"
@@ -17,15 +15,15 @@ const Success = () => {
           <polyline points="22 4 12 14 2 4" />
         </svg>
       </div>
-      <h2 className="text-2xl font-bold mb-4">SUCCESS</h2>
-      <p className="mb-4">
+      <h2 className="text-2xl font-bold mb-4 text-center">SUCCESS</h2>
+      <p className="text-center mb-4">
         Thank you for your request. We are working hard to find the best service
         and deals for you.
       </p>
-      <p className="mb-6">
+      <p className="text-center mb-6">
         Shortly you will find a confirmation in your email.
       </p>
-      <a href="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline">
+      <a href="/" className="block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full text-center mx-auto w-fit focus:outline-none focus:shadow-outline">
         Back to Home
       </a>
     </div>
