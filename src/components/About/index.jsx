@@ -10,10 +10,9 @@ const About = () => {
   
   {/* Hero Section */}
   <section
-  className="relative flex flex-col items-center justify-center text-center py-10 sm:py-20 overflow-hidden"
-  style={{ width: "100%", maxWidth: 1440 }}
+  className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden"
+  style={{ width: "100%", maxWidth: 1440, height: "100%", maxHeight: 756 }}
 >
-  {/* Background Image */}
   <img
     src="./image/Aboutbg.png"
     alt="Background"
@@ -42,12 +41,13 @@ const About = () => {
 </div>
 
   {/* WhatsApp Floating Icon */}
-  <div className="fixed right-5 bottom-12 w-10 sm:w-12 md:w-14 lg:w-16">
+  <div className="fixed right-5 bottom-12 w-[40px] sm:w-[50px] md:w-[60px] lg:w-[72px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[72px]">
     <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="WhatsApp Logo" className="w-full h-full" />
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-full h-full" />
     </a>
   </div>
 </section>
+
 
 {/* About Section */}
 <section className="px-4 sm:px-8 md:px-12 lg:pl-36 py-8 sm:py-12 flex justify-center">
@@ -89,7 +89,6 @@ const About = () => {
   </div>
 </section>
 
-   
  {/*last section */}
  <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 ">
   {/* Background effect */}
