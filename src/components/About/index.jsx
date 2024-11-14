@@ -41,9 +41,9 @@ const About = () => {
 </div>
 
   {/* WhatsApp Floating Icon */}
-  <div className="fixed right-5 bottom-12 w-[40px] sm:w-[50px] md:w-[60px] lg:w-[72px] h-[40px] sm:h-[50px] md:h-[60px] lg:h-[72px]">
+ <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
     <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-full h-full" />
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
     </a>
   </div>
 </section>
