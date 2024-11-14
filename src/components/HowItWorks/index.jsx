@@ -51,11 +51,11 @@ const HowItWorks = () => {
     };
   return (
     <>
-      <div className="bg-black text-white lg:mr-72 -mt-10 sm:-mt-10">
+      <div className="bg-black text-white lg:mr-72 -mt-10 sm:-mt-10 ml-4 lg:ml-8">
       {/* Main Section */}
       <main className="flex flex-col items-center text-center py-16 lg:-mt-20">
         <div className="w-[90%] sm:w-[500px] md:w-[600px] lg:w-[678px] xl:w-[750px] h-auto">
-          <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px] font-[500] leading-[1.2] sm:-mr-24 text-left font-futuraMedium mb-8 whitespace-nowrap">
+          <h1 className="text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px] font-[500] leading-[1.2] sm:-mr-24 ml-4 lg:ml-8 text-left font-futuraMedium mb-8 whitespace-nowrap">
             Amplify your market reach,{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-800">
               let's <br /> grow digitally
