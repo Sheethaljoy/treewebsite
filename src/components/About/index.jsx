@@ -22,7 +22,7 @@ const About = () => {
   
   {/* Content */}
   <div className="relative z-10 flex flex-col items-center px-4 sm:px-8 mt-[-10px] sm:mt-16">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-snug text-white font-futuraLight">
+  <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-500 leading-[63.15px] text-white font-futuraLight">
     Hello there!
     <br />
     <span
@@ -34,7 +34,7 @@ const About = () => {
       Leading digitally, for a better future
     </span>
   </h1>
-  <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-white text-lg sm:text-xl md:text-2xl font-light leading-relaxed">
+  <p className="mt-4 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl text-white text-[24px] font-futuraLight sm:text-[24px] md:text-[24px] font-300 leading-[30.55px]">
     We are a women-led team of millennials and Gen Z who excel at strategic thinking.
     Give your vision, we will turn it into reality. Let the world notice your brand
     with goosebumps!
@@ -64,12 +64,12 @@ const About = () => {
         <img
           src="./image/aboutimage.png"
           alt="Team"
-          className="w-[250px] sm:w-[300px] h-[220px] sm:h-[265px] rounded-tl-[10px] rounded-tr-[0px] rounded-br-[0px] rounded-bl-[0px]"
+          className="w-[250px] -mt-6 sm:w-[300px] h-[220px] sm:h-[265px] rounded-tl-[10px] rounded-tr-[0px] rounded-br-[0px] rounded-bl-[0px]"
         />
       </div>
 
-      <div className="flex-1 mt-4 md:mt-0 md:ml-72 text-center md:text-left">
-        <h2 className="font-futuraMedium font-[500] text-[18px] sm:text-[20px] md:text-[32px] lg:text-[40px] leading-tight sm:leading-[24px] md:leading-[40px] lg:leading-[50.52px] mb-2 sm:mb-3 md:mb-4">
+      <div className="flex-1 mt-4 md:mt-0 md:ml-52 text-center md:text-left">
+        <h2 className="font-futuraMedium font-[500] text-[40px] sm:text-[40px] md:text-[40px] lg:text-[40]px] leading-[50.52px] sm:leading-[50.52px] md:leading-[50.52px]  lg:leading-[50.52px] mb-2 sm:mb-3 md:mb-4">
           Achieve success with{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5200FF] to-[#00F0FF]">
             grit & grace
@@ -81,7 +81,7 @@ const About = () => {
           data-driven approach. Let’s connect with the audience on a deeper
           level and engage with them authentically for long.
         </p>
-        <p className="font-futuraMedium text-[18px] sm:text-[20px] md:text-[26px] lg:text-[26px] leading-[24px] sm:leading-[28px] md:leading-[32.84px] lg:leading-[32.84px] font-[500]">
+        <p className="font-futuraMedium text-[26px] sm:text-[26px] md:text-[26px] lg:text-[26px] leading-[32.84px] sm:leading-[28px] md:leading-[32.84px] lg:leading-[32.84px] font-[500]">
           Craft creatives that align with your goals.
         </p>
       </div>

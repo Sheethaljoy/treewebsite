@@ -78,7 +78,7 @@ return (<>
   
 <br />
     <div className="font-futuraLight font-[300] text-[30px] sm:text-[30px] md:text-[30px]  leading-[36.9px] lg:leading-[36.9px] text-white">
-      <p>Helming Future Tech . . . . . . . . </p>
+      <p>Helming Future Tech . . .  </p>
       </div>
  
     {/* Image for Mobile View */}
