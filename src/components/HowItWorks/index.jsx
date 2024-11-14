@@ -56,11 +56,11 @@ const HowItWorks = () => {
   <div className="absolute inset-0 bg-black opacity-50"></div>
 
   {/* Main Section */}
-  <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-24">
+  <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14">
     <div className="w-full">
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium leading-tight font-futuraMedium mb-2">
         Amplify your market reach,{" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-800">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-700 via-blue-700 to-pink-800">
           let's grow digitally
         </span>
       </h1>
