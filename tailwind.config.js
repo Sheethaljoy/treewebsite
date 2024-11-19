@@ -15,6 +15,7 @@ export default {
         futuraLightFont: ['Futura Light Font', 'sans-serif'],
         futuraBold: ['futura bold', 'sans-serif'],
         interlight: ['Inter_18pt-Light', 'sans-serif'],
+        robotoBold: ['Roboto-Bold', 'sans-serif'],
       },
     },
   },

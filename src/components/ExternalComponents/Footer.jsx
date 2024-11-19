@@ -28,7 +28,7 @@ function Footer() {
         <a href="/#service" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
           Services
         </a>
-        <a href="/howitworks" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/#getintouch" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
           Contact
         </a>
       </div>

@@ -3,42 +3,46 @@ import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 import Timeline from "../ExternalComponents/TimeLine";
+import Success from "../ExternalComponents/Success"; 
 
-const Home = ()=>{
-  const formdataFormat ={
+const Home = () => {
+  const formdataFormat = {
+    heading: "tree get in touch mail",
     email: "",
-  }
-  const [formData, setFormData] = useState({
-    heading: "some one visited tree , they want to get in touch",
-    email: "",
-  });
+  };
 
-    const handleInputChange = (e) => {
-      const { name, value } = e.target;
-      setFormData({
-        ...formData,
-        [name]: value
-      });
-    };
+  const [formData, setFormData] = useState(formdataFormat);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
   const sendMail = async (Data) => {
     try {
-      const response = await axios.post("https://r3cnfgcsbkn2gsvotjss2ocp4a0gwtuj.lambda-url.eu-north-1.on.aws/email/send", Data);
+      const response = await axios.post(
+        "https://r3cnfgcsbkn2gsvotjss2ocp4a0gwtuj.lambda-url.eu-north-1.on.aws/email/send",
+        Data
+      );
       if (response.status === 200) {
-        alert("notified!");
+        setIsSubmitted(true);
       } else {
         alert("Failed to submit form.");
       }
     } catch (error) {
-     alert("error occured")
-      console.error("Failed to submit ", error);
+      alert("An error occurred while submitting the form.");
+      console.error("Failed to submit: ", error);
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    sendMail(formData);
-    setFormData(formdataFormat)
+    await sendMail(formData);
+    setFormData(formdataFormat); // Reset form after submission
   };
 
   useEffect(() => {
@@ -215,7 +219,7 @@ return (<>
       <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
     </div>
     {/* Logo Card */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg transition-transform transform hover:scale-110 mx-auto">
+    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg transition-transform transform hover:scale-110 mx-auto ">
       <div className="flex justify-center mb-4">
         <img
           src="./image/treenewlogo.png"
@@ -226,8 +230,6 @@ return (<>
     </div>
   </div>
 </section>
-
- 
 
   {/* What We Do. */}
   <section className="py-12 text-center px-3 bg-black w-full max-w-[909px] h-auto justify-center gap-12 md:gap-20 lg:gap-60 mx-auto">
@@ -279,63 +281,62 @@ return (<>
 
  
 {/*.......Get in Touch.........*/}
-<section className="flex items-center justify-center min-h-screen bg-black -mt-10">
+<section id="getintouch" className="flex items-center justify-center min-h-screen bg-black -mt-10">
   <div
-    className="text-white text-center p-4 sm:p-6 md:p-8 lg:p-10 rounded-2xl shadow-lg w-full max-w-[350px] sm:max-w-[500px] md:max-w-[800px] lg:max-w-[1100px] h-auto"
+    className="flex flex-col md:flex-row items-center justify-center text-white text-center p-4 rounded-2xl shadow-lg w-full max-w-[1100px] h-auto"
     style={{
       background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
     }}
   >
-    <div className="flex flex-col md:flex-row justify-between items-center">
-      {/* Image */}
-      <div className="flex justify-center md:justify-start mb-4 md:mb-0">
-        <img
-          src="./image/getintouch.png"
-          alt="get in touch image"
-          className="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] md:w-[180px] md:h-[180px] lg:w-[207px] lg:h-[213px]"
-        />
-      </div>
+  
+    <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
+      <img
+        src="./image/getintouch.png"
+        alt="get in touch image"
+        className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
+      />
+    </div>
 
-      <div className="flex flex-col items-center md:items-start">
-        {/* Heading */}
-        <h2
-          className="text-white font-futuraLight text-[24px] sm:text-[28px] md:text-[32px] lg:text-[40px] font-[500] leading-tight md:leading-[40px] lg:leading-[50.52px] text-center md:text-left"
-        >
-          To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
-        </h2>
+  
+    <div className="flex flex-col items-center md:items-start space-y-4 md:space-y-4">
+      <h2
+        className="text-white font-futuraLight text-[20px] sm:text-[24px] md:text-[28px] lg:text-[34px] font-[500] leading-tight md:leading-[32px] lg:leading-[38px] text-center md:text-left"
+      >
+        To set new benchmarks and to bridge <br className="hidden md:block" /> the digital divide
+      </h2>
 
-        {/* Email Input and Button */}
-        <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-4 mt-4">
-          {/* Email Input */}
-          <div className="relative w-[240px] sm:w-[280px] md:w-[320px] lg:w-[353.62px] h-[43.1px] max-w-full">
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              placeholder="Enter your work email"
-              className="px-6 py-3 rounded-full font-montserratLight text-[16px] sm:text-[17px] md:text-[18px] lg:text-[19px] leading-[23px] border-[0.78px] text-white outline-none w-full h-full border-purple-500"
-              style={{
-                background: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-                WebkitTextFillColor: "white",
-              }}
-              required
-            />
+      {/* Email Input and Button */}
+      <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
+         <div className="relative w-[350px] sm:w-[300px] lg:w-[350px] h-[40px]">
+          <div className="absolute inset-0 rounded-full border-[0.78px] border-transparent bg-gradient-to-r from-[#4047c7] to-[#6929f4] border-sky-500">
+            <div className="absolute inset-[1px] bg-transparent rounded-full">
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                placeholder="Enter your work email"
+                className="px-4 py-2 rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] border-none text-white placeholder-white outline-none w-full h-full bg-transparent bg-opacity-35"
+                required
+              />
+            </div>
           </div>
-
-          {/* Get in Touch Button */}
-          <button
-            className="w-[160px] sm:w-[180px] md:w-[200px] lg:w-[212px] h-[43px] rounded-full font-montserratLight text-[16px] sm:text-[17px] md:text-[18px] lg:text-[19px] leading-[23px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
-            type="submit"
-          >
-            <span>Get in touch</span>
-            <img src="./image/right-arrow.png" alt="right arrow" className="h-5 sm:h-6 lg:h-7 inline-block" />
-          </button>
         </div>
-      </div>
+
+        <button
+          className="w-[140px] sm:w-[160px] md:w-[180px] lg:w-[190px] h-[40px] rounded-full font-montserratLight text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] bg-black border border-purple-500 text-white flex items-center justify-center space-x-2"
+          type="submit"
+        >
+          <span>Get in touch</span>
+          <img src="./image/right-arrow.png" alt="right arrow" className="h-4 sm:h-5 lg:h-6 inline-block" />
+        </button>
+      </form>
     </div>
   </div>
+  
+  {isSubmitted && <Success />}
 </section>
+
 
 {/* Our Creatives */}
 <section className="bg-black text-white py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-20 xl:px-24 -mt-10">

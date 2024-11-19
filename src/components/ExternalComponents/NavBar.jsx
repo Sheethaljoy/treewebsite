@@ -4,7 +4,7 @@ import { HiMenu, HiX } from 'react-icons/hi';
 function Navbar() {
   const [gradient, setGradient] = useState('bg-gradient-to-r from-purple-600 to-cyan-400');
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log("path name iss",window.location.pathname)
+
   const changeGradient = (text) => {
     let newGradient;
     switch (text) {
@@ -60,21 +60,21 @@ function Navbar() {
             backgroundClip: "padding-box",
           }}
         >
-          <ul className="flex space-x-24 ml-2 font-MontserratRegular font-[700] text-[18px] leading-[27px]">
+          <ul className="flex space-x-14 ml-2 font-MontserratRegular font-[700] text-[18px] leading-[27px]">
             <li>
-            <a
-  href="/"
-  className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
-    window.location.pathname === '/' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
-  }`}
->
-  Home
-</a>
+              <a
+                href="/"
+                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 font-inter text-[18px] font-[700] leading-[27px] ${
+                  window.location.pathname === '/' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+                }`}
+              >
+                Home
+              </a>
             </li>
             <li>
               <a
                 href="/about"
-                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
                   window.location.pathname === '/about' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -84,7 +84,7 @@ function Navbar() {
             <li>
               <a
                 href="/howitworks"
-                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
                   window.location.pathname === '/howitworks' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -94,11 +94,21 @@ function Navbar() {
             <li>
               <a
                 href="/#service"
-                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
                   window.location.pathname === '/service' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
                 Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#getintouch"
+                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                  window.location.pathname === '/contact' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
+                }`}
+              >
+                Contact
               </a>
             </li>
           </ul>
@@ -108,7 +118,7 @@ function Navbar() {
       {/* Contact Button for Desktop */}
       <a
         href="/howitworks"
-        className="group text-white hidden lg:block"
+        className=" font-inter text-[14px] leading-[14px] font-[600] group text-white hidden lg:block"
       >
         <button className="px-4 py-2 w-[124px] h-[42px] bg-[linear-gradient(225deg,_#6675F7_0%,_#57007B_100%)] hover:bg-[linear-gradient(225deg,_#7E8BFF_0%,_#6A008B_100%)] text-white font-[600] font-MontserratRegular text-[14px] leading-[14px] rounded-lg mr-16">
           Contact Us
@@ -117,15 +127,13 @@ function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`${
-          menuOpen ? 'flex' : 'hidden'
-        } lg:hidden flex-col items-center w-full bg-black p-4 absolute top-20 left-0 z-10`}
+        className={`${menuOpen ? 'flex' : 'hidden'} lg:hidden flex-col items-center w-full bg-black p-4 absolute top-20 left-0 z-10`}
       >
         <ul className="flex flex-col items-center space-y-4 font-MontserratRegular font-[700] text-[18px] leading-[27px]">
           <li>
             <a
               href="/"
-              className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
             >
               Home
             </a>
@@ -133,7 +141,7 @@ function Navbar() {
           <li>
             <a
               href="/about"
-              className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
             >
               About
             </a>
@@ -141,7 +149,7 @@ function Navbar() {
           <li>
             <a
               href="/howitworks"
-              className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
             >
               How It Works
             </a>
@@ -149,17 +157,17 @@ function Navbar() {
           <li>
             <a
               href="/#service"
-              className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
             >
               Services
             </a>
           </li>
           <li>
             <a
-              href="/contact"
-              className="group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
+              href="/#getintouch"
+              className="font-inter text-[18px] font-[700] leading-[27px] group text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500"
             >
-              Contact Us
+              Contact
             </a>
           </li>
         </ul>
