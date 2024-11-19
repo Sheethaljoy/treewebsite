@@ -18,6 +18,12 @@ const About = () => {
     backgroundImage: 'url(./image/Aboutbg.png)', 
   }}
 >
+  {/* WhatsApp Floating Icon */}
+ <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
+    <a href="https://wa.me/9074429360">
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
+    </a>
+  </div>
   
   <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-[500] leading-[40px] sm:leading-[50px] md:leading-[63.15px] text-white font-futuraLight mt-20">
     Hello there!

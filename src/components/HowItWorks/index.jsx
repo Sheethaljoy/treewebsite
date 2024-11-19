@@ -52,6 +52,12 @@ const HowItWorks = () => {
     <div className="relative bg-black text-white px-4 lg:px-16 py-10 bg-cover bg-center" style={{ backgroundImage: "url('/path/to/your-image.jpg')" }}>
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
+      {/* WhatsApp Floating Icon */}
+ <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
+    <a href="https://wa.me/9074429360">
+      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
+    </a>
+  </div>
 
       {/* Main Section */}
       <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14">
