@@ -53,11 +53,15 @@ const HowItWorks = () => {
       {/* Overlay for readability */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
       {/* WhatsApp Floating Icon */}
- <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
-    <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
-    </a>
-  </div>
+      <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
+  <a href="https://wa.me/9074429360">
+    <img
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
+    />
+  </a>
+</div>
 
       {/* Main Section */}
       <main className="relative flex flex-col items-start text-left py-10 lg:py-24 max-w-4xl mx-auto -mt-14">
@@ -133,7 +137,7 @@ const HowItWorks = () => {
               value={formData.message}
               onChange={handleInputChange}
               className="w-full px-4 py-3 border-b border-gray-300 bg-transparent focus:outline-none focus:border-purple-500"
-              rows="5"
+              rows="3"
               required
             />
           </div>

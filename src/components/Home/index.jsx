@@ -60,7 +60,18 @@ return (<>
 
  {/* Hero Section */}
  <section className="px-4 sm:px-8 md:px-12 lg:pl-36 bg-black py-8 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
-  {/* Left Side Content */}
+   
+    {/* WhatsApp Floating Icon */}
+    <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
+  <a href="https://wa.me/9074429360">
+    <img
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
+    />
+  </a>
+</div>
+
   <div className="text-center lg:text-left flex flex-col justify-center lg:w-[1100px]">
   <h1
     className="font-futuraMedium text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] font-[500] leading-tight lg:leading-[65.58px] mb-2 whitespace-normal lg:whitespace-nowrap"
@@ -68,11 +79,10 @@ return (<>
       background: 'linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)',
       WebkitBackgroundClip: 'text',
       WebkitTextFillColor: 'transparent',
-    }}
-  >
+    }} >
     A Women-led Creative Team
   </h1>
-  {/* Grid Layout for Mobile and Larger Views */}
+ 
   <div className="grid grid-cols-1 lg:grid-cols-2 justify-start items-center">
     <div className="font-futuraMedium text-[22px] sm:text-[28px] md:text-[34px] lg:text-[40px] font-[400] leading-tight lg:leading-[50.52px] text-white lg:w-[80%] xl:w-[85%] 2xl:w-[90%]">
       <p className="whitespace-nowrap">Seamless fusion of Technology &</p>
@@ -85,7 +95,7 @@ return (<>
       <p>Helming Future Tech . . .  </p>
       </div>
  
-    {/* Image for Mobile View */}
+    
     <div className="flex justify-center lg:hidden mt-4">
       <img 
         src="./image/homepagegif.png" 
@@ -94,7 +104,7 @@ return (<>
       />
     </div>
 
-    {/* Horizontal Line */}
+   
     <div
       className="h-[0.5px] w-full lg:w-[615px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mt-4 lg:mt-6"
       style={{
@@ -104,7 +114,7 @@ return (<>
       }}
     ></div>
 <br/>
-    {/* Button */}
+   
     <a href="/howitworks">
   <button className="inline-flex items-center px-4 py-2 sm:px-6 sm:py-3 w-[200px] sm:w-[219px] h-[40px] sm:h-[45.82px] rounded-full font-montserratLight text-[16px] sm:text-[19px] font-[400] leading-[23.16px] bg-black border border-purple-500 text-white transition mt-4 lg:mt-4">
     Get Started
@@ -112,13 +122,7 @@ return (<>
   </button>
 </a>
   </div>
- {/* WhatsApp Floating Icon */}
- <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
-    <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
-    </a>
-  </div>
-  {/* Right Side Image for Desktop View */}
+
   <div className="hidden lg:flex justify-center lg:justify-end">
   <img 
     src="./image/homepagegif.png" 
@@ -149,86 +153,77 @@ return (<>
     }}>
   </div>
   <h2 className="font-bold text-white font-futuraBold text-[56px] font-700 leading-[73.03px]">Services</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-    {/* Card 1 */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}>
-      <div className="flex justify-center mb-4">
-        <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Website &amp; Web App
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-        Development
-      </h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-        Top-notch Web Designs to make your<br />Brand unique
-      </p>
-    </div>
-    {/* Card 2 */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}>
-      <div className="flex justify-center mb-4">
-        <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular whitespace-nowrap  text-ellipsis">
-        Digital Marketing &amp; Marketing
-      </h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Research Service</h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
-    </div>
-    {/* Card 3 */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}>
-      <div className="flex justify-center mb-4">
-        <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Creative Graphic</h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Designing</h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
-    </div>
-    {/* Card 4 */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}>
-      <div className="flex justify-center mb-4">
-        <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Motion Graphics &amp; Video</h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Ads</h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Grab attention instantly</p>
-    </div>
-    {/* Card 5 */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg border-[1px] transition-transform transform hover:scale-110 mx-auto"
-      style={{
-        borderImage: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%) 1",
-      }}>
-      <div className="flex justify-center mb-4">
-        <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
-      </div>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">iOS and Android</h3>
-      <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Development</h3>
-      <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
-    </div>
-    {/* Logo Card */}
-    <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg transition-transform transform hover:scale-110 mx-auto ">
-      <div className="flex justify-center mb-4">
-        <img
-          src="./image/treenewlogo.png"
-          alt="tree logo"
-          className="w-[219px] h-[152px] object-cover rounded-[9px]"
-        />
-      </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-8 md:gap-x-[2px] lg:gap-x-[2px] xl:gap-x-0">
+  {/* Card 1 */}
+  <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Website &amp; Web App
+  </h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
+    Development
+  </h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
+    Top-notch Web Designs to make your<br />Brand unique
+  </p>
+</div>
+
+{/* Card 2 */}
+<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular whitespace-nowrap text-ellipsis">
+    Digital Marketing &amp; Marketing
+  </h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Research Service</h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
+</div>
+
+{/* Card 3 */}
+<div className="w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Creative Graphic</h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Designing</h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
+</div>
+
+{/* Card 4 */}
+<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Motion Graphics &amp; Video</h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Ads</h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Grab attention instantly</p>
+</div>
+
+{/* Card 5 */}
+<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
+  <div className="flex justify-center mb-4">
+    <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
+  </div>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">iOS and Android</h3>
+  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Development</h3>
+  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
+</div>
+
+  {/* Logo Card */}
+  <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg transition-transform transform hover:scale-110 mx-auto overflow-hidden ">
+    <div className="flex justify-center mb-4">
+      <img
+        src="./image/treenewlogo.png"
+        alt="tree logo"
+        className="w-[219px] h-[152px] object-cover rounded-[9px]"
+      />
     </div>
   </div>
+</div>
+
 </section>
 
   {/* What We Do. */}

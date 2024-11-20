@@ -13,17 +13,21 @@ const About = () => {
   className="relative flex flex-col items-center justify-center text-center py-5 sm:py-10 md:py-20 overflow-hidden"
   style={{ width: "100%", maxWidth: "1440px", height: "auto" }}>
   <div
-  className="relative z-10 flex flex-col items-center px-4 sm:px-8 mt-[-10px] sm:-mt-10 bg-cover bg-center h-screen w-full"
+  className="relative z-10 flex flex-col items-center px-4 sm:px-8 mt-[-10px] sm:-mt-10 bg-cover bg-center w-full h-screen"
   style={{
     backgroundImage: 'url(./image/Aboutbg.png)', 
   }}
 >
   {/* WhatsApp Floating Icon */}
- <div className="fixed right-5 bottom-12 w-[72px] sm:w-[72px] h-[72px] sm:h-[72px] -mr-5 ">
-    <a href="https://wa.me/9074429360">
-      <img src="image/whatsapplogo.png" alt="whatsapplogo" className="w-[55px] h-[55px] -mt-14 " />
-    </a>
-  </div>
+  <div className="fixed right-0 bottom-12 sm:bottom-6 md:bottom-8 lg:bottom-10 xl:bottom-12 w-[60px] sm:w-[60px] md:w-[70px] lg:w-[80px] xl:w-[90px] h-[60px] sm:h-[60px] md:h-[70px] lg:h-[80px] xl:h-[90px] -mr-5 z-10">
+  <a href="https://wa.me/9074429360">
+    <img
+      src="image/whatsapplogo.png"
+      alt="whatsapplogo"
+      className="w-[30px] h-[30px] sm:w-[35px] sm:h-[35px] md:w-[40px] md:h-[40px] lg:w-[45px] lg:h-[45px] xl:w-[50px] xl:h-[50px] -mt-14"
+    />
+  </a>
+</div>
   
   <h1 className="text-[50px] sm:text-[50px] md:text-[50px] font-[500] leading-[40px] sm:leading-[50px] md:leading-[63.15px] text-white font-futuraLight mt-20">
     Hello there!
