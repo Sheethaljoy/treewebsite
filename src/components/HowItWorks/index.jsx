@@ -147,7 +147,47 @@ const HowItWorks = () => {
           </button>
         </form>
       </main>
+       {/*last section */}
+ <div className="relative text-white h-screen w-full flex items-center justify-center -mt-28 ">
+  <div className="absolute inset-0 flex justify-center md:justify-center lg:justify-start items-center z-0 max-w-[85%] mx-auto">
+    <div className="relative z-10">
+      <img
+        src=".\image\last 3.gif"
+        alt="last session img"
+        className="w-[400px] md:w-[500px] h-[250px] md:h-[300px]"
+        style={{
+          border: 'none',
+          boxShadow: 'none',
+          mixBlendMode: 'color-burn',
+          maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+          WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%)',
+        }}
+      />
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-2 lg:px-4">
+        <h1 className="text-[26px] md:text-[36px] lg:text-[40px] font-[700] leading-tight md:leading-[48px] lg:leading-[52.16px] font-futuraBold">
+          DISCUSS A PROJECT
+        </h1>
+        <p className="font-futuraLightFont text-[16px] md:text-[22px] lg:text-[26px] leading-snug md:leading-[30px] lg:leading-[33.62px]">
+          We know how to mold your project
+          <br />
+          Let's put the words into action
+        </p>
+      </div>
     </div>
+  </div>
+
+  {/* Content */}
+  <div className="absolute bottom-48 lg:bottom-auto lg:right-40 z-10 flex justify-center lg:justify-end px-2 lg:px-0">
+    <a href="/howitworks">
+      <button className="py-3 px-5 w-[200px] md:w-[250px] lg:w-[290px] h-[45px] md:h-[55px] lg:h-[65px] rounded-xl border-[3px] border-[#622bba] text-white font-futuraBold text-[16px] md:text-[18px] lg:text-[20px] font-[700] leading-[14px]">
+        GET CONSULTATION
+      </button>
+    </a>
+  </div>
+</div>
+    </div>
+    
+    
   );
 };
 

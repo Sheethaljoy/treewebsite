@@ -16,19 +16,19 @@ function Footer() {
 
       {/* Navigation Links */}
       <div className="flex flex-col items-center space-y-4 text-[18px] font-montserratLight font-[400] leading-[27px] md:flex-row md:space-y-0 md:space-x-20 md:-ml-32 mt-4 md:mt-10">
-        <a href="/" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-purple-500">
           Home
         </a>
-        <a href="/about" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/about" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-purple-500">
           About
         </a>
-        <a href="/howitworks" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/howitworks" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-purple-500">
           How It Works
         </a>
-        <a href="/#service" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/#service" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-purple-500">
           Services
         </a>
-        <a href="/#getintouch" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-pink-500">
+        <a href="/#getintouch" className="group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-cyan-400 via-indigo-500 to-purple-500">
           Contact
         </a>
       </div>

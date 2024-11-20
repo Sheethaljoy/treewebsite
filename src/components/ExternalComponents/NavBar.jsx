@@ -64,7 +64,7 @@ function Navbar() {
             <li>
               <a
                 href="/"
-                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 font-inter text-[18px] font-[700] leading-[27px] ${
+                className={`group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 font-inter text-[18px] font-[700] leading-[27px] ${
                   window.location.pathname === '/' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -74,7 +74,7 @@ function Navbar() {
             <li>
               <a
                 href="/about"
-                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
                   window.location.pathname === '/about' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -84,7 +84,7 @@ function Navbar() {
             <li>
               <a
                 href="/howitworks"
-                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px]  group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
                   window.location.pathname === '/howitworks' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -94,7 +94,7 @@ function Navbar() {
             <li>
               <a
                 href="/#service"
-                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
                   window.location.pathname === '/service' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
@@ -104,7 +104,7 @@ function Navbar() {
             <li>
               <a
                 href="/#getintouch"
-                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-pink-500 ${
+                className={`font-inter text-[18px] font-[700] leading-[27px] group hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-cyan-400 hover:via-indigo-500 hover:to-purple-500 ${
                   window.location.pathname === '/contact' ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-400' : 'text-white'
                 }`}
               >
