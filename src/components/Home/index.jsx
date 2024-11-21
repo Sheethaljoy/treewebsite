@@ -286,7 +286,7 @@ return (<>
   
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
-        src="./image/getintouch.png"
+        src="./image/cube.gif"
         alt="get in touch image"
         className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
       />
