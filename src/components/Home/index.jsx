@@ -144,86 +144,109 @@ return (<>
 </div>
 
 {/* Services Section */}
-<section id="service" className="py-12 text-center px-3 -mt-10">
-  <div className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
+<section id="service" className="py-12 px-6 sm:px-12 lg:px-20 text-center -mt-10">
+  <div
+    className="h-[5px] w-[59px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 mx-auto"
     style={{
       border: "1px solid",
       borderImageSource: "linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%)",
-      borderImageSlice: 1
-    }}>
-  </div>
-  <h2 className="font-bold text-white font-futuraBold text-[56px] font-700 leading-[73.03px]">Services</h2>
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mt-8 md:gap-x-[2px] lg:gap-x-[2px] xl:gap-x-0">
-  {/* Card 1 */}
-  <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
-  <div className="flex justify-center mb-4">
-    <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
-  </div>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-    Website &amp; Web App
-  </h3>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">
-    Development
-  </h3>
-  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">
-    Top-notch Web Designs to make your<br />Brand unique
-  </p>
-</div>
+      borderImageSlice: 1,
+    }}
+  ></div>
+  <h2 className="font-[700] text-white font-futuraBold text-[32px] sm:text-[40px] lg:text-[56px] leading-[42px] sm:leading-[53px] lg:leading-[73.03px] ">
+    Services
+  </h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
+    {/* Card 1 */}
+    <div
+      className="w-full max-w-[300px] h-[200px] mx-auto p-4 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+    >
+      <div className="flex justify-center mb-4">
+        <img src="./image/card1.png" alt="Web App Development Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[16px] sm:text-[18px] font-[600] font-MontserratRegular text-center">
+        Website &amp; Web App <span className="block">Development</span>
+      </h3>
+      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight whitespace-nowrap">
+        Top-notch Web Designs to make your<br />Brand unique
+      </p>
+    </div>
 
-{/* Card 2 */}
-<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
-  <div className="flex justify-center mb-4">
-    <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
-  </div>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular whitespace-nowrap text-ellipsis">
-    Digital Marketing &amp; Marketing
-  </h3>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Research Service</h3>
-  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Strengthen Customer Relationship</p>
-</div>
+    {/* Card 2 */}
+    <div
+      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+    >
+      <div className="flex justify-center mb-4">
+        <img src="./image/card2.png" alt="Digital Marketing Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[16px] sm:text-18px] font-[600] font-MontserratRegular text-center whitespace-nowrap">
+  Digital Marketing &amp; Marketing <span className="block">Research Service</span>
+</h3>
+      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">
+        Strengthen Customer Relationship
+      </p>
+    </div>
 
-{/* Card 3 */}
-<div className="w-[317px] h-[195px] p-6  text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
-  <div className="flex justify-center mb-4">
-    <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
-  </div>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Creative Graphic</h3>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Designing</h3>
-  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Showcase your Brand's personality</p>
+    {/* Card 3 */}
+    <div
+      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+    >
+      <div className="flex justify-center mb-4">
+        <img src="./image/card3.png" alt="Graphic Designing Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
+        Creative Graphic <span className="block">Designing</span> 
+      </h3>
+      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">
+        Showcase your Brand's personality
+      </p>
+    </div>
 </div>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 px-4 lg:px-8">
+    {/* Card 4 */}
+    <div
+      className="w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+    >
+      <div className="flex justify-center mb-4">
+        <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
+        Motion Graphics &amp; Video <span className="block"> Ads </span>
+      </h3>
+      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">Grab attention instantly</p>
+    </div>
 
-{/* Card 4 */}
-<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
-  <div className="flex justify-center mb-4">
-    <img src="./image/card4.png" alt="Video Ads Icon" className="w-14 h-14" />
-  </div>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Motion Graphics &amp; Video</h3>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Ads</h3>
-  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Grab attention instantly</p>
-</div>
+    {/* Card 5 */}
+    <div
+      className=" w-full max-w-[300px] h-[200px] mx-auto p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden border"
+      style={{ borderImage: "linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1" }}
+    >
+      <div className="flex justify-center mb-4">
+        <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
+      </div>
+      <h3 className="text-[16px] sm:text-[18px] font-[600] text-center font-MontserratRegular">
+        iOS and Android <span className="block">Development</span>
+      </h3>
+      <p className="mt-4 text-[14px] leading-[16px] text-center font-montserratLight">Reach a large global market</p>
+    </div>
 
-{/* Card 5 */}
-<div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 mx-auto overflow-hidden border" style={{borderImage: 'linear-gradient(to left, #00F0FF, #5200FF, #FF2DF7) 1'}}>
-  <div className="flex justify-center mb-4">
-    <img src="./image/card5.png" alt="iOS and Android Development Icon" className="w-14 h-14" />
-  </div>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">iOS and Android</h3>
-  <h3 className="text-[20px] font-[600] leading-[20px] text-center font-MontserratRegular">Development</h3>
-  <p className="mt-4 font-[400] text-center text-[14px] leading-[16px] font-montserratLight">Reach a large global market</p>
-</div>
-
-  {/* Logo Card */}
-  <div className="w-[317px] h-[195px] p-6 text-white rounded-[9px] shadow-lg transition-transform transform hover:scale-110 mx-auto overflow-hidden ">
-    <div className="flex justify-center mb-4">
-      <img
-        src="./image/treenewlogo.png"
-        alt="tree logo"
-        className="w-[219px] h-[152px] object-cover rounded-[9px]"
-      />
+    {/* Logo Card */}
+    <div
+      className="w-full max-w-[300px] h-[200px] mx-auto p-6 rounded-[9px] shadow-lg bg-transparent transition-transform transform hover:scale-110 overflow-hidden"
+    >
+      <div className="flex justify-center">
+        <img
+          src="./image/treenewlogo.png"
+          alt="Tree Logo"
+          className="w-[219px] h-[152px] object-cover rounded-[9px]"
+        />
+      </div>
     </div>
   </div>
-</div>
-
 </section>
 
   {/* What We Do. */}
@@ -286,7 +309,7 @@ return (<>
   
     <div className="flex justify-center md:justify-start mb-4 md:mb-0 md:mr-36">
       <img
-        src="./image/cube.gif"
+        src="./image/getintouch.png"
         alt="get in touch image"
         className="w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px] h-auto"
       />
@@ -350,96 +373,102 @@ return (<>
       </h2>
     </div>
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 mt-8 md:mt-12">
-      {/* Left Section */}
-      <div>
-        <h3 className="text-[20px] sm:text-[24px] md:text-[28px] font-[600] leading-[28px] sm:leading-[35px] md:leading-[38px] font-MontserratRegular mb-4">
-          Join with the right partner
-        </h3>
-        <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular mb-4 sm:mb-6 leading-[25px] sm:leading-[30px]">
-          Having clear digital marketing solutions can help your brand thrive in this digital era.
-          We are committed to providing strategies that combine data and creativity to scale up your
-          digital presence.
-        </p>
-        <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular leading-[25px] sm:leading-[30px] mb-4 sm:mb-6">
-          We don’t give false <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">promises.</span><br />
-          For the right solutions, <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">let’s meet.</span>
-        </p>
+   <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 mt-8 md:mt-12">
+    {/* Left Section */}
+    <div>
+      <h3 className="text-[20px] sm:text-[24px] md:text-[28px] font-[600] leading-[28px] sm:leading-[35px] md:leading-[38px] font-MontserratRegular mb-4">
+        Join with the right partner
+      </h3>
+      <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular mb-4 sm:mb-6 leading-[25px] sm:leading-[30px]">
+        Having clear digital marketing solutions can help your brand thrive in this digital era.
+        We are committed to providing strategies that combine data and creativity to scale up your
+        digital presence.
+      </p>
+      <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular leading-[25px] sm:leading-[30px] mb-4 sm:mb-6">
+        We don’t give false 
+        <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider"> promises.</span>
+        <br />
+        For the right solutions, 
+        <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider"> let’s meet.</span>
+      </p>
 
-        {/* Quote */}
-        <div className="flex items-start">
-          <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
-          <blockquote className=" -mt-3 text-[14px] sm:text-[16px] font-MontserratRegular font-[300] italic leading-[25px] sm:leading-[30px] mb-4">
-            <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
-              “Digital landscape provides ample opportunities for women to grow and excel. Our team of
-              women own their space and it is where they find their empowerment by increasing their
-              social and economic value.”
-            </span>
-          </blockquote>
-        </div>
-
-        {/* Author */}
-        <div className="flex items-center space-x-4">
-          <img src="./image/ShemiSebin.png" alt="Shemi Sebin" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
-          <div>
-            <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">SHEMI SEBIN</p>
-            <p className="text-[12px] sm:text-[13px] font-[400] font-MontserratRegular leading-[14px] sm:leading-[16px]">CEO</p>
-          </div>
-        </div>
+      {/* Quote */}
+      <div className="flex items-start">
+        <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+        <blockquote className=" -mt-3 text-[14px] sm:text-[16px] font-MontserratRegular font-[300] italic leading-[25px] sm:leading-[30px] mb-4">
+          <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
+            “Digital landscape provides ample opportunities for women to grow and excel. Our team of
+            women own their space and it is where they find their empowerment by increasing their
+            social and economic value.”
+          </span>
+        </blockquote>
       </div>
 
-      {/* Right Image Section */}
-      <div>
-        <img src="./image/ourcreativeimg1.png" alt="Women Working" className="rounded-lg shadow-lg w-full" />
+      {/* Author */}
+      <div className="flex items-center space-x-4">
+        <img src="./image/ShemiSebin.png" alt="Shemi Sebin" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
+        <div>
+          <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">SHEMI SEBIN</p>
+          <p className="text-[12px] sm:text-[13px] font-[400] font-MontserratRegular leading-[14px] sm:leading-[16px]">CEO</p>
+        </div>
       </div>
     </div>
 
-    {/* Bottom Section */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 mt-8 md:mt-12">
-      {/* Left Image Section */}
-      <div className="order-last lg:order-none">
-        <img src="./image/ourcreativeimg2.png" alt="Women Discussion" className="rounded-lg shadow-lg w-full" />
-      </div>
-
-      {/* Right Section */}
-      <div>
-        <h3 className="text-[20px] sm:text-[24px] md:text-[28px] font-[600] leading-[28px] sm:leading-[35px] md:leading-[38px] font-MontserratRegular text-right mb-4">
-          Deliver exceptional results
-        </h3>
-        <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular mb-4 sm:mb-6 leading-[25px] sm:leading-[30px] text-right">
-          We are a team that is focused on digital presence and visibility. We are growing each
-          day with dedicated professionals from all walks of life. We understand what your brand
-          needs and what should be done to catalyze your brand's growth. Great content and
-          creation is what we boast upon.
-        </p>
-
-        <p className="text-[16px] sm:text-[18px] font-[400] leading-[25px] sm:leading-[30px] font-MontserratRegular text-right mb-4 sm:mb-6">
-          Contact us to have <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">profitable results.</span>
-        </p>
-
-        {/* Quote */}
-        <div className="flex items-start justify-end">
-          <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
-          <blockquote className=" -mt-3 text-[14px] sm:text-[16px] font-MontserratRegular font-[300] italic leading-[25px] sm:leading-[30px] text-right">
-            <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
-              “The advancement of digital technologies has been instrumental in making women understand their
-              power. We would like to align with the theme of International Women’s Day 2024: ‘Invest in women: 
-              Accelerate progress.’”
-            </span>
-          </blockquote>
-        </div>
-
-        {/* Author */}
-        <div className="flex items-center space-x-4 justify-end mt-2">
-          <img src="./image/ShenaShaji.png" alt="Shena Shaji" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
-          <div>
-            <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">SHENA SHAJI</p>
-            <p className="text-[12px] sm:text-[13px] font-[400] font-MontserratRegular leading-[14px] sm:leading-[16px]">INTERNATIONAL CLIENT MANAGER</p>
-          </div>
-        </div>
-      </div>
+    {/* Right Image Section */}
+    <div>
+      <img src="./image/ourcreativeimg1.png" alt="Women Working" className="rounded-lg shadow-lg w-full" />
     </div>
   </div>
+
+  {/* Bottom Section */}
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 mt-8 md:mt-12">
+    {/* Left Image Section */}
+    <div className="order-last lg:order-none">
+      <img src="./image/ourcreativeimg2.png" alt="Women Discussion" className="rounded-lg shadow-lg w-full" />
+    </div>
+
+    {/* Right Section */}
+    <div>
+      <h3 className="text-[20px] sm:text-[24px] md:text-[28px] font-[600] leading-[28px] sm:leading-[35px] md:leading-[38px] font-MontserratRegular text-right mb-4">
+        Deliver exceptional results
+      </h3>
+      <p className="text-[16px] sm:text-[18px] font-[400] font-MontserratRegular mb-4 sm:mb-6 leading-[25px] sm:leading-[30px] text-right">
+        We are a team that is focused on digital presence and visibility. We are growing each
+        day with dedicated professionals from all walks of life. We understand what your brand
+        needs and what should be done to catalyze your brand's growth. Great content and
+        creation is what we boast upon.
+      </p>
+
+      <p className="text-[16px] sm:text-[18px] font-[400] leading-[25px] sm:leading-[30px] font-MontserratRegular text-right mb-4 sm:mb-6">
+        Contact us to have 
+        <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider"> profitable results.</span>
+      </p>
+
+      {/* Quote */}
+      <div className="flex items-start justify-end">
+        <div className="h-[87px] w-[6px] bg-gradient-to-b from-purple-500 via-blue-500 to-cyan-500 mr-4"></div>
+        <blockquote className=" -mt-3 text-[14px] sm:text-[16px] font-MontserratRegular font-[300] italic leading-[25px] sm:leading-[30px] text-right">
+          <span className="bg-gradient-to-r from-[#00F0FF] via-[#5200FF] to-[#FF2DF7] bg-clip-text text-transparent tracking-wider">
+            “The advancement of digital technologies has been instrumental in making women understand their
+            power. We would like to align with the theme of International Women’s Day 2024: ‘Invest in women: 
+            Accelerate progress.’”
+          </span>
+        </blockquote>
+      </div>
+
+      {/* Author */}
+      <div className="flex items-center space-x-4 justify-end mt-2">
+        <img src="./image/ShenaShaji.png" alt="Shena Shaji" className="w-10 sm:w-12 h-10 sm:h-12 rounded-full" />
+        <div>
+          <p className="font-MontserratRegular font-[400] text-[14px] sm:text-[16px] leading-[18px] sm:leading-[20px]">SHENA SHAJI</p>
+          <p className="text-[12px] sm:text-[13px] font-[400] font-MontserratRegular leading-[14px] sm:leading-[16px]">INTERNATIONAL CLIENT MANAGER</p>
+        </div>
+       </div>
+     </div>
+   </div>
+  </div>
+ </div>
 </section>
 
 
